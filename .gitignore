@@ -1,0 +1,17 @@
+/.claude/
+/_codex_build_raw_csv_v8/
+/exe/debug*.xml
+/input/gcamdata/*.7z
+/input/gcamdata/xml_noHK/
+/input/gcamdata/outputs/
+/input/gcamdata/inst/extdata/*.7z
+/input/gcamdata/inst/extdata/aglu/
+/input/gcamdata/inst/extdata/common/
+/input/gcamdata/inst/extdata/emissions/
+/input/gcamdata/inst/extdata/energy/
+/input/gcamdata/inst/extdata/gcam-usa/
+/input/gcamdata/inst/extdata/ModelInterface/
+/input/gcamdata/inst/extdata/socioeconomics/
+/input/gcamdata/inst/extdata/tests/
+/input/gcamdata/inst/extdata/water/
+/output/

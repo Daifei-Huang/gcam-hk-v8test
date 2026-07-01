@@ -1,0 +1,46 @@
+# File: A44.fuelprefElasticity.csv
+# Title: Fuel preference elasticities for building energy use
+# Units: Unitless
+# Column types: ccn
+# ----------
+supplysector,subsector,fuelprefElasticity
+resid_rural heating modern,traditional biomass,-1
+resid_rural heating modern,coal,-0.7
+resid_rural heating modern,biomass,-1
+resid_rural heating modern,gas,0.1
+resid_rural heating modern,electricity,0.2
+resid_rural heating modern,refined liquids,0
+resid_rural cooling modern,electricity,0.2
+resid_rural hot water_cooking modern,gas,0.1
+resid_rural hot water_cooking modern,electricity,0.2
+resid_rural hot water_cooking modern,refined liquids,0
+resid_rural hot water_cooking modern,coal,-0.7
+resid_rural hot water_cooking modern,traditional biomass,-1
+resid_rural lighting modern,electricity,0.2
+resid_rural appliances modern,electricity,0.2
+resid_urban heating modern,coal,-0.7
+resid_urban heating modern,biomass,-1
+resid_urban heating modern,gas,0.1
+resid_urban heating modern,electricity,0.2
+resid_urban heating modern,refined liquids,0
+resid_urban heating modern,heat,0
+resid_urban cooling modern,electricity,0.2
+resid_urban hot water_cooking modern,gas,0.1
+resid_urban hot water_cooking modern,electricity,0.2
+resid_urban hot water_cooking modern,refined liquids,0
+resid_urban hot water_cooking modern,coal,-0.7
+resid_urban lighting modern,electricity,0.2
+resid_urban appliances modern,electricity,0.2
+comm heating,biomass,-1
+comm heating,coal,-0.7
+comm heating,gas,0.1
+comm heating,electricity,0.2
+comm heating,refined liquids,0
+comm heating,heat,0
+comm cooling,electricity,0.2
+comm hot water_cooking,gas,0.1
+comm hot water_cooking,electricity,0.2
+comm hot water_cooking,refined liquids,0
+comm hot water_cooking,coal,-0.7
+comm lighting,electricity,0.2
+comm appliances,electricity,0.2

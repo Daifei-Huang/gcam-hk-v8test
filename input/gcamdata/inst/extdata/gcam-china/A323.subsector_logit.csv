@@ -1,0 +1,46 @@
+# File: A323.subsector_logit.csv
+# Title: Default subsector logit exponents
+# Units: Unitless
+# Column types: ccic
+# ----------
+supplysector,subsector,logit.exponent,logit.type
+iron and steel,BLASTFUR,-6,relative-cost-logit
+iron and steel,EAF with DRI,-6,relative-cost-logit
+iron and steel,EAF with scrap,-6,relative-cost-logit
+coke,coke,-3,relative-cost-logit
+chemical,chemical,-3,relative-cost-logit
+chemical energy use,coal,-3,relative-cost-logit
+chemical energy use,gas,-3,relative-cost-logit
+chemical energy use,liquid,-3,relative-cost-logit
+chemical energy use,biomass,-3,relative-cost-logit
+chemical energy use,hydrogen,-3,relative-cost-logit
+chemical energy use,electricity,-3,relative-cost-logit
+chemical feedstocks,coal,-3,relative-cost-logit
+chemical feedstocks,gas,-3,relative-cost-logit
+chemical feedstocks,liquid,-3,relative-cost-logit
+agricultural energy use,coal,-3,relative-cost-logit
+agricultural energy use,gas,-3,relative-cost-logit
+agricultural energy use,liquid,-3,relative-cost-logit
+agricultural energy use,biomass,-3,relative-cost-logit
+agricultural energy use,hydrogen,-3,relative-cost-logit
+agricultural energy use,electricity,-3,relative-cost-logit
+mining energy use,coal,-3,relative-cost-logit
+mining energy use,gas,-3,relative-cost-logit
+mining energy use,liquid,-3,relative-cost-logit
+mining energy use,biomass,-3,relative-cost-logit
+mining energy use,hydrogen,-3,relative-cost-logit
+mining energy use,electricity,-3,relative-cost-logit
+construction,construction,-3,relative-cost-logit
+construction energy use,coal,-3,relative-cost-logit
+construction energy use,gas,-3,relative-cost-logit
+construction energy use,liquid,-3,relative-cost-logit
+construction energy use,biomass,-3,relative-cost-logit
+construction energy use,hydrogen,-3,relative-cost-logit
+construction energy use,electricity,-3,relative-cost-logit
+construction feedstocks,coal,-3,relative-cost-logit
+construction feedstocks,gas,-3,relative-cost-logit
+construction feedstocks,liquid,-3,relative-cost-logit
+agricultural energy use,district heat,-3,relative-cost-logit
+chemical energy use,district heat,-3,relative-cost-logit
+construction energy use,district heat,-3,relative-cost-logit
+mining energy use,district heat,-3,relative-cost-logit

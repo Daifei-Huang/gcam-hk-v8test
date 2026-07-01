@@ -1,0 +1,15 @@
+# File: cR_BldS_F_U_share_res_HK.csv
+# Title: Climate region / building type / fuel / service shares
+# Units: NA
+# Description: rawdata/Buildings/Bld_fuel_service_China_climatezone.xlsx This share filer is customized to Hong Kong and used to split the residential fuel consumption into different services
+# Source: TODO
+# Column types: cccnnnnn
+# ----------
+climate.region,sector,fuel,heating modern,cooling modern,lighting modern,hot water_cooking modern,appliances modern
+HSWW,resid_urban,biomass,1,0,0,0,0
+HSWW,resid_urban,traditional biomass,0,0,0,0,0
+HSWW,resid_urban,coal,0,0,0,1,0
+HSWW,resid_urban,electricity,0.0018455,0.3580313,0.06716992,0.2511533,0.3218
+HSWW,resid_urban,gas,0,0,0,1,0
+HSWW,resid_urban,refined liquids,0,0,0,1,0
+HSWW,resid_urban,heat,0,0,0,0,0

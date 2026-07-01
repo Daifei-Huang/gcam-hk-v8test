@@ -1,0 +1,24 @@
+# File: A44.demand_satiation_mult_HK.csv
+# Title: Demand satiation multiplier
+# Units: Unitless
+# Column types: cn
+# ----------
+supplysector,multiplier
+resid_urban heating coal,1
+resid_urban heating modern,1.05
+resid_urban cooling modern,1.2
+resid_urban hot water_cooking modern,1.2
+resid_urban lighting modern,1.2
+resid_urban appliances modern,1.3
+resid_rural heating coal,1.2
+resid_rural heating TradBio,1.2
+resid_rural heating modern,1.2
+resid_rural cooling modern,1.2
+resid_rural hot water_cooking modern,1.2
+resid_rural lighting modern,1.2
+resid_rural appliances modern,1.3
+comm heating,1.05
+comm cooling,1.2
+comm hot water_cooking,1.2
+comm lighting,1.2
+comm appliances,1.3

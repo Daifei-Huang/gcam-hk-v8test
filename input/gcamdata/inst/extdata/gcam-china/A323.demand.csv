@@ -1,0 +1,12 @@
+# File: A323.demand.csv
+# Title: Detailed industry final demand perCapitaBased and price elasticity
+# Units: NA for perCapitaBased; Unitless for price.elasticity
+# Comments: perCapitaBased is a logical (Boolean) indicating whether to use a per-capita or per-GDP based demand function
+# Column types: cin
+# ----------
+energy.final.demand,perCapitaBased,price.elasticity
+iron and steel,1,-0.1
+chemical,1,-0.4
+agricultural energy use,1,-0.4
+mining energy use,1,-0.4
+construction,1,-0.4

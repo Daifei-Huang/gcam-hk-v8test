@@ -1,0 +1,12 @@
+# File: A323.subsector_interp_China.csv
+# Title: Subsector interpolation: competition between provinces for producing
+# Units: NA
+# Column types: cccccnc
+# ----------
+supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
+iron and steel,iron and steel,share-weight,final-calibration-year,end-year,,fixed
+coke,coke,share-weight,final-calibration-year,end-year,,fixed
+construction,construction,share-weight,final-calibration-year,end-year,,fixed
+mining energy use,mining energy use,share-weight,final-calibration-year,end-year,,fixed
+agricultural energy use,agricultural energy use,share-weight,final-calibration-year,end-year,,fixed
+chemical,chemical,share-weight,final-calibration-year,end-year,,fixed
