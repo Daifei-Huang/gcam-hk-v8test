@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="HK">
+
+         
+         <policy-portfolio-standard name="rooftopPV-gen-F">
+            <policyType>subsidy</policyType>
+            <market>HK</market>
+               <min-price year="2030" fillout="1">0</min-price>
+            
+               <constraint year="2030" fillout="1">0.0011</constraint>
+         </policy-portfolio-standard>
+
+         <pass-through-sector name="elect_td_bld">
+            <subsector name="rooftop_pv">
+               <stub-technology name="rooftop_pv">
+                  <period year="2030">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2035">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2040">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2045">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2050">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2055">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+                  </period>
+                  <period year="2060">
+                     <input-subsidy name="rooftopPV-gen-F"/>
+               </stub-technology>
+            </subsector>
+         </pass-through-sector>
+
+      </region>
+   </world>
+</scenario>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <pass-through-sector name="base load generation">
+        <subsector name="gas">
+          <stub-technology name="gas_base_CC">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_base_steam/CT">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass_base_conv">
+            <period year="2025">
+              <input-tax name="biomass-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_base_storage">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_base_storage">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_base">
+            <period year="2025">
+              <input-tax name="wind-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_storage">
+            <period year="2025">
+              <input-tax name="wind-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_offshore">
+            <period year="2025">
+              <input-tax name="wind-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="intermediate generation">
+        <subsector name="gas">
+          <stub-technology name="gas_int_CC">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_int_steam/CT">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass_int_conv">
+            <period year="2025">
+              <input-tax name="biomass-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_int">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_int">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_int">
+            <period year="2025">
+              <input-tax name="wind-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="subpeak generation">
+        <subsector name="gas">
+          <stub-technology name="gas_subpeak_steam/CT">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_subpeak_steam/CT">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_subpeak">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_subpeak">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_subpeak">
+            <period year="2025">
+              <input-tax name="wind-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="peak generation">
+        <subsector name="gas">
+          <stub-technology name="gas_peak_steam/CT">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC">
+            <period year="2025">
+              <input-tax name="gas-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_peak_steam/CT">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC">
+            <period year="2025">
+              <input-tax name="oil-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_peak">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_peak">
+            <period year="2025">
+              <input-tax name="solar-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+      <pass-through-sector name="elect_td_bld">
+        <subsector name="rooftop_pv">
+          <stub-technology name="rooftop_pv">
+            <period year="2025">
+              <input-tax name="rooftopPV-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+      </region>
+  </world>
+</scenario>

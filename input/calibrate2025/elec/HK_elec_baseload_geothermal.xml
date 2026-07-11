@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="HK">
+            <pass-through-sector name="base load generation">
+                <subsector name="geothermal">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                    </relative-cost-logit>
+                    <stub-technology name="geo_base">
+                        <period year="1975">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="1990">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="2005">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="2010">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="2015">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="2021">
+                            <share-weight>0</share-weight>
+                            <CalDataOutput>
+                                <calOutputValue>0</calOutputValue>
+                            </CalDataOutput>
+                        </period>
+                        <period year="2025">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2030">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2035">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2040">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2045">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2055">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2060">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2065">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2070">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2075">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2080">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2085">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2090">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2095">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2100">
+                            <share-weight>0</share-weight>
+                        </period>
+                    </stub-technology>
+                    <share-weight year="1975">0</share-weight>
+                    <share-weight year="1990">0</share-weight>
+                    <share-weight year="2005">0</share-weight>
+                    <share-weight year="2010">0</share-weight>
+                    <share-weight year="2015">0</share-weight>
+                    <share-weight year="2021">0</share-weight>
+                    <share-weight year="2100">0</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2021" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </pass-through-sector>
+        </region>
+    </world>
+</scenario>

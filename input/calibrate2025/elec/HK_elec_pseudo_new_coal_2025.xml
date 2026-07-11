@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+        <!-- company with 2025 policy constraints for coal generation -->
+        <!-- since the olad vintage coal-fired power units are not enough to support 2025 coal generation in GCAM default settings (we don't want to change the retirement curve of the existing vintage), -->
+        <!-- so we make pseudo new coal in 2025 to fill the gap -->
+        <!-- The existing coal-fired power plants' retirement schedule in L2231 has led to a rapid decline in coal-fired power generation in 2025; however, the actual coal-fired power generation in Hong Kong from 2021 to 2024 remained relatively stable. -->
+        
+        <pass-through-sector name="base load generation">
+            <subsector name="coal">
+                <stub-technology name="coal_base_conv pul">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_base_conv pul_CCS">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_base_IGCC">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_base_IGCC_CCS">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+        <pass-through-sector name="intermediate generation">
+            <subsector name="coal">
+                <stub-technology name="coal_int_conv pul">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_int_conv pul_CCS">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_int_IGCC">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal_int_IGCC_CCS">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+        <pass-through-sector name="subpeak generation">
+            <subsector name="coal">
+                <stub-technology name="coal_subpeak_conv pul">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+      
+        <pass-through-sector name="peak generation">
+            <subsector name="coal">
+                <stub-technology name="coal_peak_conv pul">
+                    <period year="2025">
+                        <share-weight>1</share-weight>
+                    </period>
+                    <lifetime>15</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness> 
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <from-value>0</from-value><to-value>0</to-value>
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+        <!-- 参考 elec_coal_shutdown_HK.xml，以香港的现状而言，燃煤发电装置于2017年开始退役 -->
+        <!--pass-through-sector name="base load generation">
+            <subsector name="coal">
+            <stub-technology name="coal_base_conv pul">
+                <period year="2015">
+                    <lifetime>50</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.15</steepness>
+                        <half-life>20</half-life>
+                    </s-curve-shutdown-decider>
+                </period>
+            </stub-technology>
+            </subsector>
+        </pass-through-sector>
+        <pass-through-sector name="intermediate generation">
+            <subsector name="coal">
+                <stub-technology name="coal_int_conv pul">
+                    <period year="2015">
+                        <lifetime>50</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.15</steepness>
+                            <half-life>20</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+        <pass-through-sector name="subpeak generation">
+            <subsector name="coal">
+                <stub-technology name="coal_subpeak_conv pul">
+                    <period year="2015">
+                        <lifetime>50</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.15</steepness>
+                            <half-life>20</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+        <pass-through-sector name="peak generation">
+            <subsector name="coal">
+                <stub-technology name="coal_peak_conv pul">
+                    <period year="2015">
+                        <lifetime>50</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.15</steepness>
+                            <half-life>20</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector-->
+
+
+
+
+
+
+
+
+
+        <!--supplysector name="electricity">
+            <subsector name="coal">
+                <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2300" delete="1">
+                    <to-value>1</to-value>
+                    <interpolation-function name="s-curve"/>
+                </interpolation-rule>
+                <period year="2030">
+                    <share-weight>0</share-weight>
+                </period>
+                <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                    <interpolation-function name="fixed" />
+                </interpolation-rule>
+                <stub-technology name="coal (conv pul)">
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal (conv pul CCS)">
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal (IGCC)">
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="coal (IGCC CCS)">
+                    <period year="2030">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </supplysector-->
+
+    </region>
+  </world>
+</scenario>

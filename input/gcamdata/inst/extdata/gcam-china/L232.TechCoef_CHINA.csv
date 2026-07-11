@@ -27021,3 +27021,883 @@ ZJ,ammonia,gas,gas CCS,water_td_ind_C,ZJ,2095,0.564802828
 ZJ,ammonia,refined liquids,refined liquids,water_td_ind_C,ZJ,2095,0.677763394
 ZJ,ammonia,hydrogen,hydrogen,water_td_ind_C,ZJ,2095,0.621283111
 ZJ,construction,construction,construction,water_td_ind_C,ZJ,2095,1.629584558
+HK,other industry,other industry,other industry,water_td_ind_W,HK,1975,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,1975,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,1975,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,1975,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,1975,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,1975,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,1975,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,1975,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,1975,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,1975,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,1975,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,1975,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,1975,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,1975,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,1975,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,1975,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,1975,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,1975,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,1975,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,1975,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,1975,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,1975,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,1975,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,1975,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,1975,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,1975,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,1975,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,1975,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,1975,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,1975,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,1975,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,1975,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,1975,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,1975,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,1975,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,1975,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,1975,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,1975,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,1975,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,1975,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,1990,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,1990,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,1990,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,1990,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,1990,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,1990,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,1990,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,1990,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,1990,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,1990,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,1990,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,1990,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,1990,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,1990,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,1990,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,1990,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,1990,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,1990,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,1990,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,1990,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,1990,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,1990,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,1990,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,1990,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,1990,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,1990,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,1990,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,1990,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,1990,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,1990,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,1990,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,1990,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,1990,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,1990,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,1990,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,1990,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,1990,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,1990,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,1990,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,1990,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2005,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2005,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2005,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2005,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2005,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2005,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2005,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2005,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2005,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2005,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2005,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2005,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2005,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2005,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2005,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2005,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2005,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2005,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2005,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2005,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2005,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2005,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2005,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2005,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2005,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2005,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2005,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2005,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2005,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2005,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2005,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2005,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2005,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2005,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2005,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2005,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2005,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2005,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2005,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2005,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2010,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2010,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2010,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2010,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2010,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2010,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2010,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2010,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2010,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2010,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2010,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2010,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2010,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2010,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2010,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2010,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2010,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2010,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2010,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2010,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2010,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2010,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2010,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2010,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2010,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2010,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2010,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2010,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2010,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2010,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2010,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2010,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2010,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2010,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2010,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2010,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2010,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2010,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2010,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2010,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2015,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2015,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2015,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2015,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2015,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2015,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2015,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2015,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2015,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2015,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2015,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2015,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2015,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2015,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2015,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2015,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2015,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2015,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2015,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2015,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2015,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2015,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2015,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2015,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2015,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2015,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2015,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2015,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2015,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2015,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2015,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2015,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2015,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2015,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2015,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2015,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2015,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2015,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2015,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2015,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2021,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2021,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2021,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2021,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2021,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2021,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2021,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2021,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2021,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2021,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2021,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2021,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2021,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2021,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2021,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2021,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2021,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2021,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2021,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2021,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2021,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2021,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2021,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2021,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2021,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2021,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2021,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2021,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2021,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2021,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2021,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2021,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2021,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2021,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2021,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2021,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2021,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2021,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2021,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2021,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2025,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2025,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2025,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2025,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2025,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2025,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2025,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2025,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2025,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2025,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2025,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2025,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2025,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2025,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2025,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2025,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2025,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2025,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2025,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2025,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2025,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2025,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2025,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2025,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2025,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2025,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2025,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2025,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2025,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2025,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2025,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2025,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2025,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2025,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2025,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2025,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2025,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2025,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2025,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2025,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2030,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2030,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2030,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2030,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2030,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2030,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2030,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2030,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2030,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2030,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2030,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2030,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2030,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2030,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2030,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2030,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2030,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2030,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2030,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2030,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2030,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2030,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2030,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2030,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2030,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2030,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2030,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2030,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2030,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2030,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2030,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2030,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2030,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2030,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2030,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2030,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2030,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2030,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2030,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2030,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2035,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2035,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2035,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2035,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2035,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2035,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2035,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2035,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2035,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2035,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2035,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2035,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2035,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2035,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2035,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2035,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2035,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2035,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2035,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2035,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2035,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2035,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2035,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2035,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2035,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2035,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2035,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2035,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2035,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2035,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2035,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2035,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2035,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2035,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2035,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2035,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2035,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2035,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2035,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2035,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2040,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2040,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2040,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2040,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2040,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2040,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2040,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2040,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2040,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2040,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2040,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2040,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2040,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2040,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2040,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2040,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2040,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2040,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2040,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2040,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2040,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2040,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2040,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2040,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2040,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2040,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2040,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2040,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2040,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2040,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2040,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2040,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2040,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2040,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2040,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2040,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2040,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2040,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2040,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2040,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2045,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2045,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2045,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2045,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2045,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2045,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2045,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2045,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2045,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2045,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2045,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2045,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2045,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2045,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2045,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2045,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2045,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2045,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2045,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2045,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2045,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2045,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2045,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2045,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2045,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2045,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2045,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2045,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2045,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2045,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2045,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2045,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2045,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2045,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2045,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2045,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2045,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2045,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2045,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2045,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2050,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2050,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2050,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2050,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2050,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2050,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2050,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2050,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2050,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2050,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2050,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2050,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2050,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2050,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2050,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2050,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2050,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2050,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2050,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2050,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2050,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2050,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2050,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2050,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2050,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2050,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2050,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2050,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2050,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2050,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2050,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2050,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2050,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2050,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2050,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2050,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2050,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2050,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2050,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2050,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2055,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2055,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2055,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2055,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2055,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2055,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2055,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2055,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2055,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2055,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2055,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2055,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2055,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2055,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2055,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2055,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2055,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2055,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2055,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2055,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2055,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2055,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2055,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2055,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2055,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2055,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2055,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2055,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2055,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2055,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2055,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2055,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2055,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2055,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2055,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2055,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2055,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2055,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2055,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2055,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2060,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2060,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2060,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2060,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2060,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2060,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2060,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2060,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2060,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2060,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2060,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2060,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2060,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2060,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2060,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2060,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2060,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2060,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2060,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2060,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2060,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2060,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2060,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2060,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2060,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2060,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2060,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2060,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2060,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2060,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2060,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2060,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2060,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2060,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2060,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2060,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2060,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2060,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2060,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2060,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2065,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2065,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2065,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2065,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2065,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2065,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2065,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2065,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2065,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2065,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2065,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2065,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2065,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2065,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2065,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2065,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2065,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2065,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2065,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2065,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2065,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2065,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2065,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2065,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2065,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2065,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2065,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2065,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2065,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2065,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2065,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2065,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2065,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2065,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2065,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2065,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2065,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2065,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2065,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2065,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2070,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2070,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2070,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2070,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2070,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2070,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2070,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2070,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2070,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2070,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2070,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2070,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2070,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2070,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2070,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2070,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2070,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2070,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2070,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2070,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2070,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2070,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2070,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2070,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2070,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2070,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2070,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2070,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2070,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2070,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2070,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2070,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2070,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2070,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2070,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2070,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2070,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2070,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2070,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2070,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2075,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2075,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2075,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2075,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2075,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2075,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2075,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2075,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2075,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2075,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2075,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2075,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2075,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2075,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2075,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2075,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2075,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2075,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2075,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2075,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2075,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2075,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2075,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2075,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2075,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2075,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2075,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2075,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2075,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2075,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2075,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2075,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2075,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2075,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2075,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2075,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2075,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2075,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2075,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2075,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2080,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2080,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2080,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2080,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2080,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2080,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2080,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2080,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2080,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2080,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2080,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2080,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2080,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2080,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2080,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2080,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2080,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2080,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2080,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2080,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2080,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2080,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2080,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2080,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2080,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2080,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2080,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2080,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2080,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2080,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2080,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2080,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2080,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2080,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2080,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2080,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2080,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2080,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2080,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2080,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2085,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2085,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2085,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2085,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2085,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2085,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2085,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2085,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2085,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2085,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2085,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2085,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2085,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2085,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2085,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2085,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2085,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2085,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2085,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2085,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2085,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2085,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2085,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2085,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2085,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2085,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2085,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2085,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2085,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2085,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2085,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2085,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2085,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2085,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2085,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2085,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2085,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2085,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2085,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2085,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2090,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2090,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2090,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2090,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2090,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2090,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2090,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2090,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2090,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2090,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2090,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2090,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2090,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2090,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2090,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2090,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2090,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2090,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2090,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2090,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2090,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2090,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2090,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2090,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2090,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2090,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2090,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2090,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2090,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2090,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2090,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2090,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2090,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2090,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2090,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2090,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2090,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2090,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2090,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2090,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2095,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2095,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2095,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2095,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2095,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2095,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2095,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2095,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2095,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2095,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2095,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2095,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2095,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2095,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2095,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2095,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2095,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2095,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2095,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2095,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2095,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2095,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2095,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2095,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2095,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2095,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2095,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2095,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2095,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2095,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2095,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2095,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2095,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2095,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2095,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2095,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2095,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2095,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2095,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2095,1.58173661
+HK,other industry,other industry,other industry,water_td_ind_W,HK,2100,1.38739005
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_W,HK,2100,0.0155203275
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_W,HK,2100,0.0155203275
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_W,HK,2100,0.0098765725
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_W,HK,2100,0.007647289
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_W,HK,2100,0.007647289
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_W,HK,2100,0.007647289
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_W,HK,2100,0.0033862535
+HK,cement,cement,cement,water_td_ind_W,HK,2100,0.005981897
+HK,cement,cement,cement CCS,water_td_ind_W,HK,2100,0.005981897
+HK,coke,coke,coke,water_td_ind_W,HK,2100,0.013040493
+HK,coke,coke,coke CCS,water_td_ind_W,HK,2100,0.013040493
+HK,chemical,chemical,chemical,water_td_ind_W,HK,2100,5.66915516
+HK,ammonia,coal,coal,water_td_ind_W,HK,2100,0.172412507
+HK,ammonia,coal,coal CCS,water_td_ind_W,HK,2100,0.199998509
+HK,ammonia,gas,gas,water_td_ind_W,HK,2100,0.120688755
+HK,ammonia,gas,gas CCS,water_td_ind_W,HK,2100,0.144826507
+HK,ammonia,refined liquids,refined liquids,water_td_ind_W,HK,2100,0.155171256
+HK,ammonia,hydrogen,hydrogen,water_td_ind_W,HK,2100,0.068965003
+HK,construction,construction,construction,water_td_ind_W,HK,2100,2.05955287
+HK,other industry,other industry,other industry,water_td_ind_C,HK,2100,1.03316281
+HK,iron and steel,BLASTFUR,BLASTFUR,water_td_ind_C,HK,2100,0.0045150045
+HK,iron and steel,BLASTFUR,BLASTFUR CCS,water_td_ind_C,HK,2100,0.0045150045
+HK,iron and steel,BLASTFUR,Biomass-based,water_td_ind_C,HK,2100,0.003216941
+HK,iron and steel,EAF with DRI,EAF with DRI,water_td_ind_C,HK,2100,0.001777783
+HK,iron and steel,EAF with DRI,EAF with DRI CCS,water_td_ind_C,HK,2100,0.001777783
+HK,iron and steel,EAF with DRI,Hydrogen-based DRI,water_td_ind_C,HK,2100,0.001777783
+HK,iron and steel,EAF with scrap,EAF with scrap,water_td_ind_C,HK,2100,0.0006772505
+HK,cement,cement,cement,water_td_ind_C,HK,2100,0.000398793
+HK,cement,cement,cement CCS,water_td_ind_C,HK,2100,0.000398793
+HK,coke,coke,coke,water_td_ind_C,HK,2100,0.0024450925
+HK,coke,coke,coke CCS,water_td_ind_C,HK,2100,0.0024450925
+HK,chemical,chemical,chemical,water_td_ind_C,HK,2100,1.61975862
+HK,ammonia,coal,coal,water_td_ind_C,HK,2100,0.0482755025
+HK,ammonia,coal,coal CCS,water_td_ind_C,HK,2100,0.0551720025
+HK,ammonia,gas,gas,water_td_ind_C,HK,2100,0.0275860015
+HK,ammonia,gas,gas CCS,water_td_ind_C,HK,2100,0.0344825015
+HK,ammonia,refined liquids,refined liquids,water_td_ind_C,HK,2100,0.0413790015
+HK,ammonia,hydrogen,hydrogen,water_td_ind_C,HK,2100,0.037930752
+HK,construction,construction,construction,water_td_ind_C,HK,2100,1.58173661

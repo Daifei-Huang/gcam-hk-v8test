@@ -140,6 +140,104 @@ module_gcamchina_L101.Energy_Balance <- function(command, ...) {
       bind_rows(L101.inNBS_Mtce_province_S_F %>% filter(province != "XZ")) ->
       L101.inNBS_Mtce_province_S_F
 
+
+
+    # *** for HK version *** // Daifei 09/06/2026
+    # Adjust provincial values (only HK, four sectors: electricity, buildings, transportation, industry)
+    L101.NBS_use_all_Mtce %>%
+      mutate(value = case_when(
+
+        province == "HK" & year <= 2015 & sector %in% c("electricity") & fuel == "refined liquids" ~ value * 0.52539,
+        province == "HK" & year <= 2015 & sector %in% c("electricity") & fuel == "gas" ~ value * 0.95,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "gas" ~ value * 1.162,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "refined liquids" ~ value * 0.3832,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "electricity" ~ value * 1.05,
+
+        # Buildings (residential and commercial)
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "coal" ~ value * 0.002,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "refined liquids" ~ value * 0.0082,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "gas" ~ value * 0.898,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "electricity" ~ value * 0.6108,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("resid_urban", "resid") & fuel == "gas" ~ value * 0.97137,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("resid_urban", "resid") & fuel == "electricity" ~ value * 0.58642,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel %in% c("coal", "refined liquids") ~ value * 0.3876,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel == "gas" ~ value * 0.7275,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.617,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel %in% c("coal", "refined liquids") ~ value * 0.1862,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "gas" ~ value * 1.31246,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.5854,
+
+        # Industry
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.1868,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 20,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.7,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.4575,
+
+        # Transportation
+        province == "HK" & sector == "trn_intl_shp" & fuel == "refined liquids" ~ value * 0.1,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "electricity" ~ value * 1.62,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "refined liquids" ~ value * 0.63,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "gas" ~ value * 0.62,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "electricity" ~ value * 1.39,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "refined liquids" ~ value * 0.63,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "gas" ~ value * 0.65,
+
+        TRUE ~ value # This line keeps all other rows unchanged
+
+      )) ->
+      L101.NBS_use_all_Mtce
+
+    L101.inNBS_Mtce_province_S_F %>%
+      mutate(value = case_when(
+
+        province == "HK" & year <= 2015 & sector %in% c("electricity") & fuel == "refined liquids" ~ value * 0.52539,
+        province == "HK" & year <= 2015 & sector %in% c("electricity") & fuel == "gas" ~ value * 0.95,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "gas" ~ value * 1.162,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "refined liquids" ~ value * 0.3832,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("electricity") & fuel == "electricity" ~ value * 1.05,
+
+        # Buildings (residential and commercial)
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "coal" ~ value * 0.002,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "refined liquids" ~ value * 0.0082,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "gas" ~ value * 0.898,
+        province == "HK" & year <= 2015 & sector %in% c("resid_urban", "resid") & fuel == "electricity" ~ value * 0.6108,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("resid_urban", "resid") & fuel == "gas" ~ value * 0.97137,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("resid_urban", "resid") & fuel == "electricity" ~ value * 0.58642,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel %in% c("coal", "refined liquids") ~ value * 0.3876,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel == "gas" ~ value * 0.7275,
+        province == "HK" & year <= 2015 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.617,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel %in% c("coal", "refined liquids") ~ value * 0.1862,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "gas" ~ value * 1.31246,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.5854,
+
+        # Industry
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.1868,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 20,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.7,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.4575,
+
+        # Transportation
+        province == "HK" & sector == "trn_intl_shp" & fuel == "refined liquids" ~ value * 0.1,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "electricity" ~ value * 1.62,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "refined liquids" ~ value * 0.63,
+        province == "HK" & year <= 2015 & sector %in% c("trn_all") & fuel == "gas" ~ value * 0.62,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "electricity" ~ value * 1.39,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "refined liquids" ~ value * 0.63,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("trn_all") & fuel == "gas" ~ value * 0.65,
+
+        TRUE ~ value # This line keeps all other rows unchanged
+
+      )) ->
+      L101.inNBS_Mtce_province_S_F
+    # *** for HK version *** // Daifei 09/06/2026
+
+
+
+
     # Produce outputs
     L101.NBS_use_all_Mtce %>%
       add_title("NBS china energy statistical yearbook by sector / fuel / year") %>%

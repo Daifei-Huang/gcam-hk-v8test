@@ -13,7 +13,7 @@ ATTR_COMMENTS <- "comments"
 ATTR_PRECURSORS <- "precursors"
 ATTR_LEGACY_NAME <- "legacy_name"
 ATTR_REFERENCE <- "reference"
-ATTR_FLAGS <-"flags"
+ATTR_FLAGS <- "flags"
 
 #' add_title
 #'

@@ -1,0 +1,62 @@
+﻿sector,subsector,stub_technology,adjusted,category,technology_category_label,notes
+base load generation,coal,coal_base_conv pul,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+base load generation,coal,coal_base_conv pul_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+base load generation,coal,coal_base_IGCC,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+base load generation,coal,coal_base_IGCC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+base load generation,gas,gas_base_CC,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+base load generation,gas,gas_base_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+base load generation,refined liquids,refined liquids_base_steam/CT,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+base load generation,refined liquids,refined liquids_base_CC,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+base load generation,refined liquids,refined liquids_base_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+base load generation,biomass,biomass_base_conv,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+base load generation,biomass,biomass_base_conv_CCS,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+base load generation,biomass,biomass_base_IGCC,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+base load generation,biomass,biomass_base_IGCC_CCS,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+base load generation,wind,wind_base,yes,onshore_wind,onshore wind,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+base load generation,wind,wind_base_storage,yes,renewable_storage,storage-related renewable generation,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+base load generation,wind,wind_base_offshore,yes,offshore_wind,offshore wind,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+base load generation,solar,PV_base_storage,yes,renewable_storage,storage-related renewable generation,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+base load generation,solar,CSP_base_storage,yes,renewable_storage,storage-related renewable generation,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+intermediate generation,coal,coal_int_conv pul,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+intermediate generation,coal,coal_int_conv pul_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+intermediate generation,coal,coal_int_IGCC,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+intermediate generation,coal,coal_int_IGCC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+intermediate generation,gas,gas_int_CC,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+intermediate generation,gas,gas_int_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+intermediate generation,refined liquids,refined liquids_int_steam/CT,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+intermediate generation,refined liquids,refined liquids_int_CC,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+intermediate generation,refined liquids,refined liquids_int_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+intermediate generation,biomass,biomass_int_conv,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+intermediate generation,biomass,biomass_int_conv_CCS,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+intermediate generation,biomass,biomass_int_IGCC,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+intermediate generation,biomass,biomass_int_IGCC_CCS,yes,biomass_wte,biomass / WTE proxy,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+intermediate generation,wind,wind_int,yes,onshore_wind,onshore wind,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+intermediate generation,solar,PV_int,yes,utility_pv,utility PV,Land/space and local EPC premium; PV variable O&M remains unchanged.
+intermediate generation,solar,CSP_int,yes,csp_solar,CSP / non-PV solar,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+subpeak generation,coal,coal_subpeak_conv pul,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+subpeak generation,gas,gas_subpeak_steam/CT,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+subpeak generation,gas,gas_subpeak_CC,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+subpeak generation,gas,gas_subpeak_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+subpeak generation,refined liquids,refined liquids_subpeak_steam/CT,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+subpeak generation,refined liquids,refined liquids_subpeak_CC,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+subpeak generation,refined liquids,refined liquids_subpeak_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+subpeak generation,wind,wind_subpeak,yes,onshore_wind,onshore wind,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+subpeak generation,solar,PV_subpeak,yes,utility_pv,utility PV,Land/space and local EPC premium; PV variable O&M remains unchanged.
+subpeak generation,solar,CSP_subpeak,yes,csp_solar,CSP / non-PV solar,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+peak generation,coal,coal_peak_conv pul,yes,coal_no_ccs,"coal, no CCS","Higher site, environmental compliance, ash/residue handling and labor costs."
+peak generation,gas,gas_peak_steam/CT,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+peak generation,gas,gas_peak_CC,yes,gas_no_ccs,"gas CC / steam-CT, no CCS",Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+peak generation,gas,gas_peak_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+peak generation,refined liquids,refined liquids_peak_steam/CT,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+peak generation,refined liquids,refined liquids_peak_CC,yes,refined_liquids_no_ccs,"refined liquids, no CCS",Same premium range as non-CCS gas peaking/oil technologies.
+peak generation,refined liquids,refined liquids_peak_CC_CCS,yes,fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,Extends the coal-CCS premium logic to all fossil CCS technologies.
+peak generation,solar,PV_peak,yes,utility_pv,utility PV,Land/space and local EPC premium; PV variable O&M remains unchanged.
+peak generation,solar,CSP_peak,no,csp_solar,CSP / non-PV solar,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+elect_td_bld,rooftop_pv,rooftop_pv,yes,rooftop_pv,rooftop PV,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+base load generation,nuclear,nuc_base_Gen II,no,,,Not adjusted: nuclear is not treated as HK local build technology in this premium set
+base load generation,nuclear,nuc_base_Gen III,no,,,Not adjusted: nuclear is not treated as HK local build technology in this premium set
+base load generation,hydro,hydro_base,no,,,Not adjusted: global technology has no input-capital/OM-fixed/OM-var cost entries
+intermediate generation,hydro,hydro_int,no,,,Not adjusted: global technology has no input-capital/OM-fixed/OM-var cost entries
+subpeak generation,hydro,hydro_subpeak,no,,,Not adjusted: global technology has no input-capital/OM-fixed/OM-var cost entries
+peak generation,hydro,hydro_peak,no,,,Not adjusted: global technology has no input-capital/OM-fixed/OM-var cost entries
+peak generation,grid_storage,battery,no,,,Not adjusted: global technology has no input-capital/OM-fixed/OM-var cost entries

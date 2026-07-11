@@ -8933,3 +8933,292 @@ ZJ,2021,mining energy use,electricity,electricity,0.052940548
 ZJ,2021,mining energy use,gas,gas,0.013373591
 ZJ,2021,mining energy use,hydrogen,hydrogen,0
 ZJ,2021,mining energy use,liquid,liquid,0.018637824
+HK,1975,agricultural energy use,biomass,biomass,0
+HK,1975,agricultural energy use,coal,coal,0
+HK,1975,agricultural energy use,district heat,district heat,0
+HK,1975,agricultural energy use,electricity,electricity,0
+HK,1975,agricultural energy use,gas,gas,0
+HK,1975,agricultural energy use,hydrogen,hydrogen,0
+HK,1975,agricultural energy use,liquid,liquid,0
+HK,1975,chemical energy use,biomass,biomass,0
+HK,1975,chemical energy use,coal,coal,0
+HK,1975,chemical energy use,coal,coal CCS,0
+HK,1975,chemical energy use,district heat,district heat,0
+HK,1975,chemical energy use,electricity,electricity,0.0004190
+HK,1975,chemical energy use,gas,gas,0
+HK,1975,chemical energy use,gas,gas CCS,0
+HK,1975,chemical energy use,hydrogen,hydrogen,0
+HK,1975,chemical energy use,liquid,liquid,0
+HK,1975,chemical energy use,liquid,liquid CCS,0
+HK,1975,chemical feedstocks,coal,coal,0
+HK,1975,chemical feedstocks,gas,gas,0
+HK,1975,chemical feedstocks,liquid,liquid,0
+HK,1975,chemical,chemical,chemical,0
+HK,1975,coke,coke,coke,0
+HK,1975,coke,coke,coke CCS,0
+HK,1975,construction,construction,construction,0
+HK,1975,construction energy use,biomass,biomass,0
+HK,1975,construction energy use,coal,coal,0
+HK,1975,construction energy use,district heat,district heat,0
+HK,1975,construction energy use,electricity,electricity,0
+HK,1975,construction energy use,gas,gas,0
+HK,1975,construction energy use,hydrogen,hydrogen,0
+HK,1975,construction energy use,liquid,liquid,0
+HK,1975,construction feedstocks,coal,coal,0
+HK,1975,construction feedstocks,gas,gas,0
+HK,1975,construction feedstocks,liquid,liquid,0
+HK,1975,iron and steel,BLASTFUR,Biomass-based,0
+HK,1975,iron and steel,BLASTFUR,BLASTFUR,0
+HK,1975,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,1975,iron and steel,EAF with DRI,EAF with DRI,0
+HK,1975,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,1975,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,1975,iron and steel,EAF with scrap,EAF with scrap,0
+HK,1975,mining energy use,biomass,biomass,0
+HK,1975,mining energy use,coal,coal,0
+HK,1975,mining energy use,district heat,district heat,0
+HK,1975,mining energy use,electricity,electricity,0.0000419
+HK,1975,mining energy use,gas,gas,0
+HK,1975,mining energy use,hydrogen,hydrogen,0
+HK,1975,mining energy use,liquid,liquid,0
+HK,1990,agricultural energy use,biomass,biomass,0
+HK,1990,agricultural energy use,coal,coal,0
+HK,1990,agricultural energy use,district heat,district heat,0
+HK,1990,agricultural energy use,electricity,electricity,0
+HK,1990,agricultural energy use,gas,gas,0
+HK,1990,agricultural energy use,hydrogen,hydrogen,0
+HK,1990,agricultural energy use,liquid,liquid,0
+HK,1990,chemical energy use,biomass,biomass,0
+HK,1990,chemical energy use,coal,coal,0
+HK,1990,chemical energy use,coal,coal CCS,0
+HK,1990,chemical energy use,district heat,district heat,0
+HK,1990,chemical energy use,electricity,electricity,0.0012570
+HK,1990,chemical energy use,gas,gas,0
+HK,1990,chemical energy use,gas,gas CCS,0
+HK,1990,chemical energy use,hydrogen,hydrogen,0
+HK,1990,chemical energy use,liquid,liquid,0
+HK,1990,chemical energy use,liquid,liquid CCS,0
+HK,1990,chemical feedstocks,coal,coal,0
+HK,1990,chemical feedstocks,gas,gas,0
+HK,1990,chemical feedstocks,liquid,liquid,0
+HK,1990,chemical,chemical,chemical,0
+HK,1990,coke,coke,coke,0
+HK,1990,coke,coke,coke CCS,0
+HK,1990,construction,construction,construction,0
+HK,1990,construction energy use,biomass,biomass,0
+HK,1990,construction energy use,coal,coal,0
+HK,1990,construction energy use,district heat,district heat,0
+HK,1990,construction energy use,electricity,electricity,0
+HK,1990,construction energy use,gas,gas,0
+HK,1990,construction energy use,hydrogen,hydrogen,0
+HK,1990,construction energy use,liquid,liquid,0
+HK,1990,construction feedstocks,coal,coal,0
+HK,1990,construction feedstocks,gas,gas,0
+HK,1990,construction feedstocks,liquid,liquid,0
+HK,1990,iron and steel,BLASTFUR,Biomass-based,0
+HK,1990,iron and steel,BLASTFUR,BLASTFUR,0
+HK,1990,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,1990,iron and steel,EAF with DRI,EAF with DRI,0
+HK,1990,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,1990,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,1990,iron and steel,EAF with scrap,EAF with scrap,0
+HK,1990,mining energy use,biomass,biomass,0
+HK,1990,mining energy use,coal,coal,0
+HK,1990,mining energy use,district heat,district heat,0
+HK,1990,mining energy use,electricity,electricity,0
+HK,1990,mining energy use,gas,gas,0
+HK,1990,mining energy use,hydrogen,hydrogen,0
+HK,1990,mining energy use,liquid,liquid,0
+HK,2005,agricultural energy use,biomass,biomass,0
+HK,2005,agricultural energy use,coal,coal,0
+HK,2005,agricultural energy use,district heat,district heat,0
+HK,2005,agricultural energy use,electricity,electricity,0
+HK,2005,agricultural energy use,gas,gas,0
+HK,2005,agricultural energy use,hydrogen,hydrogen,0
+HK,2005,agricultural energy use,liquid,liquid,0
+HK,2005,chemical energy use,biomass,biomass,0
+HK,2005,chemical energy use,coal,coal,0
+HK,2005,chemical energy use,coal,coal CCS,0
+HK,2005,chemical energy use,district heat,district heat,0
+HK,2005,chemical energy use,electricity,electricity,0
+HK,2005,chemical energy use,gas,gas,0
+HK,2005,chemical energy use,gas,gas CCS,0
+HK,2005,chemical energy use,hydrogen,hydrogen,0
+HK,2005,chemical energy use,liquid,liquid,0
+HK,2005,chemical energy use,liquid,liquid CCS,0
+HK,2005,chemical feedstocks,coal,coal,0
+HK,2005,chemical feedstocks,gas,gas,0
+HK,2005,chemical feedstocks,liquid,liquid,0
+HK,2005,chemical,chemical,chemical,0
+HK,2005,coke,coke,coke,0
+HK,2005,coke,coke,coke CCS,0
+HK,2005,construction,construction,construction,0
+HK,2005,construction energy use,biomass,biomass,0
+HK,2005,construction energy use,coal,coal,0
+HK,2005,construction energy use,district heat,district heat,0
+HK,2005,construction energy use,electricity,electricity,0
+HK,2005,construction energy use,gas,gas,0
+HK,2005,construction energy use,hydrogen,hydrogen,0
+HK,2005,construction energy use,liquid,liquid,0
+HK,2005,construction feedstocks,coal,coal,0
+HK,2005,construction feedstocks,gas,gas,0
+HK,2005,construction feedstocks,liquid,liquid,0
+HK,2005,iron and steel,BLASTFUR,Biomass-based,0
+HK,2005,iron and steel,BLASTFUR,BLASTFUR,0
+HK,2005,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,2005,iron and steel,EAF with DRI,EAF with DRI,0
+HK,2005,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,2005,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,2005,iron and steel,EAF with scrap,EAF with scrap,0
+HK,2005,mining energy use,biomass,biomass,0
+HK,2005,mining energy use,coal,coal,0
+HK,2005,mining energy use,district heat,district heat,0
+HK,2005,mining energy use,electricity,electricity,0
+HK,2005,mining energy use,gas,gas,0
+HK,2005,mining energy use,hydrogen,hydrogen,0
+HK,2005,mining energy use,liquid,liquid,0
+HK,2010,agricultural energy use,biomass,biomass,0
+HK,2010,agricultural energy use,coal,coal,0
+HK,2010,agricultural energy use,district heat,district heat,0
+HK,2010,agricultural energy use,electricity,electricity,0
+HK,2010,agricultural energy use,gas,gas,0
+HK,2010,agricultural energy use,hydrogen,hydrogen,0
+HK,2010,agricultural energy use,liquid,liquid,0
+HK,2010,chemical energy use,biomass,biomass,0
+HK,2010,chemical energy use,coal,coal,0
+HK,2010,chemical energy use,coal,coal CCS,0
+HK,2010,chemical energy use,district heat,district heat,0
+HK,2010,chemical energy use,electricity,electricity,0
+HK,2010,chemical energy use,gas,gas,0
+HK,2010,chemical energy use,gas,gas CCS,0
+HK,2010,chemical energy use,hydrogen,hydrogen,0
+HK,2010,chemical energy use,liquid,liquid,0
+HK,2010,chemical energy use,liquid,liquid CCS,0
+HK,2010,chemical feedstocks,coal,coal,0
+HK,2010,chemical feedstocks,gas,gas,0
+HK,2010,chemical feedstocks,liquid,liquid,0
+HK,2010,chemical,chemical,chemical,0
+HK,2010,coke,coke,coke,0
+HK,2010,coke,coke,coke CCS,0
+HK,2010,construction,construction,construction,0
+HK,2010,construction energy use,biomass,biomass,0
+HK,2010,construction energy use,coal,coal,0
+HK,2010,construction energy use,district heat,district heat,0
+HK,2010,construction energy use,electricity,electricity,0
+HK,2010,construction energy use,gas,gas,0
+HK,2010,construction energy use,hydrogen,hydrogen,0
+HK,2010,construction energy use,liquid,liquid,0
+HK,2010,construction feedstocks,coal,coal,0
+HK,2010,construction feedstocks,gas,gas,0
+HK,2010,construction feedstocks,liquid,liquid,0
+HK,2010,iron and steel,BLASTFUR,Biomass-based,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR,9.1
+HK,2010,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,2010,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,2010,iron and steel,EAF with scrap,EAF with scrap,0
+HK,2010,mining energy use,biomass,biomass,0
+HK,2010,mining energy use,coal,coal,0
+HK,2010,mining energy use,district heat,district heat,0
+HK,2010,mining energy use,electricity,electricity,0
+HK,2010,mining energy use,gas,gas,0
+HK,2010,mining energy use,hydrogen,hydrogen,0
+HK,2010,mining energy use,liquid,liquid,0
+HK,2015,agricultural energy use,biomass,biomass,0
+HK,2015,agricultural energy use,coal,coal,0
+HK,2015,agricultural energy use,district heat,district heat,0
+HK,2015,agricultural energy use,electricity,electricity,0
+HK,2015,agricultural energy use,gas,gas,0
+HK,2015,agricultural energy use,hydrogen,hydrogen,0
+HK,2015,agricultural energy use,liquid,liquid,0
+HK,2015,chemical energy use,biomass,biomass,0
+HK,2015,chemical energy use,coal,coal,0
+HK,2015,chemical energy use,coal,coal CCS,0
+HK,2015,chemical energy use,district heat,district heat,0
+HK,2015,chemical energy use,electricity,electricity,0
+HK,2015,chemical energy use,gas,gas,0
+HK,2015,chemical energy use,gas,gas CCS,0
+HK,2015,chemical energy use,hydrogen,hydrogen,0
+HK,2015,chemical energy use,liquid,liquid,0
+HK,2015,chemical energy use,liquid,liquid CCS,0
+HK,2015,chemical feedstocks,coal,coal,0
+HK,2015,chemical feedstocks,gas,gas,0
+HK,2015,chemical feedstocks,liquid,liquid,0
+HK,2015,chemical,chemical,chemical,0
+HK,2015,coke,coke,coke,0
+HK,2015,coke,coke,coke CCS,0
+HK,2015,construction,construction,construction,0
+HK,2015,construction energy use,biomass,biomass,0
+HK,2015,construction energy use,coal,coal,0
+HK,2015,construction energy use,district heat,district heat,0
+HK,2015,construction energy use,electricity,electricity,0
+HK,2015,construction energy use,gas,gas,0
+HK,2015,construction energy use,hydrogen,hydrogen,0
+HK,2015,construction energy use,liquid,liquid,0
+HK,2015,construction feedstocks,coal,coal,0
+HK,2015,construction feedstocks,gas,gas,0
+HK,2015,construction feedstocks,liquid,liquid,0
+HK,2015,iron and steel,BLASTFUR,Biomass-based,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,2015,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,2015,iron and steel,EAF with scrap,EAF with scrap,0
+HK,2015,mining energy use,biomass,biomass,0
+HK,2015,mining energy use,coal,coal,0
+HK,2015,mining energy use,district heat,district heat,0
+HK,2015,mining energy use,electricity,electricity,0
+HK,2015,mining energy use,gas,gas,0
+HK,2015,mining energy use,hydrogen,hydrogen,0
+HK,2015,mining energy use,liquid,liquid,0
+
+HK,2021,agricultural energy use,biomass,biomass,0
+HK,2021,agricultural energy use,coal,coal,0
+HK,2021,agricultural energy use,district heat,district heat,0
+HK,2021,agricultural energy use,electricity,electricity,0
+HK,2021,agricultural energy use,gas,gas,0
+HK,2021,agricultural energy use,hydrogen,hydrogen,0
+HK,2021,agricultural energy use,liquid,liquid,0
+HK,2021,chemical energy use,biomass,biomass,0
+HK,2021,chemical energy use,coal,coal,0
+HK,2021,chemical energy use,coal,coal CCS,0
+HK,2021,chemical energy use,district heat,district heat,0
+HK,2021,chemical energy use,electricity,electricity,0
+HK,2021,chemical energy use,gas,gas,0
+HK,2021,chemical energy use,gas,gas CCS,0
+HK,2021,chemical energy use,hydrogen,hydrogen,0
+HK,2021,chemical energy use,liquid,liquid,0
+HK,2021,chemical energy use,liquid,liquid CCS,0
+HK,2021,chemical feedstocks,coal,coal,0
+HK,2021,chemical feedstocks,gas,gas,0
+HK,2021,chemical feedstocks,liquid,liquid,0
+HK,2021,chemical,chemical,chemical,0
+HK,2021,coke,coke,coke,0
+HK,2021,coke,coke,coke CCS,0
+HK,2021,construction,construction,construction,0
+HK,2021,construction energy use,biomass,biomass,0
+HK,2021,construction energy use,coal,coal,0
+HK,2021,construction energy use,district heat,district heat,0
+HK,2021,construction energy use,electricity,electricity,0
+HK,2021,construction energy use,gas,gas,0
+HK,2021,construction energy use,hydrogen,hydrogen,0
+HK,2021,construction energy use,liquid,liquid,0
+HK,2021,construction feedstocks,coal,coal,0
+HK,2021,construction feedstocks,gas,gas,0
+HK,2021,construction feedstocks,liquid,liquid,0
+HK,2021,iron and steel,BLASTFUR,Biomass-based,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR CCS,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI CCS,0
+HK,2021,iron and steel,EAF with DRI,Hydrogen-based DRI,0
+HK,2021,iron and steel,EAF with scrap,EAF with scrap,0
+HK,2021,mining energy use,biomass,biomass,0
+HK,2021,mining energy use,coal,coal,0
+HK,2021,mining energy use,district heat,district heat,0
+HK,2021,mining energy use,electricity,electricity,0
+HK,2021,mining energy use,gas,gas,0
+HK,2021,mining energy use,hydrogen,hydrogen,0
+HK,2021,mining energy use,liquid,liquid,0

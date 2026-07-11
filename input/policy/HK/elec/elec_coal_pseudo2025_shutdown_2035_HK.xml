@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="HK">
+        <!-- refer to https://github.com/JGCRI/seasia/blob/main/modeling/malaysia/sectoral_policies/elec_coal_shutdown.xml -->
+        <!-- Maybe we should refer to this XML file: coal_retire_vintage_USA.xml -->
+        <!-- There are some Github issues talked about it: https://github.com/JGCRI/gcam-core/issues/61  https://github.com/JGCRI/gcamdata/issues/1164 -->
+         
+            <!-- 配合 HK_elec_no_new_coal_2025.xml 实现 2035 年煤电全部退役 -->
+            <!-- v8 有 Coal vintage，在构造模型输入数据时，即有香港在 2021 年的 <stub-technology name="coal_base_conv pul"> 的 share-weight 为 0, 2021 年的 coal calOutput 完全依赖 coal_base_conv pul 1996-2000、coal_base_conv pul 1991-1995、coal_base_conv pul before 1990 -->
+            <!-- HK_elec_no_new_coal_2025.xml 已经构造了香港 2025年起的所有煤电技术 share-weight 为0，意味着没有新增的煤电机组，因此 2021年起 香港煤电完全依赖 coal_base_conv pul 1996-2000、coal_base_conv pul 1991-1995、coal_base_conv pul before 1990 -->
+            <!-- 2021 年 coal_base_conv pul 1996-2000 lifetime = 19, half-life = 14, steepness = 0.3, 2040 年全部退役 -->
+            <!-- 2021 年 coal_base_conv pul 1991-1995 lifetime = 14, half-life = 9, steepness = 0.3, 2035 年全部退役 -->
+            <!-- 2021 年 coal_base_conv pul before 1990 lifetime = 10, half-life = 5, steepness = 0.3, 2031 年全部退役 -->
+            
+
+            <!-- 通过lifetime设置，只需要修改 coal_base_conv pul 1996-2000 的 lifetime -->
+            <!-- 默认的煤电厂lifetime生命周期，即煤电厂电厂可以运行的最大年限为60年，这代表着一旦某个年份建立的机组（cohort）达到了这个最大使用寿命，它就会被强制完全淘汰。-->
+            <!-- s-curve-shutdown-decider通过改变 S 曲线退役函数的参数来控制机组随时间的存活轨迹。half-life类似于同位素的半衰期，如果设定为 30 年，这意味着当机组运行到 30 年时，该批次中会有 50% 的产能退役。steepness表示曲线的陡峭程度，决定了退役轨迹的形状 ，数值越大，退役发生得越集中；数值越小，退役过程越平缓。 -->
+            <!-- lifetime和s-curve-shutdown-decider适合模拟一种渐进式的淘汰过程。由于目标位仅仅针对煤电（不包含其他排放）进行明确的退役，而不影响电价，因此采用这种设置方式比较合理 -->
+            <!-- 因为如果调节profit-shutdown-decider，参考 https://github.com/JGCRI/gcam-core/issues/61，这种通过增加成本来迫使提前退役的策略，必然会对电力部门市场的均衡产生影响 。不仅会让煤电变得极度昂贵，还会导致整体电力价格飙升 。这会在终端使用层面引发某种“反向电气化”（reverse-electrification）效应 -->
+            
+            <pass-through-sector name="base load generation">
+              <subsector name="coal">
+                <stub-technology name="coal_base_conv pul">
+                  <period year="2021">
+                    <lifetime>14</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.15</steepness>
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                  <period year="2025">
+                    <lifetime>10</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness>
+                        <half-life>5</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                </stub-technology>
+                <stub-technology name="coal_base_conv pul 1996-2000">
+                    <period year="2021">
+                        <lifetime>14</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.3</steepness>
+                            <half-life>9</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+                <!-- 2025年还没有开始应用 IGCC和CCS 的煤电技术，conv pul_CCS、IGCC、IGCC_CCS的share-weight仍是0 -->
+              </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="intermediate generation">
+              <subsector name="coal">
+                <stub-technology name="coal_int_conv pul">
+                  <period year="2021">
+                    <lifetime>14</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.15</steepness>
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                  <period year="2025">
+                    <lifetime>10</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness>
+                        <half-life>5</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                </stub-technology>
+                <stub-technology name="coal_int_conv pul 1996-2000">
+                    <period year="2021">
+                        <lifetime>14</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.3</steepness>
+                            <half-life>9</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+              </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="subpeak generation">
+              <subsector name="coal">
+                <stub-technology name="coal_subpeak_conv pul">
+                  <period year="2021">
+                    <lifetime>14</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.15</steepness>
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                  <period year="2025">
+                    <lifetime>10</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness>
+                        <half-life>5</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                </stub-technology>
+                <stub-technology name="coal_subpeak_conv pul 1996-2000">
+                    <period year="2021">
+                        <lifetime>14</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.3</steepness>
+                            <half-life>9</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+              </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="peak generation">
+              <subsector name="coal">
+                <stub-technology name="coal_peak_conv pul">
+                  <period year="2021">
+                    <lifetime>14</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.15</steepness>
+                        <half-life>9</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                  <period year="2025">
+                    <lifetime>10</lifetime>
+                    <s-curve-shutdown-decider name="s-curve">
+                        <steepness>0.3</steepness>
+                        <half-life>5</half-life>
+                    </s-curve-shutdown-decider>
+                  </period>
+                </stub-technology>
+                <stub-technology name="coal_peak_conv pul 1996-2000">
+                    <period year="2021">
+                        <lifetime>14</lifetime>
+                        <s-curve-shutdown-decider name="s-curve">
+                            <steepness>0.3</steepness>
+                            <half-life>9</half-life>
+                        </s-curve-shutdown-decider>
+                    </period>
+                </stub-technology>
+              </subsector>
+            </pass-through-sector>
+
+
+            <!-- 直接在subsector层面设置，从2035年开始coal在sector中的权重为0 -->
+            <!-- 这一设置可能是无效的，参考 https://github.com/JGCRI/gcam-core/issues/61，电厂一旦建成，除非机制迫使它们退役或关闭，否则它们将保持在相同水平继续发电 -->
+            <!--pass-through-sector name="base load generation">
+                <subsector name="coal">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="intermediate generation">
+                <subsector name="coal">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="subpeak generation">
+                <subsector name="coal">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="peak generation">
+                <subsector name="coal">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2050">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2050">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                        <to-value>0</to-value>
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+            </pass-through-sector-->
+
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,530 @@
+Running GCAM model code base version 8.2 revision gcam-v8.2
+
+Configuration file:  configuration_HK_2025_elec_policy_constraint_RECeiling_adjCoal_add2025coal.xml
+Parsing input files...
+[0.020s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "WildcardExpandingClassLoader"). To use archived non-system classes, this property must not be set
+Parsing ../input/gcamdata/xml_test1/hector.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/socioeconomics_CORE.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/resources.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_supply.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_transformation.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/electricity_water.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/heat.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/hydrogen.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_distribution.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/other_industry.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/other_industry_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/iron_steel.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/iron_steel_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/iron_steel_trade.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Off_road.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Off_road_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/chemical.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/chemical_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/aluminum.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/aluminum_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/paper.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/paper_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/food_processing.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/cement.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/cement_incelas_ssp2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_Fert.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/HDDCDD_constdd_no_GCM.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/building_det.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/transportation_UCD_CORE.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Ccoef.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Cstorage.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_For_Past_bio_base_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_cost_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_prodchange_ref_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/resbio_input_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/an_input.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_Fert_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/land_input_1.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/land_input_2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/land_input_3_IRR.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/land_input_4_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/land_input_5_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/protected_land_input_2.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/protected_land_input_3.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_an_demand_input.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/paper_delete_ag_demand_China.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/bio_trade.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_trade.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_storage.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/unlimited_water_supply.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_supply_constrained.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/desalination.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_td.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ag_water_input_IRR_MGMT_China_C.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/electricity_water_coefs.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_industry.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_livestock.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_municipal.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_primary.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ind_urb_processing_sectors.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_energy_emissions.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_fgas_emissions.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_unmgd_emissions.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_aglu_emissions_IRR_MGMT.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_protected_unmgd_emissions.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/emission_factor_controls.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ssp2_emissions_factors_tradBio.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_energy_emissions_MAC.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_fgas_emissions_MAC.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/all_aglu_emissions_IRR_MGMT_MAC.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ind_urb_processing_sectors_MAC.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/liquids_limits.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/negative_emissions_budget.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_elec_liquids_limits.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/bio_externality.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/onshore_wind.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/gas_trade.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/prune_empty_ag.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/socioeconomics_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/resources_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Cstorage_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_prices_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/en_transformation_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/elec_segments_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/heat_china.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/hydrogen_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/electricity_nuclear_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/coal_vintage_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/electd_CHINA.xml scenario component.
+Could not delete node supplysector as it does not exist.
+Parsing ../input/gcamdata/xml_test1/building_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/HDDCDD_constdds_China.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/transportation_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/industry_CHINA_high_demand.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/detailed_industry_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/iron_steel_incelas_ssp2_china.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/other_industry_incelas_ssp2_china.xml scenario component.
+Parsing ../input/extra/trade_iron_steel_China_offset.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/cement_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/Fert_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/liquids_limits_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/negative_emissions_budget_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/regional_biomass_CHINA.xml scenario component.
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Unknown tag: subsector encountered while processing nesting-subsector
+Parsing ../input/gcamdata/xml_test1/water_td_CHINA.xml scenario component.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Parsing ../input/gcamdata/xml_test1/water_demand_municipal_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_industry_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/water_demand_electricity_CHINA.xml scenario component.
+Parsing ../input/gcamdata/xml_test1/ghg_emissions_CHINA.xml scenario component.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Did not create node subsector as the nocreate input flag was set.
+Parsing ../input/gcamdata/xml_test1/trn_ghg_emissions_CHINA.xml scenario component.
+Parsing ../input/solution/cal_broyden_config.xml scenario component.
+Parsing ../input/extra/delete_invalid_provinces_deleteMC.xml scenario component.
+Could not delete node subsector as it does not exist.
+Parsing ../input/gcamdata/xml_test1/building_CHINA_deleteHKrural.xml scenario component.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Could not delete node supplysector as it does not exist.
+Parsing ../input/calibrate2025/elec/HK_elec_baseload_geothermal.xml scenario component.
+Parsing ../input/calibrate2025/elec/HK_elec_no_new_coal_2030.xml scenario component.
+Parsing ../input/calibrate2025/elec/HK_elec_gen_hydropower.xml scenario component.
+Parsing ../input/calibrate2025/elec/HK_elec_gen_constraint_2025_RECeiling_CoalCeiling.xml scenario component.
+Parsing ../input/calibrate2025/elec/HK_elec_gen_constraint_techs_2025_RECeiling_CoalCeiling.xml scenario component.
+Parsing ../input/calibrate2025/bld/HK_bld_urbanresidflsp.xml scenario component.
+Parsing ../input/calibrate2025/elec/HK_rooftopPV_Ceiling_mid.xml scenario component.
+XML parsing complete.
+Starting new scenario: 2025elec_policy_constraint_RECeiling_adjCoal_add2025coal
+Thu Jul  9 10:03:26 2026:WARNING:Hector::Logger::printLogHeader: hector version 3.2.0
+Thu Jul  9 10:03:26 2026:WARNING:Hector::Logger::printLogHeader: hector version 3.2.0
+SEVERE ERROR:geothermal in China is not related to any other activities.
+SEVERE ERROR:offshore wind resource in China is not related to any other activities.
+SEVERE ERROR:onshore carbon-storage in China is not related to any other activities.
+Starting a model run. Running period 13
+Model run beginning.
+Period 0: 1975
+Model solved with last period's prices.
+
+Period 1: 1990
+Model solved normally. Iterations period 1: 230. Total iterations: 231
+
+Period 2: 2005
+Model solved normally. Iterations period 2: 220. Total iterations: 451
+
+Period 3: 2010
+Model solved normally. Iterations period 3: 260. Total iterations: 711
+
+Period 4: 2015
+Model solved normally. Iterations period 4: 362. Total iterations: 1072
+
+Period 5: 2021
+Model solved normally. Iterations period 5: 403. Total iterations: 1475
+
+Period 6: 2025
+Model solved normally. Iterations period 6: 1814. Total iterations: 3288
+
+Period 7: 2030
+Input coal-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input biomass-gen-C does not have a matching input in the next period.
+Input wind-gen-C does not have a matching input in the next period.
+Input wind-gen-C does not have a matching input in the next period.
+Input wind-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input coal-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input biomass-gen-C does not have a matching input in the next period.
+Input wind-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input coal-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input wind-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input coal-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input gas-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input oil-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Input solar-gen-C does not have a matching input in the next period.
+Model solved normally. Iterations period 7: 582. Total iterations: 3869
+
+Period 8: 2035
+Model solved normally. Iterations period 8: 395. Total iterations: 4263
+
+Period 9: 2040
+Model solved normally. Iterations period 9: 382. Total iterations: 4645
+
+Period 10: 2045
+Model solved normally. Iterations period 10: 216. Total iterations: 4860
+
+Period 11: 2050
+Model solved normally. Iterations period 11: 360. Total iterations: 5220
+
+Period 12: 2055
+Model solved normally. Iterations period 12: 213. Total iterations: 5433
+
+Period 13: 2060
+Model solved normally. Iterations period 13: 228. Total iterations: 5661
+
+All model periods solved correctly.
+Thu Jul  9 10:17:47 2026:WARNING:Hector::Logger::printLogHeader: hector version 3.2.0
+Model run completed.
+Printing output
+Starting output to XML Database.
+Model run completed.
+Model exiting successfully.

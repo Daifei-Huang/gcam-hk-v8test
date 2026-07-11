@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="CN_optimistic_transition_sensitivity_CO2_cap">
+	<world>
+		<region name="China">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+				<constraint year="2030">3041.87</constraint>
+				<constraint year="2035">2652.802</constraint>
+				<constraint year="2040">2313.498</constraint>
+				<constraint year="2045">2017.592</constraint>
+				<constraint year="2050">1759.533</constraint>
+				<constraint year="2055">1534.482</constraint>
+				<constraint year="2060">1338.215</constraint>
+				<constraint year="2065">1167.052</constraint>
+				<constraint year="2070">1017.781</constraint>
+				<constraint year="2075">887.602</constraint>
+				<constraint year="2080">774.074</constraint>
+				<constraint year="2085">675.067</constraint>
+				<constraint year="2090">588.723</constraint>
+				<constraint year="2095">513.423</constraint>
+				<constraint year="2100">447.754</constraint>
+			</ghgpolicy>
+		</region>
+		<region name="AH">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="BJ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="CQ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="FJ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="GS">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="GD">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="GX">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="GZ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HI">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HE">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HL">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HA">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HB">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="HN">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="NM">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="JS">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="JX">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="JL">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="LN">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="NX">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="QH">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="SN">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="SD">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="SH">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="SX">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="SC">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="TJ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="XZ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="XJ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="YN">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+		<region name="ZJ">
+			<ghgpolicy name="CO2">
+				<market>China</market>
+			</ghgpolicy>
+		</region>
+	</world>
+</scenario>

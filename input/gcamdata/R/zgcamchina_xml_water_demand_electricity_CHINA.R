@@ -12,7 +12,8 @@
 #' @author Yuqin Li June 2025
 module_gcamchina_batch_water_demand_electricity_xml <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c(FILE = "gcam-china/electricity_water_coef_CHINA"))
+    return(c(FILE = "gcam-china/electricity_water_coef_CHINA",
+             FILE = "gcam-china/electricity_water_coef_HK_direct_seawater")) # *** for HK version *** //
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "water_demand_electricity_CHINA.xml"))
   } else if(command == driver.MAKE) {
@@ -21,13 +22,17 @@ module_gcamchina_batch_water_demand_electricity_xml <- function(command, ...) {
 
     # Load required inputs
     electricity_water_coef_CHINA <- get_data(all_data, "gcam-china/electricity_water_coef_CHINA")
+    electricity_water_coef_HK <- get_data(all_data, "gcam-china/electricity_water_coef_HK_direct_seawater") # *** for HK version *** //
+
+    electricity_water_coef_CHINA <- electricity_water_coef_CHINA %>% bind_rows(electricity_water_coef_HK) # *** for HK version *** //
 
     # ===================================================
 
     # Produce outputs
     create_xml("water_demand_electricity_CHINA.xml") %>%
       add_xml_data(electricity_water_coef_CHINA, "TechCoef") %>%
-      add_precursors("gcam-china/electricity_water_coef_CHINA") ->
+      add_precursors("gcam-china/electricity_water_coef_CHINA",
+                     "gcam-china/electricity_water_coef_HK_direct_seawater") ->
       water_demand_electricity_CHINA.xml
 
     return_data(water_demand_electricity_CHINA.xml)

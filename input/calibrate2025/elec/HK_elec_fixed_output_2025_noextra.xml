@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <!--
+    HK electricity 2025 fixed-output scenario.
+    Units: EJ electricity output.
+    Target totals:
+    - coal: 0.04536
+    - biomass: 0.00098
+    - gas: 0.087
+    - refined liquids: 0.00165
+    - solar: 0.001
+    - wind: 3.6e-06
+    Allocation method:
+    - Coal, gas, refined liquids, biomass and solar are allocated to HK load-segment technologies using 2021 calibrated CalDataOutput shares from the v8 HK elec_segments file.
+    - Wind is assigned to wind_base because 2021 calibrated wind output is zero while the scenario target is positive.
+    - Hydropower sections are intentionally omitted.
+    - Non-target centralized generation technologies are set to fixedOutput=0 and share-weight=0 for 2025 to avoid extra generation.
+  -->
+  <world>
+    <region name="HK">
+
+      <pass-through-sector name="elect_td_bld">
+        <subsector name="rooftop_pv">
+          <stub-technology name="rooftop_pv">
+            <period year="2025">
+              <fixedOutput>0.00125</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+      <pass-through-sector name="base load generation">
+        <subsector name="coal">
+          <stub-technology name="coal_base_conv pul">
+            <period year="2025">
+              <fixedOutput>0.0126</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_base_CC">
+            <period year="2025">
+              <fixedOutput>0.079</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_base_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_base_steam/CT">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass_base_conv">
+            <period year="2025">
+              <fixedOutput>0.00049</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_conv_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="nuclear">
+          <stub-technology name="nuc_base_Gen II">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="nuc_base_Gen III">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_base">
+            <period year="2025">
+              <fixedOutput>3.6e-06</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_storage">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_offshore">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_base_storage">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_base_storage">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="intermediate generation">
+        <subsector name="coal">
+          <stub-technology name="coal_int_conv pul">
+            <period year="2025">
+              <fixedOutput>0.029</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_int_CC">
+            <period year="2025">
+              <fixedOutput>0.00435</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_int_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_int_steam/CT">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass_int_conv">
+            <period year="2025">
+              <fixedOutput>0.00049</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_conv_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_int">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_int">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_int">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="subpeak generation">
+        <subsector name="coal">
+          <stub-technology name="coal_subpeak_conv pul">
+            <period year="2025">
+              <fixedOutput>0.00011</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_subpeak_steam/CT">
+            <period year="2025">
+              <fixedOutput>0.00355</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC">
+            <period year="2025">
+              <fixedOutput>0.00081</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_subpeak_steam/CT">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_subpeak">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_subpeak">
+            <period year="2025">
+              <fixedOutput>0.001</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_subpeak">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="peak generation">
+        <subsector name="coal">
+          <stub-technology name="coal_peak_conv pul">
+            <period year="2025">
+              <fixedOutput>0.00325</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_peak_steam/CT">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_peak_steam/CT">
+            <period year="2025">
+              <fixedOutput>0.00165</fixedOutput>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC_CCS">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV_peak">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_peak">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="grid_storage">
+          <stub-technology name="battery">
+            <period year="2025">
+              <fixedOutput>0</fixedOutput>
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+    </region>
+  </world>
+</scenario>

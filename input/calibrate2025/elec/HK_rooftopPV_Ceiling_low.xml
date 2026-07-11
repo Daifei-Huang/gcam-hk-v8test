@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="HK">
+         
+         <policy-portfolio-standard name="rooftopPV-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+               <min-price year="2030" fillout="1">0</min-price>
+            
+               <constraint year="2030">0.0015</constraint>
+               <constraint year="2035">0.0020</constraint>
+               <constraint year="2040">0.0025</constraint>
+               <constraint year="2045">0.0030</constraint>
+               <constraint year="2050">0.00317</constraint>
+               <constraint year="2055">0.00317</constraint>
+               <constraint year="2060">0.00317</constraint>
+         </policy-portfolio-standard>
+
+         <pass-through-sector name="elect_td_bld">
+            <subsector name="rooftop_pv">
+               <stub-technology name="rooftop_pv">
+                  <period year="2030">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2035">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2040">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2045">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2050">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2055">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+                  <period year="2060">
+                     <input-tax name="rooftopPV-gen-C"/>
+                  </period>
+               </stub-technology>
+            </subsector>
+         </pass-through-sector>
+
+      </region>
+   </world>
+</scenario>

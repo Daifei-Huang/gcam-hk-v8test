@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="HK">
+
+         <policy-portfolio-standard name="coal-gen-F">
+            <policyType>subsidy</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.044</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="gas-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.0872</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="oil-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.001200</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="wind-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.000004</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="solar-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.0011</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="rooftopPV-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.00125</constraint>
+         </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="biomass-gen-C">
+            <policyType>tax</policyType>
+            <market>HK</market>
+            <constraint year="2025">0.000978</constraint>
+         </policy-portfolio-standard>
+
+      </region>
+   </world>
+</scenario>

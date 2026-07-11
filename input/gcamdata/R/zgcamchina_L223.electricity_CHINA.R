@@ -360,15 +360,63 @@ module_gcamchina_L223.electricity <- function(command, ...) {
     # PART 3: THE PROVINCES
     # All tables for which processing is identical are done by a function.
     # This applies to the supplysectors, subsectors, and stub tech characteristics of the provinces
-    process_CHINA_to_provinces <- function(data, noHKMC = TRUE) {
+    # process_CHINA_to_provinces <- function(data, noHKMC = TRUE) {
+    #   province <- region <- grid.region <- subsector <- market.name <-
+    #     minicam.energy.input <- NULL  # silence package check notes
+    #
+    #   if(noHKMC) {
+    #     data_new <- data %>%
+    #       filter(region == gcamchina.REGION) %>%
+    #       write_to_all_provinces(names(data),gcamchina.PROVINCES_NOHKMC)
+    #   } else {
+    #     data_new <- data %>%
+    #       filter(region == gcamchina.REGION) %>%
+    #       write_to_all_provinces(names(data),gcamchina.PROVINCES_ALL)
+    #   }
+    #
+    #   if("subsector" %in% names(data_new)) {
+    #     data_new <- data_new %>%
+    #       filter(!paste(region, subsector) %in% geo_provinces_noresource)
+    #   }
+    #
+    #   # Re-set markets from China to regional markets, if called for in the GCAM-China assumptions for selected fuels
+    #   if(gcamchina.USE_REGIONAL_FUEL_MARKETS & "market.name" %in% names(data_new)) {
+    #     data_new <- data_new %>%
+    #       left_join_error_no_match(select(province_names_mappings,province, grid.region), by = c("region" = "province")) %>%
+    #       mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
+    #                                    grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
+    #       select(-grid.region)
+    #   }
+    #
+    #   data_new
+    # }
+    #
+    #
+    # # logit tables need to include HK and MC
+    # process_CHINA_to_provinces(L223.Supplysector_elec, noHKMC = FALSE) -> L223.Supplysector_elec_CHINA
+    # process_CHINA_to_provinces(L223.SubsectorLogit_elec, noHKMC = FALSE) -> L223.SubsectorLogit_elec_CHINA
+    # process_CHINA_to_provinces(L223.ElecReserve, noHKMC = FALSE) -> L223.ElecReserve_CHINA
+    #
+    # # other tables need to exclude HK and MC
+    # process_CHINA_to_provinces(L223.SubsectorShrwtFllt_elec) -> L223.SubsectorShrwtFllt_elec_CHINA
+    # process_CHINA_to_provinces(L223.SubsectorShrwt_nuc) -> L223.SubsectorShrwt_nuc_CHINA
+    # process_CHINA_to_provinces(L223.SubsectorShrwt_renew) -> L223.SubsectorShrwt_renew_CHINA
+    # process_CHINA_to_provinces(L223.SubsectorInterp_elec) -> L223.SubsectorInterp_elec_CHINA
+    # process_CHINA_to_provinces(L223.SubsectorInterpTo_elec) -> L223.SubsectorInterpTo_elec_CHINA
+    # process_CHINA_to_provinces(L223.StubTech_elec) -> L223.StubTech_elec_CHINA
+    # process_CHINA_to_provinces(L223.StubTechEff_elec) -> L223.StubTechEff_elec_CHINA
+    # process_CHINA_to_provinces(L223.StubTechCapFactor_elec) -> L223.StubTechCapFactor_elec_CHINA
+
+
+    # *** for HK version *** // Daifei 11/07/2026
+    process_CHINA_to_provinces <- function(data, noMC = TRUE) {
       province <- region <- grid.region <- subsector <- market.name <-
         minicam.energy.input <- NULL  # silence package check notes
 
-      if(noHKMC) {
+      if(noMC) {
         data_new <- data %>%
           filter(region == gcamchina.REGION) %>%
-          # write_to_all_provinces(names(data),gcamchina.PROVINCES_NOHKMC)
-          write_to_all_provinces(names(data),gcamchina.PROVINCES_NOMC) # *** for HK version *** //
+          write_to_all_provinces(names(data),gcamchina.PROVINCES_NOMC)
       } else {
         data_new <- data %>%
           filter(region == gcamchina.REGION) %>%
@@ -392,11 +440,13 @@ module_gcamchina_L223.electricity <- function(command, ...) {
       data_new
     }
 
-    # logit tables need to include HK and MC
-    process_CHINA_to_provinces(L223.Supplysector_elec, noHKMC = FALSE) -> L223.Supplysector_elec_CHINA
-    process_CHINA_to_provinces(L223.SubsectorLogit_elec, noHKMC = FALSE) -> L223.SubsectorLogit_elec_CHINA
-    process_CHINA_to_provinces(L223.ElecReserve, noHKMC = FALSE) -> L223.ElecReserve_CHINA
 
+    # logit tables need to include HK and MC
+    process_CHINA_to_provinces(L223.Supplysector_elec, noMC = FALSE) -> L223.Supplysector_elec_CHINA
+    process_CHINA_to_provinces(L223.SubsectorLogit_elec, noMC = FALSE) -> L223.SubsectorLogit_elec_CHINA
+    process_CHINA_to_provinces(L223.ElecReserve, noMC = FALSE) -> L223.ElecReserve_CHINA
+
+    # other tables need to exclude MC
     process_CHINA_to_provinces(L223.SubsectorShrwtFllt_elec) -> L223.SubsectorShrwtFllt_elec_CHINA
     process_CHINA_to_provinces(L223.SubsectorShrwt_nuc) -> L223.SubsectorShrwt_nuc_CHINA
     process_CHINA_to_provinces(L223.SubsectorShrwt_renew) -> L223.SubsectorShrwt_renew_CHINA
@@ -405,6 +455,9 @@ module_gcamchina_L223.electricity <- function(command, ...) {
     process_CHINA_to_provinces(L223.StubTech_elec) -> L223.StubTech_elec_CHINA
     process_CHINA_to_provinces(L223.StubTechEff_elec) -> L223.StubTechEff_elec_CHINA
     process_CHINA_to_provinces(L223.StubTechCapFactor_elec) -> L223.StubTechCapFactor_elec_CHINA
+
+    # *** for HK version *** // Daifei 11/07/2026
+
 
     # NOTE: Modify the share-weight path for nuclear to include province preferences
     nuc_share_weight_assumptions %>%

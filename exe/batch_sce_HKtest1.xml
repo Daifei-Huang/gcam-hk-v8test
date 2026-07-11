@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="base">
+		<FileSet name="GCAM_"> 
+			<Value name = "climate">../input/gcamdata/xml_back/hector.xml</Value>
+			<Value name = "socioeconomics">../input/gcamdata/xml_back/socioeconomics_gSSP2.xml</Value>
+
+			<Value name = "resources">../input/gcamdata/xml_back/resources.xml</Value>
+			<Value name = "energy_supply">../input/gcamdata/xml_back/en_supply.xml</Value>
+			<Value name = "energy_transformation">../input/gcamdata/xml_back/en_transformation.xml</Value>
+			<Value name = "electricity">../input/gcamdata/xml_back/electricity.xml</Value> 
+			<Value name = "heat">../input/gcamdata/xml_back/heat.xml</Value>
+			<Value name = "hydrogen">../input/gcamdata/xml_back/hydrogen.xml</Value>
+			<Value name = "energy_distribution">../input/gcamdata/xml_back/en_distribution.xml</Value>
+			<Value name = "other_industry">../input/gcamdata/xml_back/other_industry.xml</Value>
+			<Value name = "industry_income_elas">../input/gcamdata/xml_back/other_industry_incelas_gssp2.xml</Value>
+			<Value name = "iron_steel">../input/gcamdata/xml_back/iron_steel.xml</Value>
+			<Value name = "iron_steel_income_elas">../input/gcamdata/xml_back/iron_steel_incelas_gssp2.xml</Value>   
+			<Value name = "iron_steel trade">../input/gcamdata/xml_back/iron_steel_trade.xml</Value>
+			<Value name = "Off_road">../input/gcamdata/xml_back/Off_road.xml</Value>
+			<Value name = "Off_road_income_elas">../input/gcamdata/xml_back/Off_road_incelas_gssp2.xml</Value>  
+			<Value name = "chemical">../input/gcamdata/xml_back/chemical.xml</Value>
+			<Value name = "chemical_income_elas">../input/gcamdata/xml_back/chemical_incelas_gssp2.xml</Value>   
+			<Value name = "aluminum">../input/gcamdata/xml_back/aluminum.xml</Value>
+			<Value name = "aluminum_income_elas">../input/gcamdata/xml_back/aluminum_incelas_gssp2.xml</Value> 
+			<Value name = "cement">../input/gcamdata/xml_back/cement.xml</Value>
+			<Value name = "cement_income_elas">../input/gcamdata/xml_back/cement_incelas_gssp2.xml</Value>
+			<Value name = "fertilizer_energy">../input/gcamdata/xml_back/en_Fert.xml</Value>
+			<Value name = "hddcdd">../input/gcamdata/xml_back/HDDCDD_constdd_no_GCM.xml</Value>
+			<Value name = "building">../input/gcamdata/xml_back/building_det.xml</Value>
+			<Value name = "transportation">../input/gcamdata/xml_back/transportation_UCD_CORE.xml</Value>
+			<Value name = "carbon_content">../input/gcamdata/xml_back/Ccoef.xml</Value>
+			<Value name = "carbon_storage">../input/gcamdata/xml_back/Cstorage.xml</Value>
+
+			<Value name = "ag_base">../input/gcamdata/xml_back/ag_For_Past_bio_base_IRR_MGMT.xml</Value>
+			<Value name = "ag_cost">../input/gcamdata/xml_back/ag_cost_IRR_MGMT.xml</Value>
+			<Value name = "ag_prodchange">../input/gcamdata/xml_back/ag_prodchange_ref_IRR_MGMT.xml</Value>
+			<Value name = "residue_bio">../input/gcamdata/xml_back/resbio_input_IRR_MGMT.xml</Value>
+			<Value name = "animal">../input/gcamdata/xml_back/an_input.xml</Value>
+			<Value name = "fertilizer">../input/gcamdata/xml_back/ag_Fert_IRR_MGMT.xml</Value>
+			<Value name = "land1">../input/gcamdata/xml_back/land_input_1.xml</Value>
+			<Value name = "land2">../input/gcamdata/xml_back/land_input_2.xml</Value>
+			<Value name = "land3">../input/gcamdata/xml_back/land_input_3_IRR.xml</Value>
+			<Value name = "land4">../input/gcamdata/xml_back/land_input_4_IRR_MGMT.xml</Value>
+			<Value name = "land5">../input/gcamdata/xml_back/land_input_5_IRR_MGMT.xml</Value>
+			<Value name = "protected_land2">../input/gcamdata/xml_back/protected_land_input_2.xml</Value>
+			<Value name = "protected_land3">../input/gcamdata/xml_back/protected_land_input_3.xml</Value>
+			<Value name = "demand">../input/gcamdata/xml_back/ag_an_demand_input.xml</Value>
+			<Value name = "bio_trade">../input/gcamdata/xml_back/bio_trade.xml</Value>
+			<Value name = "ag_trade">../input/gcamdata/xml_back/ag_trade.xml</Value>
+
+
+			<!-- Global nonCO2 GHG files -->
+			<Value name = "ind_urb_proc">../input/gcamdata/xml_back/ind_urb_processing_sectors.xml</Value>
+			<Value name = "nonco2_energy">../input/gcamdata/xml_back/all_energy_emissions.xml</Value>
+			<Value name = "nonco2_fgas">../input/gcamdata/xml_back/all_fgas_emissions.xml</Value>
+			<Value name = "nonco2_unmgd">../input/gcamdata/xml_back/all_unmgd_emissions.xml</Value>
+			<Value name = "nonco2_aglu">../input/gcamdata/xml_back/all_aglu_emissions_IRR_MGMT.xml</Value>
+			<Value name = "nonco2_aglu_prot">../input/gcamdata/xml_back/all_protected_unmgd_emissions.xml</Value>
+			<Value name = "nonco2_em_controls">../input/gcamdata/xml_back/emission_factor_controls.xml</Value>
+			
+			<!-- Global nonCO2 GHG MAC files -->
+			<Value name = "nonco2_energy">../input/gcamdata/xml_back/all_energy_emissions_MAC.xml</Value>
+			<Value name = "nonco2_fgas">../input/gcamdata/xml_back/all_fgas_emissions_MAC.xml</Value>
+			<Value name = "nonco2_aglu">../input/gcamdata/xml_back/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
+			<Value name = "nonco2_proc">../input/gcamdata/xml_back/ind_urb_processing_sectors_MAC.xml</Value> 
+			
+			<Value name = "bio_feedstock_limit">../input/gcamdata/xml_back/liquids_limits.xml</Value>
+			<Value name = "bio_neg_emiss_budget">../input/gcamdata/xml_back/negative_emissions_budget_gSSP2.xml</Value>
+			<Value name = "bio_externality">../input/gcamdata/xml_back/bio_externality.xml</Value>
+			<Value name = "wind_update">../input/gcamdata/xml_back/onshore_wind.xml</Value>
+			<Value name = "gas_trade">../input/gcamdata/xml_back/gas_trade.xml</Value>   
+			
+			<Value name = "socio_china">../input/gcamdata/xml_back/socioeconomics_CHINA.xml</Value>
+
+			<Value name = "rsrc_china">../input/gcamdata/xml_back/resources_CHINA.xml</Value>
+			<Value name = "Cstorage_china">../input/gcamdata/xml_back/Cstorage_CHINA.xml</Value>
+			<Value name = "prices_china">../input/gcamdata/xml_back/en_prices_CHINA.xml</Value>
+			<Value name = "tform_china">../input/gcamdata/xml_back/en_transformation_CHINA.xml</Value>
+			<Value name = "elec_china">../input/gcamdata/xml_back/elec_segments_CHINA.xml</Value> 
+			<Value name = "heat_china">../input/gcamdata/xml_back/heat_china.xml</Value> 
+			<Value name = "h2_china">../input/gcamdata/xml_back/hydrogen_CHINA.xml</Value>
+			<Value name = "elec_china">../input/gcamdata/xml_back/electricity_nuclear_CHINA.xml</Value>
+			<Value name = "elect_td_china">../input/gcamdata/xml_back/electd_CHINA.xml</Value>
+
+
+
+			<Value name = "bld_china">../input/gcamdata/xml_back/building_CHINA.xml</Value>
+			<Value name = "trn_china">../input/gcamdata/xml_back//transportation_CHINA.xml</Value>
+		
+			<Value name = "ind_china">../input/gcamdata/xml_back/industry_CHINA_high_demand.xml</Value>
+			<Value name = "ind_china">../input/gcamdata/xml_back/detailed_industry_CHINA.xml</Value>	
+			<Value name = "ind_china">../input/gcamdata/xml_back/iron_steel_incelas_gssp2_china.xml</Value>	
+			<Value name = "ind_china">../input/gcamdata/xml_back/other_industry_incelas_gssp2_china.xml</Value>	
+			<Value name = "trade_iron_steel_China_offset">../input/extra/trade_iron_steel_China_offset.xml</Value> 
+			<Value name = "cmnt_china">../input/gcamdata/xml_back/cement_CHINA.xml</Value>
+			<Value name = "fert_china">../input/gcamdata/xml_back/Fert_CHINA.xml</Value>
+
+			<Value name = "liq_lim_china">../input/gcamdata/xml_back/liquids_limits_CHINA.xml</Value>
+			<Value name = "neg_emiss_china">../input/gcamdata/xml_back/negative_emissions_budget_CHINA_gSSP2.xml</Value>
+
+
+			<Value name = "trn_china">../input/gcamdata/xml_add/transportation_CHINA_rev.xml</Value>
+
+			
+		</FileSet>
+	</ComponentSet>
+	<ComponentSet name="policy Harmonized">
+		<FileSet name="Current_BAU">
+			<Value name = "social">../input/policy/policy_share/Current policy/socialeconomic_CHINA_add.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_11_hydro_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_9_nuclear_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_4_wind_solar_lowerbound.xml</Value>
+			<Value name = "industry">../input/policy/policy_share/Current policy/policy_17_EAF_ratio.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_20_steel_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_22_cement_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_15_chemical_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_14_other_industry_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Current policy/GlobalTranTech_NG_0.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Current policy/policy_48_tran_BUSandTruck.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_44_passroad_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_45_freight_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_51_aviation_coef.xml</Value>
+			<Value name = "electricity">../input/policy/policy_eff/Current policy/policy_1_elec_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Current policy/policy_35_comm_bld_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Current policy/policy_34_resid_bld_eff.xml</Value>
+
+			<!-- delete HK MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces.xml</Value>
+			<Value name = "solver">../input/solution/cal_broyden_config_heat_solve2.xml</Value>
+			<Value name = "dac">../input/gcamdata/xml_back/dac_ssp3.xml</Value>
+			<Value name = "DAC">../input/gcamdata/xml_back/dac_china_ssp3.xml</Value>
+			<Value name = "delete_wind">../input/extra/delete_invalid_provinces_offshore_wind.xml</Value>
+		</FileSet>
+		
+
+
+		<FileSet name="Continued_BAU">
+			<Value name = "social">../input/policy/policy_share/Continued/socialeconomic_CHINA_add.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_11_hydro_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_9_nuclear_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_4_wind_solar_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_12_coal_phase_out_tech.xml</Value>
+			<Value name = "industry">../input/policy/policy_share/Continued/policy_17_EAF_ratio.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_20_steel_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_22_cement_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_15_chemical_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_14_other_industry_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/GlobalTranTech_NG_0.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/policy_48_tran_BUSandTruck.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/policy_48_ldv_Ratio.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_44_passroad_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_45_freight_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_51_aviation_coef.xml</Value>
+			<Value name = "electricity">../input/policy/policy_eff/Continued/policy_1_elec_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Continued/policy_35_comm_bld_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Continued/policy_34_resid_bld_eff.xml</Value>
+
+			<!-- delete HK MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces.xml</Value>
+			<Value name = "solver">../input/solution/cal_broyden_config_heat_solve2.xml</Value>
+			<Value name = "dac">../input/gcamdata/xml_back/dac_ssp3.xml</Value>
+			<Value name = "DAC">../input/gcamdata/xml_back/dac_china_ssp3.xml</Value>
+			<Value name = "delete_wind">../input/extra/delete_invalid_provinces_offshore_wind.xml</Value>
+
+		</FileSet>		
+
+		<FileSet name="Current_NetZero">
+			<Value name = "social">../input/policy/policy_share/Current policy/socialeconomic_CHINA_add.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_11_hydro_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_9_nuclear_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Current policy/policy_4_wind_solar_lowerbound.xml</Value>
+			<Value name = "industry">../input/policy/policy_share/Current policy/policy_17_EAF_ratio.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_20_steel_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_22_cement_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_15_chemical_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Current policy/policy_14_other_industry_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Current policy/GlobalTranTech_NG_0.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Current policy/policy_48_tran_BUSandTruck.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_44_passroad_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_45_freight_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Current policy/policy_51_aviation_coef.xml</Value>
+			<Value name = "electricity">../input/policy/policy_eff/Current policy/policy_1_elec_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Current policy/policy_35_comm_bld_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Current policy/policy_34_resid_bld_eff.xml</Value>
+
+			<Value name = "long-term-co2">../input/policy/CN_policy/carbon_tax_CN.xml</Value>
+			<!-- delete HK MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces.xml</Value>
+			<Value name = "solver">../input/solution/cal_broyden_config_heat_solve2.xml</Value>
+			<Value name = "dac">../input/gcamdata/xml_back/dac_ssp3.xml</Value>
+			<Value name = "DAC">../input/gcamdata/xml_back/dac_china_ssp3.xml</Value>
+			<Value name = "delete_wind">../input/extra/delete_invalid_provinces_offshore_wind.xml</Value>
+			<Value name = "Emis_constraint">../input/policy/CN_policy/carbon_cap_current_2060_CN.xml</Value>
+			<Value name = "CO2_UCT">../input/policy/CN_policy/globalUCT_price_adj_1_CN.xml</Value>
+
+		</FileSet>
+
+
+		<FileSet name="Continued_NetZero">
+			<Value name = "social">../input/policy/policy_share/Continued/socialeconomic_CHINA_add.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_11_hydro_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_9_nuclear_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_4_wind_solar_lowerbound.xml</Value>
+
+			<Value name = "electricity">../input/policy/policy_share/Continued/policy_12_coal_phase_out_tech.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_share/Continued/policy_17_EAF_ratio.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_20_steel_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_22_cement_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_15_chemical_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/Continued/policy_14_other_industry_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/GlobalTranTech_NG_0.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/policy_48_tran_BUSandTruck.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/Continued/policy_48_ldv_Ratio.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_44_passroad_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_45_freight_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/Continued/policy_51_aviation_coef.xml</Value>
+			<Value name = "electricity">../input/policy/policy_eff/Continued/policy_1_elec_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Continued/policy_35_comm_bld_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/Continued/policy_34_resid_bld_eff.xml</Value>
+
+			<Value name = "long-term-co2">../input/policy/CN_policy/carbon_tax_CN.xml</Value>
+			<!-- delete HK MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces.xml</Value>
+			<Value name = "solver">../input/solution/cal_broyden_config_heat_solve2.xml</Value>
+			<Value name = "dac">../input/gcamdata/xml_back/dac_ssp3.xml</Value>
+			<Value name = "DAC">../input/gcamdata/xml_back/dac_china_ssp3.xml</Value>
+			<Value name = "delete_wind">../input/extra/delete_invalid_provinces_offshore_wind.xml</Value>
+			<Value name = "Emis_constraint">../input/policy/CN_policy/carbon_cap_continued_2060_CN.xml</Value>
+			<Value name = "CO2_UCT">../input/policy/CN_policy/globalUCT_price_adj_1_CN.xml</Value>
+
+
+		</FileSet>		
+
+		<FileSet name="1p5">
+			<Value name = "social">../input/policy/policy_share/1p5/socialeconomic_CHINA_add.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/1p5/policy_11_hydro_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/1p5/policy_9_nuclear_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/1p5/policy_4_wind_solar_lowerbound.xml</Value>
+			<Value name = "electricity">../input/policy/policy_share/1p5/policy_12_coal_phase_out_tech.xml</Value>
+			<Value name = "industry">../input/policy/policy_share/1p5/policy_17_EAF_ratio.xml</Value>
+
+			<Value name = "industry">../input/policy/policy_eff/1p5/policy_20_steel_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/1p5/policy_22_cement_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/1p5/policy_15_chemical_coef.xml</Value>
+			<Value name = "industry">../input/policy/policy_eff/1p5/policy_14_other_industry_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/1p5/GlobalTranTech_NG_0.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/1p5/policy_48_tran_BUSandTruck.xml</Value>
+			<Value name = "Tran">../input/policy/policy_share/1p5/policy_48_ldv_Ratio.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/1p5/policy_44_passroad_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/1p5/policy_45_freight_coef.xml</Value>
+			<Value name = "Tran">../input/policy/policy_eff/1p5/policy_51_aviation_coef.xml</Value>
+			<Value name = "electricity">../input/policy/policy_eff/1p5/policy_1_elec_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/1p5/policy_35_comm_bld_eff.xml</Value>
+			<Value name = "building">../input/policy/policy_eff/1p5/policy_34_resid_bld_eff.xml</Value>
+
+
+		
+			<!-- delete HK MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces.xml</Value>
+			<Value name = "solver">../input/solution/cal_broyden_config_heat_solve2.xml</Value>
+			<Value name = "dac">../input/gcamdata/xml_back/dac_ssp3.xml</Value>
+			<Value name = "DAC">../input/gcamdata/xml_back/dac_china_ssp3.xml</Value>
+			<Value name = "delete_wind">../input/extra/delete_invalid_provinces_offshore_wind.xml</Value>
+
+			<Value name = "long-term-co2">../input/policy/CN_policy/carbon_tax_CN1p5.xml</Value>
+			<Value name = "CO2_UCT">../input/policy/CN_policy/globalUCT_price_adj_1_CN.xml</Value>
+			<Value name = "Emis_constraint">../input/policy/CN_policy/carbon_cap_1p5_2060_CN.xml</Value>
+		</FileSet>		
+	</ComponentSet>
+
+</BatchRunner>
+
+
+

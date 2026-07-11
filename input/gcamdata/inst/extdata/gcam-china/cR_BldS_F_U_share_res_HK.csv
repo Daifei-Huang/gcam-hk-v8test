@@ -9,7 +9,7 @@ climate.region,sector,fuel,heating modern,cooling modern,lighting modern,hot wat
 HSWW,resid_urban,biomass,1,0,0,0,0
 HSWW,resid_urban,traditional biomass,0,0,0,0,0
 HSWW,resid_urban,coal,0,0,0,1,0
-HSWW,resid_urban,electricity,0.0018455,0.3580313,0.06716992,0.2511533,0.3218
+HSWW,resid_urban,electricity,0.0019,0.3953902,0.060572,0.28464136,0.25749644
 HSWW,resid_urban,gas,0,0,0,1,0
 HSWW,resid_urban,refined liquids,0,0,0,1,0
 HSWW,resid_urban,heat,0,0,0,0,0

@@ -61,6 +61,19 @@ module_gcamchina_L154.Transport <- function(command, ...) {
         left_join_error_no_match(trnUCD_NBS_mapping, by = c("fuel", "mode")) ->
         L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
 
+      # # To delete the conflict size class caused by Hong Kong and Macau
+      # L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
+      #   mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "All"),
+      #          size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)"),
+      #          size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)"),
+      #          size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)"),
+      #          size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
+      #   group_by(GCAM_region_ID, UCD_sector, mode, size.class, UCD_fuel, UCD_technology, fuel, year, EBProcess, EBMaterial) %>%
+      #   summarise(value = sum(value)) %>%
+      #   ungroup ->
+      #   L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
+
+      # *** for HK version *** // Daifei 26/11/2025 There is no row would be replaced actually
       # To delete the conflict size class caused by Hong Kong and Macau
       L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
         mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "All"),
@@ -72,6 +85,7 @@ module_gcamchina_L154.Transport <- function(command, ...) {
         summarise(value = sum(value)) %>%
         ungroup ->
         L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
+      # *** for HK version *** // Daifei 26/11/2025 There is no row would be replaced actually
 
 
       # Next, extract the relevant NBS sector & fuel combinations from the full provincial database

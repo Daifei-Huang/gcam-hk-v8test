@@ -1,0 +1,3175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <pass-through-sector name="base load generation">
+        <subsector name="coal">
+          <stub-technology name="coal_base_conv pul">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_base_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_base_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_base_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="intermediate generation">
+        <subsector name="coal">
+          <stub-technology name="coal_int_conv pul">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_int_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_int_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_int_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="subpeak generation">
+        <subsector name="coal">
+          <stub-technology name="coal_subpeak_conv pul">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_subpeak_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_subpeak_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="peak generation">
+        <subsector name="coal">
+          <stub-technology name="coal_peak_conv pul">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas_peak_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids_peak_steam/CT">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC_CCS">
+            <period year="2025">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2030">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2035">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2040">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2045">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2050">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2055">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2060">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2065">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2070">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2075">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2080">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2085">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2090">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2095">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+            <period year="2100">
+              <profit-shutdown-decider name="profit-shutdown">
+                <median-shutdown-point>0</median-shutdown-point>
+                <steepness>8</steepness>
+              </profit-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+    </region>
+  </world>
+</scenario>

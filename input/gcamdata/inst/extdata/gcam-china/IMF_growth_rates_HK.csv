@@ -1,0 +1,13 @@
+# File: IMF_growth_rates_HK.csv
+# Title: GDP growth rates for Hong Kong
+# Units: N/A
+# Description: GDP per capita growth rates
+# Source:  IMF GDP per capita growth rates-World Economic Outlook (April 2020) https://www.imf.org/external/datamapper/NGDPDPC@WEO/HKG/CHN/WEOWORLD
+# Column types: nn
+# ----------
+Year,IMF growth rate
+2020,0.0102
+2021,0.02772
+2022,-0.00371
+2023,0.0146
+2024,0.0215

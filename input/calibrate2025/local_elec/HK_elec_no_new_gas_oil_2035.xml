@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+        <!-- refer to https://github.com/JGCRI/seasia/blob/main/modeling/malaysia/sectoral_policies/elec_no_new_coal.xml -->
+        <!--  -->
+        <!-- which means the increment would be zero since 2035 -->
+
+        <pass-through-sector name="base load generation">
+            <subsector name="gas">
+                <stub-technology name="gas_base_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_base_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+            <subsector name="refined liquids">
+                <stub-technology name="refined liquids_base_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_base_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_base_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+        <pass-through-sector name="intermediate generation">
+            <subsector name="gas">
+                <stub-technology name="gas_int_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_int_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+            <subsector name="refined liquids">
+                <stub-technology name="refined liquids_int_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_int_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_int_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+        <pass-through-sector name="subpeak generation">
+            <subsector name="gas">
+                <stub-technology name="gas_subpeak_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_subpeak_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_subpeak_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+            <subsector name="refined liquids">
+                <stub-technology name="refined liquids_subpeak_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_subpeak_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_subpeak_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+      
+        <pass-through-sector name="peak generation">
+            <subsector name="gas">
+                <stub-technology name="gas_peak_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_peak_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="gas_peak_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+            <subsector name="refined liquids">
+                <stub-technology name="refined liquids_peak_steam/CT">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_peak_CC">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+                <stub-technology name="refined liquids_peak_CC_CCS">
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" delete="1">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                    <period year="2035">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2100">
+                        <share-weight>0</share-weight>
+                    </period>
+                    <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100">
+                        <interpolation-function name="fixed" />
+                    </interpolation-rule>
+                </stub-technology>
+            </subsector>
+        </pass-through-sector>
+
+
+    </region>
+  </world>
+</scenario>

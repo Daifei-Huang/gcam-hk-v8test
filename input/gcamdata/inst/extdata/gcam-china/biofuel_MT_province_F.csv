@@ -2,10 +2,10 @@
 # Title: Ethanol and biodiesel production
 # Units: MT
 # Source: http://www.egnret.ewg.apec.org/Archive/me_china.html 
-# Column types: cciiiiiiii
+# Column types: ccnnnnnnn
 # ----------
 province,fuel,2006,2007,2008,2009,2010,2015,2021
-HL,ethanol,127,127,127,127,127,127,127
+HL,ethanol,127,127,127,127,127,127,127.0
 JL,ethanol,887,887,887,887,887,887,887
 HA,ethanol,380,380,380,380,380,380,380
 AH,ethanol,405,405,405,405,405,405,405
@@ -16,3 +16,4 @@ HB,ethanol,0,0,300,300,300,300,300
 FJ,biodiesel,10,10,10,10,10,10,10
 SC,biodiesel,10,10,10,10,10,10,10
 HI,biodiesel,10,10,10,10,10,10,10
+HK,biodiesel,0,0,0,0,0,0.004,0.005

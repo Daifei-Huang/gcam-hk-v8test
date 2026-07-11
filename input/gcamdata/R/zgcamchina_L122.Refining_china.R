@@ -97,7 +97,8 @@ module_gcamchina_L122.Refining <- function(command, ...) {
       mutate(fuel = 'corn', sector = "corn ethanol") %>%
       # ensure all provinces are in the data.frame even though they will just be NA
       complete(sector, fuel, province = province_names_mappings$province, year = HISTORICAL_YEARS) %>%
-      filter(!(province %in% c("HK","MC"))) %>%
+      # filter(!(province %in% c("HK","MC"))) %>%
+      filter(!(province %in% c("MC"))) %>% # *** for HK version *** // Daifei 02/07/2026
       #Evenly distributed in 2005
       mutate(value = if_else( (year == 2005) & (is.na(value) ), 1, value)) %>%
       group_by(year) %>%
@@ -135,12 +136,13 @@ module_gcamchina_L122.Refining <- function(command, ...) {
       filter(fuel == "biodiesel") %>%
       complete(nesting(fuel, province), year = HISTORICAL_YEARS) %>%
       group_by(province, fuel) %>%
-      mutate(value = approx_fun(year, value, rule = 1)) %>%
+      mutate(value = as.numeric(value), value = approx_fun(year, value, rule = 1)) %>%
       ungroup() %>%
       # ensure all provinces are in the data.frame even thugh they will just be NA
       mutate(fuel = 'biomass oil', sector = "biodiesel") %>%
       complete(sector, fuel, province = province_names_mappings$province, year = HISTORICAL_YEARS) %>%
-      filter(!(province %in% c("HK","MC"))) %>%
+      # filter(!(province %in% c("HK","MC"))) %>%
+      filter(!(province %in% c("MC"))) %>% # *** for HK version *** // Daifei 02/07/2026
       #Evenly distributed in 2005
       mutate(value = if_else((year == 2005)&(is.na(value)),1,value)) %>%
       group_by(year) %>%
@@ -177,7 +179,8 @@ module_gcamchina_L122.Refining <- function(command, ...) {
       filter(sector == "refinery", fuel == "coal") %>%
       mutate(sector = "ctl") %>%
       complete(sector, fuel, province = province_names_mappings$province, year = HISTORICAL_YEARS) %>%
-      filter(!(province %in% c("HK","MC"))) %>%
+      # filter(!(province %in% c("HK","MC"))) %>%
+      filter(!(province %in% c("MC"))) %>% # *** for HK version *** // Daifei 02/07/2026
       mutate(value = replace_na(if_else(value<0,-value,value),0)) %>%
       #Evenly distributed in 2005
       mutate(value = if_else((year == 2005)&(is.na(value)),1,value)) %>%
@@ -218,7 +221,8 @@ module_gcamchina_L122.Refining <- function(command, ...) {
       filter(sector == "refinery", fuel == "gas") %>%
       mutate(sector = "gtl") %>%
       complete(sector, fuel, province = province_names_mappings$province, year = HISTORICAL_YEARS) %>%
-      filter(!(province %in% c("HK","MC"))) %>%
+      # filter(!(province %in% c("HK","MC"))) %>%
+      filter(!(province %in% c("MC"))) %>% # *** for HK version *** // Daifei 02/07/2026
       mutate(value = replace_na(if_else(value<0,-value,value),0)) %>%
       #Evenly distributed in 2005
       mutate(value = if_else((year == 2005)&(is.na(value)),1,value)) %>%

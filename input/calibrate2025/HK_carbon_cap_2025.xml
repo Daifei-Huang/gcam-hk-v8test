@@ -1,0 +1,12 @@
+<scenario name="HK2025">
+	<world>
+        <!-- Hong Kong -->	
+		<region name="HK">
+			<ghgpolicy name="CO2">
+				<market>HK</market>
+            	<constraint year="2025">8.94</constraint>
+			</ghgpolicy>
+		</region>
+		
+	</world>
+</scenario>

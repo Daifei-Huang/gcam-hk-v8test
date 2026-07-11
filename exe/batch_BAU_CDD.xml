@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+	<ComponentSet name="base">
+		<FileSet name="BAU_"> 
+            <Value name = "climate">../input/gcamdata/xml_HKEnBal/hector.xml</Value>
+			<Value name = "socioeconomics">../input/gcamdata/xml_HKEnBal/socioeconomics_gSSP2.xml</Value>
+
+			<Value name = "resources">../input/gcamdata/xml_HKEnBal/resources.xml</Value>
+			<Value name = "energy_supply">../input/gcamdata/xml_HKEnBal/en_supply.xml</Value>
+			<Value name = "energy_transformation">../input/gcamdata/xml_HKEnBal/en_transformation.xml</Value>
+			<Value name = "electricity">../input/gcamdata/xml_HKEnBal/electricity.xml</Value>
+			<!--Value name = "elec_water_base">../input/gcamdata/xml_HKEnBal/electricity_water.xml</Value-->
+			<Value name = "heat">../input/gcamdata/xml_HKEnBal/heat.xml</Value>
+			<Value name = "hydrogen">../input/gcamdata/xml_HKEnBal/hydrogen_without_water.xml</Value>
+			<Value name = "energy_distribution">../input/gcamdata/xml_HKEnBal/en_distribution.xml</Value>
+			<Value name = "other_industry">../input/gcamdata/xml_HKEnBal/other_industry.xml</Value>
+			<Value name = "industry_income_elas">../input/gcamdata/xml_HKEnBal/other_industry_incelas_gssp2.xml</Value>
+			<Value name = "iron_steel">../input/gcamdata/xml_HKEnBal/iron_steel.xml</Value>
+			<Value name = "iron_steel_income_elas">../input/gcamdata/xml_HKEnBal/iron_steel_incelas_gssp2.xml</Value>   
+			<Value name = "iron_steel trade">../input/gcamdata/xml_HKEnBal/iron_steel_trade.xml</Value>
+			<Value name = "Off_road">../input/gcamdata/xml_HKEnBal/Off_road.xml</Value>
+			<Value name = "Off_road_income_elas">../input/gcamdata/xml_HKEnBal/Off_road_incelas_gssp2.xml</Value>  
+			<Value name = "chemical">../input/gcamdata/xml_HKEnBal/chemical.xml</Value>
+			<Value name = "chemical_income_elas">../input/gcamdata/xml_HKEnBal/chemical_incelas_gssp2.xml</Value>   
+			<Value name = "aluminum">../input/gcamdata/xml_HKEnBal/aluminum.xml</Value>
+			<Value name = "aluminum_income_elas">../input/gcamdata/xml_HKEnBal/aluminum_incelas_gssp2.xml</Value> 
+			<Value name = "paper">../input/gcamdata/xml_HKEnBal/paper.xml</Value>
+			<Value name = "paper_income_elas">../input/gcamdata/xml_HKEnBal/paper_incelas_gssp2.xml</Value> 
+			<Value name = "food_processing">../input/gcamdata/xml_HKEnBal/food_processing.xml</Value>
+			<Value name = "cement">../input/gcamdata/xml_HKEnBal/cement.xml</Value>
+			<Value name = "cement_income_elas">../input/gcamdata/xml_HKEnBal/cement_incelas_gssp2.xml</Value>
+			<Value name = "fertilizer_energy">../input/gcamdata/xml_HKEnBal/en_Fert.xml</Value>
+			<Value name = "hddcdd">../input/gcamdata/xml_HKEnBal/HDDCDD_constdd_no_GCM.xml</Value>
+			<Value name = "building">../input/gcamdata/xml_HKEnBal/building_det.xml</Value>
+			<Value name = "transportation">../input/gcamdata/xml_HKEnBal/transportation_UCD_CORE.xml</Value>
+			<Value name = "carbon_content">../input/gcamdata/xml_HKEnBal/Ccoef.xml</Value>
+			<Value name = "carbon_storage">../input/gcamdata/xml_HKEnBal/Cstorage.xml</Value>
+
+			<Value name = "ag_base">../input/gcamdata/xml_HKEnBal/ag_For_Past_bio_base_IRR_MGMT.xml</Value>
+			<Value name = "ag_cost">../input/gcamdata/xml_HKEnBal/ag_cost_IRR_MGMT.xml</Value>
+			<Value name = "ag_prodchange">../input/gcamdata/xml_HKEnBal/ag_prodchange_ref_IRR_MGMT.xml</Value>
+			<Value name = "residue_bio">../input/gcamdata/xml_HKEnBal/resbio_input_IRR_MGMT.xml</Value>
+			<Value name = "animal">../input/gcamdata/xml_HKEnBal/an_input.xml</Value>
+			<Value name = "fertilizer">../input/gcamdata/xml_HKEnBal/ag_Fert_IRR_MGMT.xml</Value>
+			<Value name = "land1">../input/gcamdata/xml_HKEnBal/land_input_1.xml</Value>
+			<Value name = "land2">../input/gcamdata/xml_HKEnBal/land_input_2.xml</Value>
+			<Value name = "land3">../input/gcamdata/xml_HKEnBal/land_input_3_IRR.xml</Value>
+			<Value name = "land4">../input/gcamdata/xml_HKEnBal/land_input_4_IRR_MGMT.xml</Value>
+			<Value name = "land5">../input/gcamdata/xml_HKEnBal/land_input_5_IRR_MGMT.xml</Value>
+			<Value name = "protected_land2">../input/gcamdata/xml_HKEnBal/protected_land_input_2.xml</Value>
+			<Value name = "protected_land3">../input/gcamdata/xml_HKEnBal/protected_land_input_3.xml</Value>
+			<Value name = "demand">../input/gcamdata/xml_HKEnBal/ag_an_demand_input.xml</Value>
+			<Value name = "demand_paper">../input/gcamdata/xml_HKEnBal/paper_delete_ag_demand_China.xml</Value>
+			<Value name = "bio_trade">../input/gcamdata/xml_HKEnBal/bio_trade.xml</Value>
+			<Value name = "ag_trade">../input/gcamdata/xml_HKEnBal/ag_trade.xml</Value>
+			
+			<Value name = "ag_storage">../input/gcamdata/xml_HKEnBal/ag_storage.xml</Value>
+
+			<!--Value name = "unlim_supply_water">../input/gcamdata/xml_HKEnBal/unlimited_water_supply.xml</Value>
+			<Value name = "water_supply">../input/gcamdata/xml_HKEnBal/water_supply_constrained.xml</Value>
+			<Value name = "water_desal">../input/gcamdata/xml_HKEnBal/desalination.xml</Value>
+			<Value name = "water_td">../input/gcamdata/xml_HKEnBal/water_td.xml</Value>
+			<Value name = "efw_coefs">../input/gcamdata/xml_HKEnBal/EFW_input_coefs.xml</Value>
+			<Value name = "efw_irr">../input/gcamdata/xml_HKEnBal/EFW_irrigation.xml</Value>
+			<Value name = "efw_mfg">../input/gcamdata/xml_HKEnBal/EFW_manufacturing.xml</Value>
+			<Value name = "efw_muni">../input/gcamdata/xml_HKEnBal/EFW_municipal.xml</Value>
+			<Value name = "ag_water">../input/gcamdata/xml_HKEnBal/ag_water_input_IRR_MGMT.xml</Value>
+			<Value name = "elec_water_coef">../input/gcamdata/xml_HKEnBal/electricity_water_coefs.xml</Value>
+			<Value name = "ind_water">../input/gcamdata/xml_HKEnBal/water_demand_industry.xml</Value>
+			<Value name = "an_water">../input/gcamdata/xml_HKEnBal/water_demand_livestock.xml</Value>
+			<Value name = "municipal_water">../input/gcamdata/xml_HKEnBal/water_demand_municipal.xml</Value>
+			<Value name = "primary_ene_water">../input/gcamdata/xml_HKEnBal/water_demand_primary.xml</Value-->
+
+			<Value name = "ind_urb_proc">../input/gcamdata/xml_HKEnBal/ind_urb_processing_sectors.xml</Value>
+			<Value name = "nonco2_energy">../input/gcamdata/xml_HKEnBal/all_energy_emissions.xml</Value>
+			<Value name = "nonco2_fgas">../input/gcamdata/xml_HKEnBal/all_fgas_emissions.xml</Value>
+			<Value name = "nonco2_unmgd">../input/gcamdata/xml_HKEnBal/all_unmgd_emissions.xml</Value>
+			<Value name = "nonco2_aglu">../input/gcamdata/xml_HKEnBal/all_aglu_emissions_IRR_MGMT.xml</Value>
+			<Value name = "nonco2_aglu_prot">../input/gcamdata/xml_HKEnBal/all_protected_unmgd_emissions.xml</Value>
+			<Value name = "nonco2_em_controls">../input/gcamdata/xml_HKEnBal/emission_factor_controls.xml</Value>
+
+			<Value name = "nonco2_TradBio">../input/gcamdata/xml_HKEnBal/ssp2_emissions_factors_tradBio.xml</Value> 
+			
+			<!-- Global nonCO2 GHG MAC files -->
+			<Value name = "nonco2_energy">../input/gcamdata/xml_HKEnBal/all_energy_emissions_MAC.xml</Value>
+			<Value name = "nonco2_fgas">../input/gcamdata/xml_HKEnBal/all_fgas_emissions_MAC.xml</Value>
+			<Value name = "nonco2_aglu">../input/gcamdata/xml_HKEnBal/all_aglu_emissions_IRR_MGMT_MAC.xml</Value> 
+			<Value name = "nonco2_proc">../input/gcamdata/xml_HKEnBal/ind_urb_processing_sectors_MAC.xml</Value> 
+
+			<!--Value name = "macro">../input/gcamdata/xml_HKEnBal/socioeconomics_macro.xml</Value-->
+			
+			<Value name = "bio_feedstock_limit">../input/gcamdata/xml_HKEnBal/liquids_limits.xml</Value>
+			<!--Value name = "bio_elec_w_feed_limit">../input/gcamdata/xml_HKEnBal/water_elec_liquids_limits.xml</Value-->
+			<Value name = "bio_externality">../input/gcamdata/xml_HKEnBal/bio_externality.xml</Value>
+			<Value name = "wind_update">../input/gcamdata/xml_HKEnBal/onshore_wind.xml</Value>
+			<Value name = "gas_trade">../input/gcamdata/xml_HKEnBal/gas_trade.xml</Value>   
+
+			<Value name = "prune_ag">../input/gcamdata/xml_HKEnBal/prune_empty_ag.xml</Value>
+			
+			
+			<Value name = "socio_china">../input/gcamdata/xml_HKEnBal/socioeconomics_CHINA.xml</Value>
+
+			<Value name = "rsrc_china">../input/gcamdata/xml_HKEnBal/resources_CHINA.xml</Value>
+			<Value name = "Cstorage_china">../input/gcamdata/xml_HKEnBal/Cstorage_CHINA.xml</Value>
+			<Value name = "prices_china">../input/gcamdata/xml_HKEnBal/en_prices_CHINA.xml</Value>
+			<Value name = "tform_china">../input/gcamdata/xml_HKEnBal/en_transformation_CHINA.xml</Value>
+			<Value name = "elec_china">../input/gcamdata/xml_HKEnBal/elec_segments_CHINA.xml</Value> 
+			<Value name = "heat_china">../input/gcamdata/xml_HKEnBal/heat_china.xml</Value> 
+			<Value name = "h2_china">../input/gcamdata/xml_HKEnBal/hydrogen_CHINA.xml</Value>
+			<Value name = "elec_china">../input/gcamdata/xml_HKEnBal/electricity_nuclear_CHINA.xml</Value>
+			<Value name = "elect_td_china">../input/gcamdata/xml_HKEnBal/electd_CHINA.xml</Value>
+
+
+			<Value name = "bld_china">../input/gcamdata/xml_HKEnBal/building_CHINA.xml</Value>
+			<Value name = "HDDCDD_china">../input/gcamdata/xml_HKEnBal/HDDCDD_constdds_China.xml</Value>
+			<Value name = "trn_china">../input/gcamdata/xml_HKEnBal/transportation_CHINA.xml</Value>
+			<Value name = "ind_china">../input/gcamdata/xml_HKEnBal/industry_CHINA_high_demand.xml</Value>
+			<Value name = "ind_china">../input/gcamdata/xml_HKEnBal/detailed_industry_CHINA.xml</Value>	
+			<Value name = "ind_china">../input/gcamdata/xml_HKEnBal/iron_steel_incelas_gssp2_china.xml</Value>	
+			<Value name = "ind_china">../input/gcamdata/xml_HKEnBal/other_industry_incelas_gssp2_china.xml</Value>	
+			<Value name = "trade_iron_steel_China_offset">../input/extra/trade_iron_steel_China_offset.xml</Value> 
+			<Value name = "cmnt_china">../input/gcamdata/xml_HKEnBal/cement_CHINA.xml</Value>
+			<Value name = "fert_china">../input/gcamdata/xml_HKEnBal/Fert_CHINA.xml</Value>
+
+			<Value name = "liq_lim_china">../input/gcamdata/xml_HKEnBal/liquids_limits_CHINA.xml</Value>
+			<!-- Value name = "neg_emiss_china">../input/gcamdata/xml_HKEnBal/negative_emissions_budget_CHINA_gSSP2.xml</Value-->
+
+			<!--GHG EMISSIONS China--> 
+			<Value name = "ghg_china">../input/gcamdata/xml_HKEnBal/ghg_emissions_CHINA.xml</Value> 
+			<Value name = "ghg_china">../input/gcamdata/xml_HKEnBal/trn_ghg_emissions_CHINA.xml</Value>
+
+			<!-- delete MC  -->
+			<Value name = "delete_china">../input/extra/delete_invalid_provinces_deleteMC.xml</Value>
+			
+			<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
+
+			<!-- delete HK rural -->
+			<Value name = "delete_HKrural">../input/gcamdata/xml_HKEnBal/building_CHINA_deleteHKrural.xml</Value>
+			
+			<!-- calibrate HK 2020 -->
+			<Value name = "HK_eCO2_2020">../input/calibrate2025/HK_carbon_cap_2020.xml</Value>
+			<Value name = "HK_trn_eCO2_2020">../input/calibrate2025/HK_trn_eCconstraint_2020.xml</Value>
+			<Value name = "HK_elec_eCO2_2020">../input/calibrate2025/HK_elec_eCconstraint_2020.xml</Value>
+			<Value name = "HK_ind_eff">../input/calibrate2025/HK_Industry_newCoefficient.xml</Value>
+			<Value name = "HK_ind_eff">../input/calibrate2025/HK_Industry_Cement_newCoefficient.xml</Value>
+			<Value name = "HK_elec_gen_2020">../input/calibrate2025/HK_elec_gen_constraint_techs_2020.xml</Value>
+			<Value name = "HK_elec_gen_2020">../input/calibrate2025/HK_elec_gen_constraint_2020.xml</Value>
+			<Value name = "HK_elec_gen_2020">../input/calibrate2025/HK_elec_no_new_coal_2020.xml</Value>
+			<Value name = "HK_entransf_2020">../input/calibrate2025/HK_entransf_constraint_techs_2020.xml</Value>
+            <Value name = "HK_hydro_2020">../input/calibrate2025/HK_local_hydrogen_2020.xml</Value>
+
+			<!-- calibrate HK 2025 -->
+			<Value name = "HK_eCO2_2025">../input/calibrate2025/HK_carbon_cap_2025.xml</Value>
+			<Value name = "HK_trn_eCO2_2025">../input/calibrate2025/HK_trn_eCconstraint_2025.xml</Value>
+			<Value name = "HK_elec_eCO2_2025">../input/calibrate2025/HK_elec_eCconstraint_2025.xml</Value>
+			<Value name = "HK_bld_tech_hieff_2025">../input/calibrate2025/HK_bld_tech_eff_2025.xml</Value>
+			<Value name = "HK_bld_envelope_hieff_2025">../input/calibrate2025/HK_bld_envelope_eff_2025.xml</Value>
+			<Value name = "HK_trn_tech_2025">../input/calibrate2025/HK_trn_tech_shrwt_carship_2025.xml</Value>
+			<Value name = "HK_trn_public_2025">../input/calibrate2025/HK_trn_prefer_publicTrn_2025.xml</Value>
+			<Value name = "HK_trn_techcost_2025">../input/calibrate2025/HK_trn_adj_EVhydroTrn_techcost_2025.xml</Value>
+			<Value name = "HK_entransf_2025">../input/calibrate2025/HK_entransf_constraint_techs_2025.xml</Value>
+			<Value name = "HK_entransf_eCO2_2025">../input/calibrate2025/HK_entransf_eCconstraint_2025.xml</Value>
+			<Value name = "HK_hydro_eCO2_2025">../input/calibrate2025/HK_hydro_eCconstraint_2025.xml</Value>
+			<Value name = "HK_hydro_2025">../input/calibrate2025/HK_local_hydrogen_2025.xml</Value>
+			<Value name = "HK_ind_2025">../input/calibrate2025/HK_ind_constraint_2025.xml</Value>
+			
+			<!-- Assumption for long term -->
+			<Value name = "HK_bld_satiation">../input/calibrate2025/HK_building_satiation.xml</Value>
+			<Value name = "HK_bld_flsp">../input/calibrate2025/HK_bld_urbanresidflsp.xml</Value>
+			<Value name = "HK_elecGen_high_costs">../input/calibrate2025/HK_elecGen_high_costs.xml</Value>
+			<Value name = "HK_elec_gen_shrwt">../input/calibrate2025/HK_elec_gen_subsector_shrwt.xml</Value>
+			<Value name = "HK_elec_gen_ceiling">../input/calibrate2025/HK_elec_gen_constraint_longterm.xml</Value>
+			
+		</FileSet>
+	</ComponentSet>
+	<ComponentSet name="CDD Less">
+		<FileSet name="1CDD">
+			<Value name = "HK_bld_save_en">../input/policy/HK/bld_saving_cooling_1CDD_HK.xml</Value>
+		</FileSet>
+		
+		<FileSet name="3CDD">
+			<Value name = "HK_bld_save_en">../input/policy/HK/bld_saving_cooling_3CDD_HK.xml</Value>
+		</FileSet>
+
+		<FileSet name="5CDD">
+			<Value name = "HK_bld_save_en">../input/policy/HK/bld_saving_cooling_5CDD_HK.xml</Value>
+		</FileSet>
+
+		<FileSet name="8CDD">
+			<Value name = "HK_bld_save_en">../input/policy/HK/bld_saving_cooling_8CDD_HK.xml</Value>
+		</FileSet>	
+	</ComponentSet>
+	
+</BatchRunner>
+
+

@@ -148,6 +148,11 @@ module_gcamchina_L244.building <- function(command, ...) {
       land.density.param <- b.param <- income.param <- gdp_pc <- flsp_est <- base_flsp <-
       bias.adjust.param <- province_name <- NULL
 
+    # *** for HK version *** // Daifei 02/07/2026
+    # set digits
+    options(digits = 16)
+    # *** for HK version *** // Daifei 02/07/2026
+
     all_data <- list(...)[[1]]
 
     # Load required inputs
@@ -628,14 +633,23 @@ module_gcamchina_L244.building <- function(command, ...) {
       bind_rows(L144.flsp_bm2_province_res_rur_2011_2015)
 
 
+    # ## 1. urban 2016-2021
+    # L144.flsp_2016_2021_urb <- L144.flsp_bm2_province_bld %>%
+    #   filter(sector == "resid_urban", year == 2015) %>%
+    #   select(-year) %>%
+    #   repeat_add_columns(tibble::tibble(year = 2016:2021))
 
+    # *** for HK version *** // Daifei 02/07/2026
+    # Hong Kong floorspace data is credible, so we keep the observed data for 2016-2021 instead of copying 2015 values
     ## 1. urban 2016-2021
     L144.flsp_2016_2021_urb <- L144.flsp_bm2_province_bld %>%
-      # filter(sector == "resid_urban", year == 2015) %>%
-      filter(sector == "resid_urban", year == 2015, province != "Hong Kong") %>% # *** for HK version *** // Hong Kong floorspace data is credible
+      filter(sector == "resid_urban", year == 2015, province != "HK") %>%
       select(-year) %>%
       repeat_add_columns(tibble::tibble(year = 2016:2021)) %>%
-      bind_rows(L144.flsp_bm2_province_bld %>% filter(sector == "resid_urban", year %in% c(2016:2021), province == "Hong Kong")) # *** for HK version *** // Hong Kong floorspace data is credible
+      bind_rows(L144.flsp_bm2_province_bld %>%
+                  filter(sector == "resid_urban", year %in% c(2016:2021), province == "HK"))
+    # *** for HK version *** // Daifei 02/07/2026
+
 
     ## 2. rural 2016-2021
     L144.flsp_2016_2021_rur <- L144.flsp_bm2_province_bld %>%
@@ -745,6 +759,12 @@ module_gcamchina_L244.building <- function(command, ...) {
                   left_join_error_no_match(rural_pop_thous_prov_Yh, by = c("region"="province", "year")) %>%
                   rename(pop_thous = pop) %>%
                   mutate(bias.adjust.param = (bm2_adder*1E9)/(pop_thous*1E3)))
+
+    # *** for HK version *** //
+    # HK has no residential-rural buildings, so prevent rural floorspace bias parameters from carrying NaN/Inf.
+    L244.Flsp_BiasAdder <- L244.Flsp_BiasAdder %>%
+      mutate(bias.adjust.param = if_else(region == "HK" & sector == "resid_rural", 0, bias.adjust.param))
+    # *** for HK version *** //
 
     # The following table puts together all the parameters that will be used in the estimation of future residential floorspace
     L244.GompFnParam_gcamchina <- L144.flsp_param_china %>%
@@ -945,12 +965,20 @@ module_gcamchina_L244.building <- function(command, ...) {
     cooling_services <- thermal_services[grepl("cooling", thermal_services)]
 
     # L244.HDDCDD_temp_pre <- tidyr::crossing(region = gcamchina.PROVINCES_NOHKMC, thermal.building.service.input = thermal_services) %>%
-    L244.HDDCDD_temp_pre <- tidyr::crossing(region = gcamchina.PROVINCES_NOMC, thermal.building.service.input = thermal_services) %>% # *** for HK version *** //
+    #   # Add in gcam.consumer
+    #   left_join_error_no_match(calibrated_techs_bld_china %>%
+    #                              # supplysector is the same as service
+    #                              select(supplysector, gcam.consumer = sector) %>%
+    #                              distinct(), by = c("thermal.building.service.input" = "supplysector"))
+
+    # *** for HK version *** //
+    L244.HDDCDD_temp_pre <- tidyr::crossing(region = gcamchina.PROVINCES_NOMC, thermal.building.service.input = thermal_services) %>%
       # Add in gcam.consumer
       left_join_error_no_match(calibrated_techs_bld_china %>%
                                  # supplysector is the same as service
                                  select(supplysector, gcam.consumer = sector) %>%
                                  distinct(), by = c("thermal.building.service.input" = "supplysector"))
+    # *** for HK version *** //
 
     L244.HDDCDD_temp <- L244.HDDCDD_temp_pre %>%
       filter(grepl('resid', gcam.consumer)) %>%
@@ -965,7 +993,7 @@ module_gcamchina_L244.building <- function(command, ...) {
       # Add HDD/CDD so that we can join with L244.HDDCDD_scen_state, remove at end
       mutate(variable = if_else(thermal.building.service.input %in% heating_services, "HDD", "CDD")) %>%
       # Add in degree days
-      # L244.HDDCDD_scen_state has multiple scenarios, rows in this tbl_df are intended to be duplicated for each scenario
+      # L244.HDDCDD_scen_province has multiple scenarios, rows in this tbl_df are intended to be duplicated for each scenario
       # left_join_error_no_match throws an error when rows are duplicated (as intended), so left_join is used
       left_join(L244.HDDCDD_scen_province, by = c("region", "variable", "year")) %>%
       mutate(degree.days = round(degree.days, energy.DIGITS_HDDCDD))
@@ -1209,6 +1237,10 @@ module_gcamchina_L244.building <- function(command, ...) {
       write_to_all_provinces(names = c(names(.), "region"), gcamchina.PROVINCES_NOMC) %>% # *** for HK version *** //
       rename(supplysector = sector.name, subsector = subsector.name, stub.technology = technology) %>%
       left_join_error_no_match(L244.globaltech_shares, by = c("supplysector", "subsector", "stub.technology" = "technology")) %>%
+      # *** for HK version *** //
+      # HK has no residential-rural service demand; keep rural calibration shares at zero.
+      mutate(share = if_else(region == "HK" & grepl("resid_rural", supplysector), 0, share)) %>%
+      # *** for HK version *** //
       # Add energy by province/service/fuel
       left_join_error_no_match(L244.in_EJ_R_bld_serv_F_Yh, by = c("region", "supplysector", "subsector", "minicam.energy.input", "year")) %>%
       # calibrated.value = energy * share
@@ -1406,6 +1438,12 @@ module_gcamchina_L244.building <- function(command, ...) {
       filter(region == "HK", gcam.consumer != "resid_rural")
     # *** for HK version *** //
 
+    # *** for HK version *** //
+    # Keep HK residential-rural generic service satiation at zero in the main China XML.
+    L244.GenericServiceSatiation_gcamchina <- L244.GenericServiceSatiation_gcamchina %>%
+      mutate(satiation.level = if_else(region == "HK" & gcam.consumer == "resid_rural", 0, satiation.level))
+    # *** for HK version *** //
+
     # L244.ThermalServiceSatiation: Satiation levels assumed for thermal building services
     L244.ThermalServiceSatiation_gcamchina <- L244.ThermalBaseService_gcamchina %>%
       filter(year == max(MODEL_BASE_YEARS)) %>%
@@ -1439,6 +1477,12 @@ module_gcamchina_L244.building <- function(command, ...) {
       mutate(satiation.level = round(base.service / base.building.size * multiplier.HK, energy.DIGITS_COEFFICIENT)) %>%
       select(LEVEL2_DATA_NAMES[["ThermalServiceSatiation"]]) %>%
       filter(region == "HK", gcam.consumer != "resid_rural")
+    # *** for HK version *** //
+
+    # *** for HK version *** //
+    # Keep HK residential-rural thermal service satiation at zero in the main China XML.
+    L244.ThermalServiceSatiation_gcamchina <- L244.ThermalServiceSatiation_gcamchina %>%
+      mutate(satiation.level = if_else(region == "HK" & gcam.consumer == "resid_rural", 0, satiation.level))
     # *** for HK version *** //
 
     # L244.Intgains_scalar: Scalers relating internal gain energy to increased/reduced cooling/heating demands
@@ -1581,13 +1625,17 @@ module_gcamchina_L244.building <- function(command, ...) {
                                  group_by(region,nodeInput,building.node.input,year) %>%
                                  summarise(base.building.size=sum(base.building.size)) %>%
                                  ungroup() %>%
-                                 mutate(gcam.consumer = case_when(
-                                   grepl("resid_rural", nodeInput) ~ "resid_rural",
-                                   grepl("resid_urban", nodeInput) ~ "resid_urban",
-                                   grepl("comm", nodeInput) ~ "comm")),
-                               by=c("region","year","gcam.consumer","nodeInput","building.node.input")) %>%
+                                  mutate(gcam.consumer = case_when(
+                                    grepl("resid_rural", nodeInput) ~ "resid_rural",
+                                    grepl("resid_urban", nodeInput) ~ "resid_urban",
+                                    grepl("comm", nodeInput) ~ "comm")),
+                                by=c("region","year","gcam.consumer","nodeInput","building.node.input")) %>%
       mutate(base_serv_flsp=base_service_EJ / base.building.size) %>%
       select(-base_service_EJ,-base.building.size) %>%
+      # *** for HK version *** //
+      # HK residential-rural base service per floorspace is structurally zero.
+      mutate(base_serv_flsp = if_else(region == "HK" & gcam.consumer == "resid_rural", 0, base_serv_flsp)) %>%
+      # *** for HK version *** //
       # Add pcGDP
       left_join_error_no_match(L101.pcGDP_thous90usd_province %>% rename(region = province),
                                by=c("year","region")) %>%
@@ -1599,6 +1647,12 @@ module_gcamchina_L244.building <- function(command, ...) {
                                by=c("region","year","building.service.input")) %>%
       rename(price = value) %>%
       mutate(`satiation-impedance` = (log(2)*((pcGDP_thous90USD*1000/def9075)/price)) / log((satiation.level)/(satiation.level-base_serv_flsp))) %>%
+      # *** for HK version *** //
+      # Avoid undefined HK residential-rural impedance while preserving a zero service trajectory.
+      mutate(`satiation-impedance` = if_else(region == "HK" & gcam.consumer == "resid_rural",
+                                             (log(2)*((pcGDP_thous90USD*1000/def9075)/price)) / 1,
+                                             `satiation-impedance`)) %>%
+      # *** for HK version *** //
       # Check with an adder to be 0!!!!
       rename(observed_base_serv_perflsp = base_serv_flsp) %>%
       mutate(thermal_load = 1) %>%
@@ -1607,6 +1661,10 @@ module_gcamchina_L244.building <- function(command, ...) {
       mutate(serv_density = if_else(grepl("coal",building.service.input),observed_base_serv_perflsp,serv_density),
              serv_density = if_else(grepl("TradBio",building.service.input),observed_base_serv_perflsp,serv_density)) %>%
       mutate(coef = observed_base_serv_perflsp / serv_density*thermal_load) %>%
+      # *** for HK version *** //
+      # Keep HK residential-rural generic service calibration coefficient at zero.
+      mutate(coef = if_else(region == "HK" & gcam.consumer == "resid_rural", 0, coef)) %>%
+      # *** for HK version *** //
       mutate(est_base_serv_perflsp = coef * thermal_load * serv_density) %>%
       mutate(bias.adder = round(est_base_serv_perflsp-observed_base_serv_perflsp,energy.DIGITS_BIAS_ADDER))
 
@@ -2516,6 +2574,17 @@ module_gcamchina_L244.building <- function(command, ...) {
       bind_rows(L244.ThermalServiceCoef_gcamchina %>%
                   filter(grepl("comm",gcam.consumer)))
 
+    # *** for HK version *** //
+    # Preserve HK residential-rural thermal coef rows in the XML by mirroring residential-urban rows.
+    L244.ThermalServiceCoef_gcamchina <- L244.ThermalServiceCoef_gcamchina %>%
+      bind_rows(L244.ThermalServiceCoef_gcamchina %>%
+                  filter(region == "HK", nodeInput == "resid_urban") %>%
+                  mutate(gcam.consumer = gsub("urban", "rural", gcam.consumer)) %>%
+                  mutate(nodeInput = gsub("urban", "rural", nodeInput)) %>%
+                  mutate(building.node.input = gsub("urban", "rural", building.node.input)) %>%
+                  mutate(thermal.building.service.input = gsub("urban", "rural", thermal.building.service.input)))
+    # *** for HK version *** //
+
     L244.ThermalServiceSatiation_gcamchina <- L244.ThermalServiceSatiation_gcamchina %>%
       filter(grepl("resid",gcam.consumer)) %>%
       separate(gcam.consumer,c("adj","group"), sep = "_(?=[^_]*$)",remove = F) %>%
@@ -2542,6 +2611,17 @@ module_gcamchina_L244.building <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["ThermalServiceImpedance"]]) %>%
       bind_rows(L244.ThermalServiceImpedance_gcamchina %>%
                   filter(grepl("comm",gcam.consumer)))
+
+    # *** for HK version *** //
+    # Preserve HK residential-rural thermal impedance rows in the XML by mirroring residential-urban rows.
+    L244.ThermalServiceImpedance_gcamchina <- L244.ThermalServiceImpedance_gcamchina %>%
+      bind_rows(L244.ThermalServiceImpedance_gcamchina %>%
+                  filter(region == "HK", nodeInput == "resid_urban") %>%
+                  mutate(gcam.consumer = gsub("urban", "rural", gcam.consumer)) %>%
+                  mutate(nodeInput = gsub("urban", "rural", nodeInput)) %>%
+                  mutate(building.node.input = gsub("urban", "rural", building.node.input)) %>%
+                  mutate(thermal.building.service.input = gsub("urban", "rural", thermal.building.service.input)))
+    # *** for HK version *** //
 
     L244.ThermalServiceAdder_gcamchina <- L244.ThermalServiceAdder_gcamchina %>%
       filter(grepl("resid",gcam.consumer)) %>%

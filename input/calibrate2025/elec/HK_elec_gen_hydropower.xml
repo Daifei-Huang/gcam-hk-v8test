@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <pass-through-sector name="base load generation">
+        <subsector name="hydro">
+          <stub-technology name="hydro_base">
+            <period year="2025">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000036</fixedOutput>
+            </period>
+            <period year="2030">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000072</fixedOutput>
+            </period>
+            <period year="2035">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+            <period year="2040">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+            <period year="2045">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+            <period year="2050">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+            <period year="2055">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+            <period year="2060">
+                <share-weight>1</share-weight>
+                <fixedOutput>0.0000108</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+    </region>
+  </world>
+</scenario>

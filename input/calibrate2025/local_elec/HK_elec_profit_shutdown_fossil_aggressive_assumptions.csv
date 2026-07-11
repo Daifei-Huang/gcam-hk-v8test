@@ -1,0 +1,4 @@
+subsector,included_technologies,GCAM_default_median_shutdown_point,GCAM_default_steepness,scenario_median_shutdown_point,scenario_steepness,rationale
+coal,"all HK coal electricity technologies, including CCS",-0.1,6,0,8,"Half-shutdown threshold moved from 10% negative margin to break-even, with sharper response."
+gas,"all HK gas electricity technologies, including steam/CT, CC, CCS",-0.1,6,0,8,"Half-shutdown threshold moved from 10% negative margin to break-even, with sharper response."
+refined liquids,"all HK refined liquids electricity technologies, including steam/CT, CC, CCS",-0.5 for steam/CT; -0.1 for CC and CCS,6,0,8,Oil technologies are made much more sensitive to uneconomic operation; break-even half-shutdown threshold.

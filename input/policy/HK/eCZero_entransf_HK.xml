@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <!-- Refer to en_transformation_CHINA.xml -->
+    <region name="HK">
+      
+      <ghgpolicy name="CO2_ENTRAN">
+         <market>HK</market>
+         <!--constraint year="2025">0.006</constraint-->
+         <constraint year="2030">0.01</constraint>
+         <constraint year="2035">0.01</constraint>
+         <constraint year="2040">0.005</constraint>
+         <constraint year="2045">0.0005</constraint>
+         <constraint year="2050">-1</constraint>
+         <constraint year="2055">-1</constraint>
+         <constraint year="2060">-1</constraint>
+      </ghgpolicy>
+
+      <pass-through-sector name="biomass liquids">
+        <subsector name="biomass liquids">
+          <stub-technology name="cellulosic ethanol">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="cellulosic ethanol CCS level 1">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="cellulosic ethanol CCS level 2">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels CCS level 1">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels CCS level 2">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="corn ethanol">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biodiesel">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="BTL with hydrogen">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="sugar cane ethanol">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+      <pass-through-sector name="coal to liquids">
+        <subsector name="coal to liquids">
+          <stub-technology name="coal to liquids">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal to liquids CCS level 1">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal to liquids CCS level 2">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      
+      <pass-through-sector name="gas to liquids">
+        <subsector name="gas to liquids">
+          <stub-technology name="gas to liquids">
+            <!--period year="2025">
+              <CO2 name="CO2_ENTRAN"/>
+            </period-->
+            <period year="2030">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2035">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2040">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2045">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2050">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2055">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+            <period year="2060">
+              <CO2 name="CO2_ENTRAN"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+    </region>
+  </world>
+</scenario>
+

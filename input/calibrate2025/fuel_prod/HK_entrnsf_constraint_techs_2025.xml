@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <!-- Refer to en_transformation_CHINA.xml -->
+    <!-- Hong Kong future local fuel production: for coal to liquids and gas to liquids, there are no historical production, and future maybe none either. -->
+    <!-- The possibility of Hong Kong building Gas to Liquids (GTL) and Coal to Liquids (CTL) facilities locally is almost zero, too. -->
+    <!-- According to 在香港更廣泛採用生物柴油之可行措施研究2016 and 行政长官2025年施政报告, Hong Kong plans the production of biodiesel locally, -->
+    <!-- focusing mainly on converting waste into energy, converting waste cooking oil and grease trap grease into biodiesel for vehicle and marine fuel, -->
+    <region name="HK">
+
+      <policy-portfolio-standard name="biodiesel-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2025">0</min-price>
+        
+          <constraint year="2025">0.0023</constraint>
+      </policy-portfolio-standard>
+
+      <policy-portfolio-standard name="bioliquids-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2025">0</min-price>
+        
+          <constraint year="2025">0</constraint>
+      </policy-portfolio-standard>
+
+      <policy-portfolio-standard name="coalliquids-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2025">0</min-price>
+        
+          <constraint year="2025">0</constraint>
+      </policy-portfolio-standard>
+
+      
+      <policy-portfolio-standard name="gasliquids-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2025">0</min-price>
+        
+          <constraint year="2025">0</constraint>
+      </policy-portfolio-standard>
+
+      <pass-through-sector name="biomass liquids">
+        <subsector name="biomass liquids">
+          <stub-technology name="cellulosic ethanol">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="cellulosic ethanol CCS level 1">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="cellulosic ethanol CCS level 2">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels CCS level 1">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="FT biofuels CCS level 2">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="corn ethanol">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biodiesel">
+            <period year="2025">
+              <input-tax name="biodiesel-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="BTL with hydrogen">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="sugar cane ethanol">
+            <period year="2025">
+              <input-tax name="bioliquids-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+      <pass-through-sector name="coal to liquids">
+        <subsector name="coal to liquids">
+          <stub-technology name="coal to liquids">
+            <period year="2025">
+              <input-tax name="coalliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal to liquids CCS level 1">
+            <period year="2025">
+              <input-tax name="coalliquids-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal to liquids CCS level 2">
+            <period year="2025">
+              <input-tax name="coalliquids-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      
+      <pass-through-sector name="gas to liquids">
+        <subsector name="gas to liquids">
+          <stub-technology name="gas to liquids">
+            <period year="2025">
+              <input-tax name="gasliquids-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+
+    </region>
+  </world>
+</scenario>
+

@@ -51,9 +51,15 @@ module_gcamchina_L161.Cstorage <- function(command, ...) {
              MtC = CO2_Mt * (1 / emissions.CONV_C_CO2)) %>%
       arrange(province.name, Cost_2005USDtCO2) %>%
 
+      # # Removing data for provinces without enough onshore storage
+      # filter(!(province.name %in% c("Fujian", "Guangdong", "Guangxi", "Qinghai"))) %>%
+      # group_by(province.name) %>%
+
+      # *** for HK version *** //
       # Removing data for provinces without enough onshore storage
-      filter(!(province.name %in% c("Fujian", "Guangdong", "Guangxi", "Qinghai"))) %>%
+      filter(!(province.name %in% c("Fujian", "Guangdong", "Hong Kong", "Guangxi", "Qinghai"))) %>%
       group_by(province.name) %>%
+      # *** for HK version *** //
 
       # Calculate cumulative sum, then filter to the quantiles
       mutate(Cumul_MtC = cumsum(MtC)) %>%

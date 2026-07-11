@@ -1,0 +1,245 @@
+# File: IO_detailed_industry_HK.csv
+# Title: Detailed industry coefficient in Hong Kong
+# Units: GJ/kg or GJ/GJ
+# Description: Input-output data are calculated based on historical energy consumption sourced from Hong Kong energy annual statistics report and energy end-use data. The energy consumption data could not be used directly due to the inconsistency between IEA data(used in GCAM) and Hong Kong's energy statistics, so the energy consumption share was used to allocate. The shares are estimated by ChatGPT Advanced Thinking model
+# Column types: cnccccnnn
+# ----------
+province,year,supplysector,subsector,technology,minicam.energy.input,coefficient,production,energy.input
+HK,1975,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,1990,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2005,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2015,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,1975,agricultural energy use,coal,coal,delivered coal,1,0,0
+HK,1990,agricultural energy use,coal,coal,delivered coal,1,0,0
+HK,2005,agricultural energy use,coal,coal,delivered coal,1,0,0
+HK,2015,agricultural energy use,coal,coal,delivered coal,1,0,0
+HK,1975,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,1990,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,2005,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,2015,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,1975,agricultural energy use,electricity,electricity,elect_td_ind,0,0,0
+HK,1990,agricultural energy use,electricity,electricity,elect_td_ind,0,0,0
+HK,2005,agricultural energy use,electricity,electricity,elect_td_ind,0,0,0
+HK,2015,agricultural energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,1975,agricultural energy use,gas,gas,wholesale gas,1,0,0
+HK,1990,agricultural energy use,gas,gas,wholesale gas,1,0,0
+HK,2005,agricultural energy use,gas,gas,wholesale gas,1,0,0
+HK,2015,agricultural energy use,gas,gas,wholesale gas,0.760365516,0,0
+HK,1975,agricultural energy use,hydrogen,hydrogen,H2 industrial,0,0,0
+HK,1990,agricultural energy use,hydrogen,hydrogen,H2 industrial,0,0,0
+HK,2005,agricultural energy use,hydrogen,hydrogen,H2 industrial,0,0,0
+HK,2015,agricultural energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,1975,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,1990,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2005,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2015,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,1975,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,1990,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2005,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2015,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2015,mining energy use,coal,coal,delivered coal,1,0,0
+HK,2015,mining energy use,district heat,district heat,district heat,1,0,0
+HK,1975,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,1990,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2005,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2015,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2015,mining energy use,gas,gas,wholesale gas,1.520731032,0,0
+HK,2015,mining energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,1975,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,1990,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2005,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2015,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2015,iron and steel,BLASTFUR,Biomass-based,delivered biomass,0.039478428,0,0
+HK,2015,iron and steel,BLASTFUR,Biomass-based,elect_td_ind,0.000191592,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR,coke,0.582062136,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR,delivered coal,0.005820957,0,0
+HK,1975,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0.002832425,0,0
+HK,1990,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0.002832425,0,0
+HK,2005,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0.002832425,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0.000191592,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR,refined liquids industrial,0.0001492,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR CCS,coke,0.584833412,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR CCS,delivered coal,0.008592233,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR CCS,elect_td_ind,0.000191592,0,0
+HK,1975,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,1990,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,2005,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,2015,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI,elect_td_ind,0.007020795,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI,refined liquids industrial,5.24e-05,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI,wholesale gas,0.00718303,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI CCS,elect_td_ind,0.007020795,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI CCS,refined liquids industrial,5.24e-05,0,0
+HK,2015,iron and steel,EAF with DRI,EAF with DRI CCS,wholesale gas,0.00718303,0,0
+HK,2015,iron and steel,EAF with DRI,Hydrogen-based DRI,elect_td_ind,0.00144,0,0
+HK,2015,iron and steel,EAF with DRI,Hydrogen-based DRI,H2 industrial,0.013619048,0,0
+HK,2005,iron and steel,EAF with DRI,Hydrogen-based DRI,H2 industrial,0,0,0
+HK,2015,iron and steel,EAF with scrap,EAF with scrap,elect_td_ind,0.00144,0,0
+HK,2015,iron and steel,EAF with scrap,EAF with scrap,refined liquids industrial,1.31e-05,0,0
+HK,2015,iron and steel,EAF with scrap,EAF with scrap,scrap,1.12,0,0
+HK,2015,chemical energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2015,chemical energy use,coal,coal,delivered coal,1,2.03250248164e-06,2.03250248164e-06
+HK,2015,chemical energy use,coal,coal CCS,delivered coal,1,0,0
+HK,2015,chemical energy use,district heat,district heat,district heat,1,0,0
+HK,2015,chemical energy use,electricity,electricity,elect_td_ind,1.6,0.00324403783515,0.00519046053623
+HK,2005,chemical energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2015,chemical energy use,gas,gas,wholesale gas,1.520731032,0.000543754238669,0.000826903944525
+HK,2015,chemical energy use,gas,gas CCS,wholesale gas,0.760365516,0,0
+HK,2015,chemical energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2015,chemical energy use,liquid,liquid,refined liquids industrial,1,0.00180675737493,0.00180675737493
+HK,2015,chemical energy use,liquid,liquid CCS,refined liquids industrial,1,0,0
+HK,2015,chemical feedstocks,coal,coal,delivered coal,0.940985863,0,0
+HK,2015,chemical feedstocks,gas,gas,wholesale gas,0.760365516,0,0
+HK,2015,chemical feedstocks,liquid,liquid,refined liquids industrial,1,0.00010158,0.00010158
+HK,2005,chemical feedstocks,liquid,liquid,refined liquids industrial,1,0,0
+HK,2015,chemical,chemical,chemical,chemical energy use,1,0.00559658195122,0.00559658195122
+HK,2015,chemical,chemical,chemical,chemical feedstocks,0.0181503640767,0.00559658195122,0.00010158
+HK,2015,coke,coke,coke,delivered coal,0.036217168,0,0
+HK,2015,coke,coke,coke,elect_td_ind,0.00062047,0,0
+HK,2015,coke,coke,coke CCS,delivered coal,0.036217168,0,0
+HK,2015,construction,construction,construction,construction energy use,1,0.00498982564183,0.00498982564183
+HK,2015,construction,construction,construction,construction feedstocks,0.0271432329949,0.00498982564183,0.00013544
+HK,2005,construction,construction,construction,construction feedstocks,0,0,0
+HK,2015,construction energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2015,construction energy use,coal,coal,delivered coal,1,1.50594592775e-06,1.50594592775e-06
+HK,2015,construction energy use,district heat,district heat,district heat,1,0,0
+HK,2015,construction energy use,electricity,electricity,elect_td_ind,1,0.00316853946377,0.00316853946377
+HK,2015,construction energy use,gas,gas,wholesale gas,1,0.000481096055475,0.000481096055475
+HK,2015,construction energy use,hydrogen,hydrogen,H2 industrial,1,0,0
+HK,2015,construction energy use,liquid,liquid,refined liquids industrial,1,0.00133868417667,0.00133868417667
+HK,2015,construction feedstocks,coal,coal,delivered coal,1,0,0
+HK,2005,construction feedstocks,coal,coal,delivered coal,1,0,0
+HK,2015,construction feedstocks,gas,gas,wholesale gas,1,0,0
+HK,2015,construction feedstocks,liquid,liquid,refined liquids industrial,1,0.00013544,0.00013544
+HK,2021,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2021,agricultural energy use,coal,coal,delivered coal,0.545337657,0,0
+HK,2021,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,2021,agricultural energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2021,agricultural energy use,gas,gas,wholesale gas,1,0,0
+HK,2021,agricultural energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2021,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2021,chemical,chemical,chemical,chemical energy use,1,0.00502720408793,0.00502720408793
+HK,2021,chemical,chemical,chemical,chemical feedstocks,0.0193169002693,0.00502720408793,9.711e-05
+HK,2021,chemical energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2021,chemical energy use,coal,coal,delivered coal,1.636012972,7.07406568529e-07,1.15732632259e-06
+HK,2021,chemical energy use,coal,coal CCS,delivered coal,0.545337657,0,0
+HK,2021,chemical energy use,district heat,district heat,district heat,1,0,0
+HK,2021,chemical energy use,electricity,electricity,elect_td_ind,1.6,0.00273622391319,0.00437795826111
+HK,2021,chemical energy use,gas,gas,wholesale gas,1,0.000907653588111,0.000907653588111
+HK,2021,chemical energy use,gas,gas CCS,wholesale gas,1,0,0
+HK,2021,chemical energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2021,chemical energy use,liquid,liquid,refined liquids industrial,1,0.00138261918006,0.00138261918006
+HK,2021,chemical energy use,liquid,liquid CCS,refined liquids industrial,1,0,0
+HK,2021,chemical feedstocks,coal,coal,delivered coal,0.006041089,0,0
+HK,2021,chemical feedstocks,gas,gas,wholesale gas,1,0,0
+HK,2021,chemical feedstocks,liquid,liquid,refined liquids industrial,1,9.711e-05,9.711e-05
+HK,2021,coke,coke,coke,delivered coal,0.026062481,0,0
+HK,2021,coke,coke,coke,elect_td_ind,0.00124094,0,0
+HK,2021,coke,coke,coke CCS,delivered coal,0.026062481,0,0
+HK,2021,coke,coke,coke CCS,elect_td_ind,0.00062047,0,0
+HK,2021,construction,construction,construction,construction energy use,1,0.0050981939499,0.0050981939499
+HK,2021,construction,construction,construction,construction feedstocks,0.0253972291506,0.0050981939499,0.00012948
+HK,2021,construction energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2021,construction energy use,coal,coal,delivered coal,0.887583795,1.53274611505e-06,1.36044061357e-06
+HK,2021,construction energy use,district heat,district heat,district heat,1,0,0
+HK,2021,construction energy use,electricity,electricity,elect_td_ind,1,0.00284404173889,0.00284404173889
+HK,2021,construction energy use,gas,gas,wholesale gas,1,0.000627346411889,0.000627346411889
+HK,2021,construction energy use,hydrogen,hydrogen,H2 industrial,1,0,0
+HK,2021,construction energy use,liquid,liquid,refined liquids industrial,1,0.00162527305301,0.00162527305301
+HK,2021,construction feedstocks,coal,coal,delivered coal,1,0,0
+HK,2021,construction feedstocks,gas,gas,wholesale gas,1,0,0
+HK,2021,construction feedstocks,liquid,liquid,refined liquids industrial,1,0.00012948,0.00012948
+HK,2021,iron and steel,BLASTFUR,Biomass-based,delivered biomass,0.039478428,0,0
+HK,2021,iron and steel,BLASTFUR,Biomass-based,elect_td_ind,0.19928555,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR,coke,0.582062136,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR,delivered coal,0.007102371,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR,refined liquids industrial,0.0002238,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR CCS,coke,0.582062136,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR CCS,delivered coal,0.007287625,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR CCS,elect_td_ind,0,0,0
+HK,2021,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI,elect_td_ind,0.008460795,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI,refined liquids industrial,7.21e-05,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI,wholesale gas,0.009446812,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI CCS,elect_td_ind,0.008460795,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI CCS,refined liquids industrial,7.21e-05,0,0
+HK,2021,iron and steel,EAF with DRI,EAF with DRI CCS,wholesale gas,0.009446812,0,0
+HK,2021,iron and steel,EAF with DRI,Hydrogen-based DRI,elect_td_ind,0.00144,0,0
+HK,2021,iron and steel,EAF with DRI,Hydrogen-based DRI,H2 industrial,0.013619048,0,0
+HK,2021,iron and steel,EAF with scrap,EAF with scrap,elect_td_ind,0.00288,0,0
+HK,2021,iron and steel,EAF with scrap,EAF with scrap,refined liquids industrial,2.62e-05,0,0
+HK,2021,iron and steel,EAF with scrap,EAF with scrap,scrap,1.12,0,0
+HK,2021,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2021,mining energy use,coal,coal,delivered coal,1.636012972,0,0
+HK,2021,mining energy use,district heat,district heat,district heat,1,0,0
+HK,2021,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2021,mining energy use,gas,gas,wholesale gas,1,0,0
+HK,2021,mining energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2021,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2010,agricultural energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2010,agricultural energy use,coal,coal,delivered coal,1,0,0
+HK,2010,agricultural energy use,district heat,district heat,district heat,1,0,0
+HK,2010,agricultural energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2010,agricultural energy use,gas,gas,wholesale gas,1,0,0
+HK,2010,agricultural energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2010,agricultural energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2010,mining energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2010,mining energy use,coal,coal,delivered coal,1,0,0
+HK,2010,mining energy use,district heat,district heat,district heat,1,0,0
+HK,2010,mining energy use,electricity,electricity,elect_td_ind,0.8,0,0
+HK,2010,mining energy use,gas,gas,wholesale gas,1,0,0
+HK,2010,mining energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2010,mining energy use,liquid,liquid,refined liquids industrial,1,0,0
+HK,2010,iron and steel,BLASTFUR,Biomass-based,delivered biomass,0.039478428,0,0
+HK,2010,iron and steel,BLASTFUR,Biomass-based,elect_td_ind,0.002832425,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR,coke,0.664455886,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR,delivered coal,0.007202848,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR,elect_td_ind,0.002832425,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR,refined liquids industrial,7.46e-05,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR CCS,coke,0.664455886,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR CCS,delivered coal,0.004771276,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR CCS,elect_td_ind,0.002832425,0,0
+HK,2010,iron and steel,BLASTFUR,BLASTFUR CCS,refined liquids industrial,7.46e-05,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI,elect_td_ind,0.00144,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI,refined liquids industrial,1.97e-05,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI,wholesale gas,0.009446812,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI CCS,elect_td_ind,0.00144,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI CCS,refined liquids industrial,1.97e-05,0,0
+HK,2010,iron and steel,EAF with DRI,EAF with DRI CCS,wholesale gas,0.009446812,0,0
+HK,2010,iron and steel,EAF with DRI,Hydrogen-based DRI,elect_td_ind,0.00144,0,0
+HK,2010,iron and steel,EAF with DRI,Hydrogen-based DRI,H2 industrial,0.013619048,0,0
+HK,2010,iron and steel,EAF with scrap,EAF with scrap,elect_td_ind,0.00144,0,0
+HK,2010,iron and steel,EAF with scrap,EAF with scrap,refined liquids industrial,1.31e-05,0,0
+HK,2010,iron and steel,EAF with scrap,EAF with scrap,scrap,1.12,0,0
+HK,2010,chemical energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2010,chemical energy use,coal,coal,delivered coal,1,0,0
+HK,2010,chemical energy use,coal,coal CCS,delivered coal,1,0,0
+HK,2010,chemical energy use,district heat,district heat,district heat,1,0,0
+HK,2010,chemical energy use,electricity,electricity,elect_td_ind,0.8,0.0066308561462,0.00530468491696
+HK,2010,chemical energy use,gas,gas,wholesale gas,1,0.000855892372187,0.000855892372187
+HK,2010,chemical energy use,gas,gas CCS,wholesale gas,1,0,0
+HK,2010,chemical energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2010,chemical energy use,liquid,liquid,refined liquids industrial,1,0.00267022595033,0.00267022595033
+HK,2010,chemical energy use,liquid,liquid CCS,refined liquids industrial,1,0,0
+HK,2010,chemical feedstocks,coal,coal,delivered coal,0.897191704,0,0
+HK,2010,chemical feedstocks,gas,gas,wholesale gas,1,0,0
+HK,2010,chemical feedstocks,liquid,liquid,refined liquids industrial,1,0.000115455,0.000115455
+HK,2010,chemical,chemical,chemical,chemical energy use,1,0.0101569744687,0.0101569744687
+HK,2010,chemical,chemical,chemical,chemical feedstocks,0.0113670660841,0.0101569744687,0.000115455
+HK,2010,coke,coke,coke,delivered coal,0.011574288,0,0
+HK,2010,coke,coke,coke,elect_td_ind,0.00062047,0,0
+HK,2010,coke,coke,coke CCS,delivered coal,0.011574288,0,0
+HK,2010,coke,coke,coke CCS,elect_td_ind,0.00062047,0,0
+HK,2010,construction,construction,construction,construction energy use,1,0.00512513053128,0.00512513053128
+HK,2010,construction,construction,construction,construction feedstocks,0.0300363081604,0.00512513053128,0.00015394
+HK,2010,construction energy use,biomass,biomass,delivered biomass,1,0,0
+HK,2010,construction energy use,coal,coal,delivered coal,1,0,0
+HK,2010,construction energy use,district heat,district heat,district heat,1,0,0
+HK,2010,construction energy use,electricity,electricity,elect_td_ind,0.8,0.0039616438538,0.00316931508304
+HK,2010,construction energy use,gas,gas,wholesale gas,1,0.000254607627813,0.000254607627813
+HK,2010,construction energy use,hydrogen,hydrogen,H2 industrial,0.9,0,0
+HK,2010,construction energy use,liquid,liquid,refined liquids industrial,1,0.000908879049668,0.000908879049668
+HK,2010,construction feedstocks,coal,coal,delivered coal,1,0,0
+HK,2010,construction feedstocks,gas,gas,wholesale gas,1,0,0
+HK,2010,construction feedstocks,liquid,liquid,refined liquids industrial,1,0.00015394,0.00015394

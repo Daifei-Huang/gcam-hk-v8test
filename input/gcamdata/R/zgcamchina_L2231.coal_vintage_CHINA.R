@@ -1,6 +1,6 @@
 # Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
 
-#' module_L2231.coal_vintage_CHINA
+#' module_gcamchina_L2231.coal_vintage
 #'
 #' Generates gcam-china model input for vintaging existing coal capacity.
 #'
@@ -84,7 +84,7 @@ gen_dist_prov %>%
                 "1996-2000" = "1995<install<=2000","2001-2005" = "2000<install<=2005",
                 "2006-2010" = "2005<install<=2010","2011-2015" = "2010<install<=2015","2016-2021" = "2015<install<=2021") %>%
   dplyr::mutate(province.name = gsub("Ningxia Hui","Ningxia", province.name)) %>%
-  dplyr::filter(province.name != "Hong Kong") %>%
+  # dplyr::filter(province.name != "Hong Kong") %>% # *** for HK version *** //
   dplyr::left_join(provNamesMapping) %>%
   tidyr::gather(key = vintage.bin, value = generation, gcamchina.COAL_VINTAGE_LABELS) %>%
   dplyr::mutate(generation = ifelse(is.na(generation), 0, generation),

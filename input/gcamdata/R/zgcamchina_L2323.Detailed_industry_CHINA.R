@@ -495,30 +495,80 @@ module_gcamchina_L2323.detailed_industry <- function(command, ...) {
     A323.sector_China$region <- "China"
     A323.sector_China$logit.year.fillout <- min(MODEL_BASE_YEARS)
 
-    province_no_HK_MC <- province_names_mappings %>% filter(!(province %in% c("HK","MC")))
+
+
+    # province_no_HK_MC <- province_names_mappings %>% filter(!(province %in% c("HK","MC")))
+    #
+    # A323.sector_China %>% select(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME)) -> L2323.Supplysector_detailed_industry_China
+    #
+    # L2323.SubsectorLogit_detailed_industry_China <- set_years(A323.subsector_logit_China[rep(1:nrow(A323.subsector_logit_China),
+    #                                           times = length(province_no_HK_MC$province)),]%>%
+    #
+    #             mutate(subsector = paste(rep(province_no_HK_MC$province,
+    #                                          each = nrow(A323.subsector_logit_China)), subsector, sep = " "),
+    #                    region = "China",logit.year.fillout = 1975) %>%
+    # select(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME)))
+    #
+    #
+    # # Subsector logit tables
+    # L2323.SubsectorInterp_detailed_industry_China <- set_years(A323.subsector_interp_China[rep(1:nrow(A323.subsector_logit_China),
+    #                                                                                            each = length(province_no_HK_MC$province)),] %>%
+    #   mutate(subsector = paste(province_no_HK_MC$province, subsector, sep = " "),
+    #          region = "China") %>%
+    #   select(LEVEL2_DATA_NAMES[["SubsectorInterp"]]))
+    #
+    # # Technology info for the China pass-through detailed_industry sectors
+    # L2323.TechCoef_detailed_industry_China <-
+    #   repeat_add_columns(A323.tech_coef_China, tibble::tibble(market.name = province_names_mappings$province)) %>%
+    #   filter(!(market.name %in% c("HK","MC"))) %>%
+    #   gather(year, value, -supplysector,-subsector,-technology,-minicam.energy.input,-market.name) %>%
+    #   mutate(year = as.integer(sub("X", "", year))) %>%
+    #   mutate(subsector = paste(market.name, subsector, sep = " "),
+    #          technology = subsector,
+    #          region = "China") %>%
+    #   complete(nesting(region,supplysector,subsector,technology,minicam.energy.input,market.name), year = MODEL_YEARS) %>%
+    #   mutate(coefficient = approx_fun(year, value, rule = 1)) %>%
+    #   filter(year %in% MODEL_YEARS) %>%
+    #   select(LEVEL2_DATA_NAMES[["TechCoef"]])
+    #
+    # L2323.TechShrwt_detailed_industry_China <- repeat_add_columns(A323.tech_shrwt_China, tibble::tibble(province = province_names_mappings$province)) %>%
+    #   gather(year, value, -supplysector,-subsector,-technology,-province) %>%
+    #   mutate(subsector = paste(province, subsector, sep = " "),
+    #          technology = subsector,
+    #          region = "China") %>%
+    #   mutate(year = as.integer(sub("X", "", year))) %>%
+    #   complete(nesting(region,supplysector,subsector,technology,province), year = MODEL_YEARS) %>%
+    #   filter(!(province %in% c("HK","MC"))) %>%
+    #   mutate(share.weight = approx_fun(year, value, rule = 1)) %>%
+    #   filter(year %in% MODEL_YEARS) %>%
+    #   select(LEVEL2_DATA_NAMES[["TechShrwt"]])
+
+
+    # *** for HK version *** //
+    province_no_MC <- province_names_mappings %>% filter(!(province %in% c("MC")))
 
     A323.sector_China %>% select(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME)) -> L2323.Supplysector_detailed_industry_China
 
     L2323.SubsectorLogit_detailed_industry_China <- set_years(A323.subsector_logit_China[rep(1:nrow(A323.subsector_logit_China),
-                                              times = length(province_no_HK_MC$province)),]%>%
+                                                                                             times = length(province_no_MC$province)),]%>%
 
-                mutate(subsector = paste(rep(province_no_HK_MC$province,
-                                             each = nrow(A323.subsector_logit_China)), subsector, sep = " "),
-                       region = "China",logit.year.fillout = 1975) %>%
-    select(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME)))
+                                                                mutate(subsector = paste(rep(province_no_MC$province,
+                                                                                             each = nrow(A323.subsector_logit_China)), subsector, sep = " "),
+                                                                       region = "China",logit.year.fillout = 1975) %>%
+                                                                select(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME)))
 
 
     # Subsector logit tables
     L2323.SubsectorInterp_detailed_industry_China <- set_years(A323.subsector_interp_China[rep(1:nrow(A323.subsector_logit_China),
-                                                                                               each = length(province_no_HK_MC$province)),] %>%
-      mutate(subsector = paste(province_no_HK_MC$province, subsector, sep = " "),
-             region = "China") %>%
-      select(LEVEL2_DATA_NAMES[["SubsectorInterp"]]))
+                                                                                               each = length(province_no_MC$province)),] %>%
+                                                                 mutate(subsector = paste(province_no_MC$province, subsector, sep = " "),
+                                                                        region = "China") %>%
+                                                                 select(LEVEL2_DATA_NAMES[["SubsectorInterp"]]))
 
     # Technology info for the China pass-through detailed_industry sectors
     L2323.TechCoef_detailed_industry_China <-
       repeat_add_columns(A323.tech_coef_China, tibble::tibble(market.name = province_names_mappings$province)) %>%
-      filter(!(market.name %in% c("HK","MC"))) %>%
+      filter(!(market.name %in% c("MC"))) %>%
       gather(year, value, -supplysector,-subsector,-technology,-minicam.energy.input,-market.name) %>%
       mutate(year = as.integer(sub("X", "", year))) %>%
       mutate(subsector = paste(market.name, subsector, sep = " "),
@@ -536,10 +586,13 @@ module_gcamchina_L2323.detailed_industry <- function(command, ...) {
              region = "China") %>%
       mutate(year = as.integer(sub("X", "", year))) %>%
       complete(nesting(region,supplysector,subsector,technology,province), year = MODEL_YEARS) %>%
-      filter(!(province %in% c("HK","MC"))) %>%
+      filter(!(province %in% c("MC"))) %>%
       mutate(share.weight = approx_fun(year, value, rule = 1)) %>%
       filter(year %in% MODEL_YEARS) %>%
       select(LEVEL2_DATA_NAMES[["TechShrwt"]])
+    # *** for HK version *** //
+
+
 
     #Technology calibration - use the technology-level table from the provinces, aggregated by sector and province
     L2323.Output_detailed_industry_by_province <- group_by(L2323.StubTechProd_detailed_industry, region, supplysector, year) %>%

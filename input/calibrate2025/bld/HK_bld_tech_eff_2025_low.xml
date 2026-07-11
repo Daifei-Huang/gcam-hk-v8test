@@ -1,0 +1,1866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario>
+  <world>
+    <region name="HK">
+      <!-- HK conservative technical efficiencies for 2025 new building-service vintages. -->
+      <!-- Model base year is 2021; this file overrides only period 2025. -->
+      <!-- Target intensity ratio = energy input per unit service in 2025 / 2005; GCAM efficiency = service output / energy input. -->
+      <!-- Therefore target efficiency in 2025 = 2005 efficiency / target intensity ratio. -->
+      <!-- GCAM default interpolation is a logistic s-curve (default steepness 10), not Hermite smoothstep. -->
+      <!-- Residential urban deciles d1-d10 use identical technical-efficiency assumptions. -->
+      <!-- Lower-bound policy case: gradual equipment renewal and compliance-led gains, remaining above the GCAM default 2025 efficiency for all modified technologies. -->
+      <supplysector name="comm heating">
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.6915</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.6915</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.7778</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>1.5</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric heat pump">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.7647</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.814</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm cooling">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.6512</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm hot water_cooking">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.7778</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>1.5</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm lighting">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.028</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fluorescent">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.0482</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm appliances">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d1">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d1">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d2">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d2">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d3">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d3">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d4">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d4">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d5">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d5">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d6">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d6">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d7">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d7">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d8">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d8">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d9">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d9">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d10">
+        <subsector name="coal">
+          <stub-technology name="coal furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="wood furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered biomass">
+                <efficiency>0.4255</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric furnace">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8125</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.875</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="heat">
+          <stub-technology name="district heat">
+            <period year="2025">
+              <minicam-energy-input name="district heat">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>3.516</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>4.0244</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d10">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="delivered gas">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.9</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.5652</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <period year="2025">
+              <minicam-energy-input name="refined liquids enduse">
+                <efficiency>0.8542</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal water heater">
+            <period year="2025">
+              <minicam-energy-input name="delivered coal">
+                <efficiency>1</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban lighting modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="elec light">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>0.4167</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban appliances modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="electric appliances">
+            <period year="2025">
+              <minicam-energy-input name="elect_td_bld">
+                <efficiency>1.1364</efficiency>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -1,0 +1,13 @@
+<scenario name="Midterm35_HK">
+	<world>
+        <region name="HK">
+		<!-- since 2025, linear decline to 2035 target (5.9135 MtC) -->
+			<ghgpolicy name="CO2_HK">
+				<market>HK</market>
+            <constraint year="2030">7.4268</constraint>
+            <constraint year="2035">5.9135</constraint>
+			</ghgpolicy>
+		</region>
+		
+	</world>
+</scenario>

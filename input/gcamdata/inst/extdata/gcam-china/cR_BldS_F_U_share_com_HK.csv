@@ -9,7 +9,7 @@ climate.region,sector,fuel,heating,cooling,lighting,hot water_cooking,appliances
 HSWW,comm,biomass,1,0,0,0,0
 HSWW,comm,traditional biomass,0,0,0,0,0
 HSWW,comm,coal,0,0,0,1,0
-HSWW,comm,electricity,0.0013119,0.25455,0.1193032,0.0550349,0.5698
+HSWW,comm,electricity,0.0012757,0.2514377,0.11116646,0.0457,0.59042014
 HSWW,comm,gas,0,0,0,1,0
 HSWW,comm,refined liquids,0,0,0,1,0
 HSWW,comm,heat,0,0,0,0,0

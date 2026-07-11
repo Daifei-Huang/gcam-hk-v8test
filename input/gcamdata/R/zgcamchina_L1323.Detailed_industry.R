@@ -21,6 +21,7 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
    return(c( FILE = "gcam-china/province_names_mappings",
              FILE = "gcam-china/detailed_industry_output",
              FILE = "gcam-china/IO_detailed_industry",
+             FILE = "gcam-china/IO_detailed_industry_HK", # *** for HK version *** // HK industry
              "L132.in_EJ_province_indnochp_F",
              "L132.in_EJ_province_indfeed_F"))
  } else if(command == driver.DECLARE_OUTPUTS) {
@@ -42,9 +43,12 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
    L132.in_EJ_province_indnochp_F <- get_data(all_data, "L132.in_EJ_province_indnochp_F", strip_attributes = T)
    L132.in_EJ_province_indfeed_F <- get_data(all_data, "L132.in_EJ_province_indfeed_F", strip_attributes = T)
 
+   IO_detailed_industry_HK <- get_data(all_data, "gcam-china/IO_detailed_industry_HK", strip_attributes = T) # *** for HK version *** // HK industry
+
    # ===================================================
     #produce io,energy,output
     IO_detailed_industry %>%
+      bind_rows(IO_detailed_industry_HK) %>% # *** for HK version *** // HK industry
       rename(value = energy.input) %>%
       select(-coefficient,-production) %>%
 	  #filter energy input
@@ -63,6 +67,7 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
 
     #IO
     IO_detailed_industry %>%
+      bind_rows(IO_detailed_industry_HK) %>% # *** for HK version *** // HK industry
       select(-energy.input,-production) ->
      L1323.IO_GJkg_province_detailed_industry_F_Yh
 
@@ -121,7 +126,9 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
      add_units("GJ/kg and kg/kg") %>%
      add_comments("Calculate IO coefficients for each fuel") %>%
      add_legacy_name("L1323.IO_GJkg_province_detailed_industry_F_Yh") %>%
-     add_precursors("gcam-china/IO_detailed_industry", "gcam-china/province_names_mappings") ->
+     add_precursors("gcam-china/IO_detailed_industry",
+                    "gcam-china/IO_detailed_industry_HK",  # *** for HK version *** // HK industry
+                    "gcam-china/province_names_mappings") ->
      L1323.IO_GJkg_province_detailed_industry_F_Yh
 
    L1323.in_EJ_province_detailed_industry_F_Y %>%
@@ -138,7 +145,11 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
      add_units("EJ/yr") %>%
      add_comments("these province shares were calculated to be proportional to the their values of detailed_industry production") %>%
      add_legacy_name("L1323.in_EJ_province_indnochp_F") %>%
-     add_precursors( "gcam-china/province_names_mappings", "L132.in_EJ_province_indnochp_F","gcam-china/IO_detailed_industry","gcam-china/detailed_industry_output") ->
+     add_precursors( "gcam-china/province_names_mappings",
+                     "L132.in_EJ_province_indnochp_F",
+                     "gcam-china/IO_detailed_industry",
+                     "gcam-china/IO_detailed_industry_HK",  # *** for HK version *** // HK industry
+                     "gcam-china/detailed_industry_output") ->
      L1323.in_EJ_province_indnochp_F
 
    L1323.in_EJ_province_indfeed_F %>%
@@ -146,7 +157,11 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
       add_units("EJ/yr") %>%
       add_comments("these province shares were calculated to be proportional to the their values of detailed_industry production") %>%
       add_legacy_name("L1323.in_EJ_province_indfeed_F") %>%
-      add_precursors( "gcam-china/province_names_mappings", "L132.in_EJ_province_indfeed_F","gcam-china/IO_detailed_industry","gcam-china/detailed_industry_output") ->
+      add_precursors( "gcam-china/province_names_mappings",
+                      "L132.in_EJ_province_indfeed_F",
+                      "gcam-china/IO_detailed_industry",
+                      "gcam-china/IO_detailed_industry_HK",  # *** for HK version *** // HK industry
+                      "gcam-china/detailed_industry_output") ->
       L1323.in_EJ_province_indfeed_F
 
    return_data(L1323.out_Mt_province_detailed_industry_Yh, L1323.IO_GJkg_province_detailed_industry_F_Yh, L1323.in_EJ_province_detailed_industry_F_Y,L1323.in_EJ_province_indnochp_F,L1323.in_EJ_province_indfeed_F)

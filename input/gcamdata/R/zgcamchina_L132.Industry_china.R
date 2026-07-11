@@ -82,6 +82,17 @@ module_gcamchina_L132.Industry <- function(command, ...) {
       ungroup ->
       L132.in_pct_province_ind_F
 
+    # *** for HK version *** // Daifei 05/12/2025
+    # Hong Kong do not have CHP
+    L132.in_Mtce_province_indenergy_F_unscaled %>%
+      filter(province != "HK") %>%
+      group_by(sector, fuel, year) %>%
+      mutate(multiplier = value / sum(value), value = NULL) %>%
+      replace_na(list(multiplier = 0)) %>%
+      ungroup ->
+      L132.in_pct_province_ind_F_NOHK
+    # *** for HK version *** // Daifei 05/12/2025
+
 
     # PART 2. Apportion China consumption and output to province level for non-cogeneration and cogeneration
     # Apportion national-level industrial energy consumption to provinces - NON-COGEN
@@ -94,9 +105,20 @@ module_gcamchina_L132.Industry <- function(command, ...) {
       #select(-multiplier, -GCAM_region_ID) ->
       L132.in_EJ_province_indnochp_F
 
+    # *** for HK version *** // Daifei 04/07/2026
+    # Hong Kong has no industrial CHP; set HK to zero and re-normalize the remaining province shares
+    # so the national CHP input/output totals are preserved.
+    L132.in_pct_province_ind_F %>%
+      group_by(sector, fuel, year) %>%
+      mutate(multiplier = multiplier / sum(multiplier[province != "HK"], na.rm = T),
+             multiplier = replace(multiplier, province == "HK" | !is.finite(multiplier), 0)) %>%
+      ungroup() ->
+      L132.in_pct_province_ind_F_chp
+
+
     # Apportion national-level industrial energy consumption to provinces - COGEN
     # Industrial sector cogeneration input energy by province and fuel
-    L132.in_pct_province_ind_F %>%
+    L132.in_pct_province_ind_F_chp %>%
       filter(fuel %in% unique(L123.in_EJ_R_indchp_F_Yh$fuel)) %>%
       # We only want fuels that are inputs to cogen systems, i.e. not electricity
       mutate(sector = "chp_elec") %>%
@@ -107,7 +129,7 @@ module_gcamchina_L132.Industry <- function(command, ...) {
       L132.in_EJ_province_indchp_F
 
     # Apportion nation-level industrial cogen output to provinces
-    L132.in_pct_province_ind_F %>%
+    L132.in_pct_province_ind_F_chp %>%
       filter(fuel %in% gcam.IND_ENERGY_USE) %>%
       mutate(sector = "chp_elec") %>%
       # ^^ prepare for smooth join
@@ -116,6 +138,8 @@ module_gcamchina_L132.Industry <- function(command, ...) {
       mutate(value = value * multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
       L132.out_EJ_province_indchp_F
+
+    # *** for HK version *** // Daifei 04/07/2026
 
 
     # PART 3: Industrial feedstocks
@@ -168,7 +192,13 @@ module_gcamchina_L132.Industry <- function(command, ...) {
       # Prepare for smooth join
       left_join_error_no_match(filter(L1322.in_EJ_R_indfeed_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
                                by = c("sector", "fuel", "year")) %>%
-      mutate(value = value * multiplier) %>%
+
+      # *** for HK version *** // Daifei 04/07/2026
+      # mutate(value = value * multiplier) %>%
+      # adjust Hong Kong industry using oil for Construction / Bitumen Asphalt
+      mutate(value = value * if_else(province == "HK" & year > 2016, multiplier*0.1/(year-2016), multiplier)) %>%
+      # *** for HK version *** // Daifei 04/07/2026
+
       # Get province portions
       select(-multiplier, -GCAM_region_ID) %>%
       arrange(province) ->

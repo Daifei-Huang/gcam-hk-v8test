@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+    <!-- Hong Kong H2 planning: no large-scale local facility, no coal-based H2. First greyH2, than turn to blue&greenH2-->
+
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <share-weight fillout="1" year="2025">0</share-weight>
+        </subsector>
+        <subsector name="gas">
+          <share-weight fillout="1" year="2025">1</share-weight>
+        </subsector>
+        <subsector name="nuclear">
+          <share-weight fillout="1" year="2025">0</share-weight>
+        </subsector>
+        <subsector name="biomass">
+          <share-weight fillout="1" year="2025">0.1</share-weight>
+        </subsector>
+        <subsector name="electricity">
+          <share-weight fillout="1" year="2025">0.4</share-weight>
+        </subsector>
+      </supplysector>
+
+      <policy-portfolio-standard name="localH2-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2025">0</min-price>
+        
+          <constraint year="2025">0.00015</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <stub-technology name="coal chemical">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal chemical CCS">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas ATR CCS">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass to H2">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass to H2 CCS">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="nuclear">
+          <stub-technology name="electrolysis">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electrolysis">
+            <period year="2025">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+
+    </region>
+  </world>
+</scenario>

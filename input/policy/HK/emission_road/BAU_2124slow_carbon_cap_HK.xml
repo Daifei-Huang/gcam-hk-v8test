@@ -1,0 +1,18 @@
+<scenario name="BAUslow_HK">
+	<world>
+        <!-- since 2025, using 0.028 MtC/yr reduction level to calculate CO2 emissions, -->
+        <region name="HK">
+			<ghgpolicy name="CO2">
+				<market>HK</market>
+            <constraint year="2030">8.80</constraint>
+            <constraint year="2035">8.66</constraint>
+            <constraint year="2040">8.52</constraint>
+            <constraint year="2045">8.38</constraint>
+            <constraint year="2050">8.24</constraint>
+            <constraint year="2055">8.10</constraint>
+            <constraint year="2060">7.96</constraint>
+			</ghgpolicy>
+		</region>
+		
+	</world>
+</scenario>

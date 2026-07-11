@@ -1,0 +1,177 @@
+﻿category,technology_category_label,year,capital_premium,OM_fixed_premium,OM_var_premium,notes
+gas_no_ccs,"gas CC / steam-CT, no CCS",2025,1.3,1.2,1.1,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2030,1.29,1.1933333333333334,1.0933333333333335,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2035,1.28,1.1866666666666665,1.0866666666666667,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2040,1.27,1.18,1.08,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2045,1.26,1.1733333333333333,1.0733333333333335,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2050,1.25,1.1666666666666667,1.0666666666666667,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2055,1.24,1.16,1.06,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2060,1.23,1.1533333333333333,1.0533333333333335,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2065,1.22,1.1466666666666667,1.0466666666666666,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2070,1.21,1.1400000000000001,1.04,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2075,1.2,1.1333333333333333,1.0333333333333334,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2080,1.19,1.1266666666666667,1.0266666666666666,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2085,1.18,1.12,1.02,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2090,1.17,1.1133333333333333,1.0133333333333334,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2095,1.16,1.1066666666666667,1.0066666666666666,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+gas_no_ccs,"gas CC / steam-CT, no CCS",2100,1.15,1.1,1.0,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+refined_liquids_no_ccs,"refined liquids, no CCS",2025,1.3,1.2,1.1,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2030,1.29,1.1933333333333334,1.0933333333333335,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2035,1.28,1.1866666666666665,1.0866666666666667,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2040,1.27,1.18,1.08,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2045,1.26,1.1733333333333333,1.0733333333333335,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2050,1.25,1.1666666666666667,1.0666666666666667,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2055,1.24,1.16,1.06,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2060,1.23,1.1533333333333333,1.0533333333333335,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2065,1.22,1.1466666666666667,1.0466666666666666,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2070,1.21,1.1400000000000001,1.04,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2075,1.2,1.1333333333333333,1.0333333333333334,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2080,1.19,1.1266666666666667,1.0266666666666666,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2085,1.18,1.12,1.02,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2090,1.17,1.1133333333333333,1.0133333333333334,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2095,1.16,1.1066666666666667,1.0066666666666666,Same premium range as non-CCS gas peaking/oil technologies.
+refined_liquids_no_ccs,"refined liquids, no CCS",2100,1.15,1.1,1.0,Same premium range as non-CCS gas peaking/oil technologies.
+coal_no_ccs,"coal, no CCS",2025,1.4,1.3,1.3,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2030,1.3866666666666665,1.29,1.2866666666666666,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2035,1.3733333333333333,1.28,1.2733333333333334,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2040,1.3599999999999999,1.27,1.26,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2045,1.3466666666666667,1.26,1.2466666666666668,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2050,1.3333333333333333,1.25,1.2333333333333334,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2055,1.3199999999999998,1.24,1.22,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2060,1.3066666666666666,1.23,1.2066666666666668,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2065,1.2933333333333332,1.22,1.1933333333333334,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2070,1.28,1.21,1.1800000000000002,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2075,1.2666666666666666,1.2,1.1666666666666667,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2080,1.2533333333333334,1.19,1.1533333333333333,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2085,1.24,1.18,1.1400000000000001,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2090,1.2266666666666666,1.17,1.1266666666666667,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2095,1.2133333333333334,1.16,1.1133333333333335,"Higher site, environmental compliance, ash/residue handling and labor costs."
+coal_no_ccs,"coal, no CCS",2100,1.2,1.15,1.1,"Higher site, environmental compliance, ash/residue handling and labor costs."
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2025,1.5,1.35,1.35,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2030,1.4833333333333334,1.34,1.3366666666666667,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2035,1.4666666666666666,1.33,1.3233333333333335,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2040,1.45,1.32,1.31,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2045,1.4333333333333333,1.31,1.2966666666666666,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2050,1.4166666666666667,1.3,1.2833333333333334,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2055,1.4,1.29,1.27,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2060,1.3833333333333333,1.28,1.2566666666666666,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2065,1.3666666666666667,1.27,1.2433333333333334,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2070,1.35,1.26,1.23,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2075,1.3333333333333333,1.25,1.2166666666666666,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2080,1.3166666666666667,1.24,1.2033333333333334,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2085,1.3,1.23,1.19,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2090,1.2833333333333332,1.22,1.1766666666666665,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2095,1.2666666666666666,1.21,1.1633333333333333,Extends the coal-CCS premium logic to all fossil CCS technologies.
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,2100,1.25,1.2,1.15,Extends the coal-CCS premium logic to all fossil CCS technologies.
+biomass_wte,biomass / WTE proxy,2025,1.6,1.5,1.6,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2030,1.5766666666666667,1.48,1.5733333333333335,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2035,1.5533333333333335,1.46,1.5466666666666666,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2040,1.53,1.44,1.52,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2045,1.5066666666666668,1.42,1.4933333333333334,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2050,1.4833333333333334,1.4,1.4666666666666668,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2055,1.46,1.38,1.44,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2060,1.4366666666666668,1.3599999999999999,1.4133333333333333,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2065,1.4133333333333333,1.3399999999999999,1.3866666666666667,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2070,1.3900000000000001,1.32,1.36,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2075,1.3666666666666667,1.3,1.3333333333333335,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2080,1.3433333333333333,1.28,1.3066666666666666,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2085,1.32,1.26,1.28,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2090,1.2966666666666666,1.24,1.2533333333333334,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2095,1.2733333333333334,1.22,1.2266666666666666,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+biomass_wte,biomass / WTE proxy,2100,1.25,1.2,1.2,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+rooftop_pv,rooftop PV,2025,1.3,1.2,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2030,1.2866666666666666,1.19,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2035,1.2733333333333334,1.18,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2040,1.26,1.17,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2045,1.2466666666666668,1.16,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2050,1.2333333333333334,1.15,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2055,1.22,1.14,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2060,1.2066666666666668,1.13,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2065,1.1933333333333334,1.12,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2070,1.1800000000000002,1.11,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2075,1.1666666666666667,1.1,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2080,1.1533333333333333,1.09,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2085,1.1400000000000001,1.08,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2090,1.1266666666666667,1.07,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2095,1.1133333333333335,1.06,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+rooftop_pv,rooftop PV,2100,1.1,1.05,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+utility_pv,utility PV,2025,1.5,1.25,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2030,1.48,1.24,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2035,1.46,1.23,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2040,1.44,1.22,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2045,1.42,1.21,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2050,1.4,1.2,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2055,1.38,1.19,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2060,1.3599999999999999,1.18,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2065,1.3399999999999999,1.1700000000000002,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2070,1.32,1.1600000000000001,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2075,1.3,1.1500000000000001,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2080,1.28,1.1400000000000001,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2085,1.26,1.1300000000000001,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2090,1.24,1.12,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2095,1.22,1.11,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+utility_pv,utility PV,2100,1.2,1.1,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2025,1.5,1.25,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2030,1.48,1.24,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2035,1.46,1.23,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2040,1.44,1.22,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2045,1.42,1.21,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2050,1.4,1.2,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2055,1.38,1.19,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2060,1.3599999999999999,1.18,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2065,1.3399999999999999,1.1700000000000002,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2070,1.32,1.1600000000000001,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2075,1.3,1.1500000000000001,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2080,1.28,1.1400000000000001,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2085,1.26,1.1300000000000001,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2090,1.24,1.12,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2095,1.22,1.11,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,2100,1.2,1.1,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+onshore_wind,onshore wind,2025,1.5,1.25,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2030,1.48,1.24,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2035,1.46,1.23,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2040,1.44,1.22,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2045,1.42,1.21,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2050,1.4,1.2,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2055,1.38,1.19,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2060,1.3599999999999999,1.18,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2065,1.3399999999999999,1.1700000000000002,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2070,1.32,1.1600000000000001,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2075,1.3,1.1500000000000001,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2080,1.28,1.1400000000000001,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2085,1.26,1.1300000000000001,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2090,1.24,1.12,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2095,1.22,1.11,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+onshore_wind,onshore wind,2100,1.2,1.1,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+offshore_wind,offshore wind,2025,1.5,1.35,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2030,1.48,1.3366666666666667,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2035,1.46,1.3233333333333335,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2040,1.44,1.31,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2045,1.42,1.2966666666666666,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2050,1.4,1.2833333333333334,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2055,1.38,1.27,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2060,1.3599999999999999,1.2566666666666666,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2065,1.3399999999999999,1.2433333333333334,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2070,1.32,1.23,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2075,1.3,1.2166666666666666,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2080,1.28,1.2033333333333334,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2085,1.26,1.19,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2090,1.24,1.1766666666666665,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2095,1.22,1.1633333333333333,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+offshore_wind,offshore wind,2100,1.2,1.15,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+renewable_storage,storage-related renewable generation,2025,1.4,1.25,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2030,1.3833333333333333,1.24,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2035,1.3666666666666665,1.23,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2040,1.3499999999999999,1.22,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2045,1.3333333333333333,1.21,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2050,1.3166666666666667,1.2,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2055,1.2999999999999998,1.19,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2060,1.2833333333333332,1.18,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2065,1.2666666666666666,1.1700000000000002,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2070,1.25,1.1600000000000001,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2075,1.2333333333333332,1.1500000000000001,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2080,1.2166666666666666,1.1400000000000001,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2085,1.2,1.1300000000000001,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2090,1.1833333333333331,1.12,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2095,1.1666666666666665,1.11,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
+renewable_storage,storage-related renewable generation,2100,1.15,1.1,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.

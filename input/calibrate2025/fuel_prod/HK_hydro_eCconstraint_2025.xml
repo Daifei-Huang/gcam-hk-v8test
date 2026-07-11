@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <!-- Refer to hydrogen_CHINA.xml -->
+    <region name="HK">
+      
+      <ghgpolicy name="CO2_HYDRON">
+         <market>HK</market>
+         <constraint year="2025">0.001</constraint>
+      </ghgpolicy>
+
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <stub-technology name="coal chemical">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal chemical CCS">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas ATR CCS">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <share-weight year="2025">0.5</share-weight>
+          <stub-technology name="biomass to H2">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+           <stub-technology name="biomass to H2 CCS">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="nuclear">
+          <share-weight fillout="1" year="2020">0</share-weight>
+          <stub-technology name="electrolysis">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+           <stub-technology name="electrolysis">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 pipeline">
+        <subsector name="H2 pipeline">
+          <stub-technology name="H2 pipeline">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 liquid truck">
+        <subsector name="H2 liquid truck">
+          <stub-technology name="H2 liquid truck">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 wholesale delivery">
+        <subsector name="H2 pipeline">
+          <stub-technology name="H2 pipeline">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="H2 liquid truck">
+          <stub-technology name="H2 liquid truck">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 industrial">
+        <subsector name="H2 delivery">
+          <stub-technology name="H2 delivery">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="onsite production">
+          <stub-technology name="electrolysis">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 retail delivery">
+        <subsector name="H2 retail delivery">
+          <stub-technology name="H2 retail delivery">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 wholesale dispensing">
+        <subsector name="H2 delivery">
+          <stub-technology name="H2 pipeline">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="H2 liquid truck">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="forecourt production">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="electrolysis">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="H2 retail dispensing">
+        <subsector name="H2 retail dispensing">
+          <stub-technology name="H2 retail dispensing">
+            <period year="2025">
+              <CO2 name="CO2_HYDRON"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+    </region>
+  </world>
+</scenario>
+

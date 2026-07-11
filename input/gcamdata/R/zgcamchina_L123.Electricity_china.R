@@ -70,7 +70,13 @@ module_gcamchina_L123.Electricity <- function(command, ...) {
              solar = solar + solar.adj) %>%
       select(-other, -row, -coal.adj, -wind.adj, -nuc.adj, -solar.adj) %>%
       # Assumption: use coal shares for biomass
-      mutate(biomass = coal) %>%
+      # mutate(biomass = coal) %>%
+
+      # *** for HK version *** // Daifei 09/06/2026
+      # Adjust biomass shares (only HK)
+      mutate(biomass = if_else(province == "HK", coal*0.575, coal)) %>%
+      # *** for HK version *** // Daifei 09/06/2026
+
       gather(fuel, value, -province, -year) %>%
       # remove a few negative values, very small (order of 10^-15) in geothermal) allocated from "other"
       filter(value >= 0) %>%

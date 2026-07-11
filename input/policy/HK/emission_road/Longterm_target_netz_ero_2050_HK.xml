@@ -1,0 +1,24 @@
+<scenario name="Midterm35toNetZero50_HK">
+	<world>
+        <region name="HK">
+		<!-- since 2035 target (5.9135 MtC), linear decline to 2050 net-zero (assume that Hong Kong AFOLU net carbon sink based on historical data: 0.44 MtCO2/yr) -->
+			<ghgpolicy name="CO2_HK">
+				<market>HK</market>
+            <constraint year="2040">3.9756</constraint>
+            <constraint year="2045">2.0377</constraint>
+            <constraint year="2050">0.1</constraint>
+            <constraint year="2055">-2</constraint>
+            <constraint year="2060">-2</constraint>
+            <constraint year="2065">-2</constraint>
+            <constraint year="2070">-2</constraint>
+            <constraint year="2075">-2</constraint>
+            <constraint year="2080">-2</constraint>
+            <constraint year="2085">-2</constraint>
+            <constraint year="2090">-2</constraint>
+            <constraint year="2095">-2</constraint>
+            <constraint year="2100">-2</constraint>
+			</ghgpolicy>
+		</region>
+		
+	</world>
+</scenario>

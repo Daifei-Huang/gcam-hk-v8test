@@ -1,0 +1,3421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <supplysector name="comm cooling">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm heating">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm hot water_cooking">
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban cooling modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="air conditioning">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="air conditioning hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d1">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d10">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d2">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d3">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d4">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d5">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d6">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d7">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d8">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban heating modern_d9">
+        <subsector name="gas">
+          <stub-technology name="gas furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel furnace">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel furnace hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid_urban hot water_cooking modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="electric resistance water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="electric resistance water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="fuel water heater">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>0.6</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0.45</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0.3</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0.15</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+          </stub-technology>
+          <stub-technology name="fuel water heater hi-eff">
+            <!--period year="2025">
+              <share-weight>1</share-weight>
+            </period-->
+            <period year="2030">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1.2</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.2</share-weight>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

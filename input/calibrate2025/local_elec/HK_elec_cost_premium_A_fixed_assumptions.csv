@@ -1,0 +1,12 @@
+﻿category,technology_category_label,capital_low,capital_mid,capital_high,OM_fixed_low,OM_fixed_mid,OM_fixed_high,OM_var_low,OM_var_mid,OM_var_high,notes
+gas_no_ccs,"gas CC / steam-CT, no CCS",1.15,1.225,1.3,1.1,1.15,1.2,1.0,1.05,1.1,Higher HK EPC/site and O&M costs; variable O&M only slightly higher.
+refined_liquids_no_ccs,"refined liquids, no CCS",1.15,1.225,1.3,1.1,1.15,1.2,1.0,1.05,1.1,Same premium range as non-CCS gas peaking/oil technologies.
+coal_no_ccs,"coal, no CCS",1.2,1.2999999999999998,1.4,1.15,1.225,1.3,1.1,1.2000000000000002,1.3,"Higher site, environmental compliance, ash/residue handling and labor costs."
+fossil_ccs,fossil CCS: coal/gas/refined liquids with CCS,1.25,1.375,1.5,1.2,1.275,1.35,1.15,1.25,1.35,Extends the coal-CCS premium logic to all fossil CCS technologies.
+biomass_wte,biomass / WTE proxy,1.25,1.425,1.6,1.2,1.35,1.5,1.2,1.4,1.6,"Higher waste/feedstock handling, emissions control, residue treatment, site and labor costs."
+rooftop_pv,rooftop PV,1.1,1.2000000000000002,1.3,1.05,1.125,1.2,1.0,1.0,1.0,Distributed installation and building-adaptation premium; variable O&M remains unchanged.
+utility_pv,utility PV,1.2,1.35,1.5,1.1,1.175,1.25,1.0,1.0,1.0,Land/space and local EPC premium; PV variable O&M remains unchanged.
+csp_solar,CSP / non-PV solar,1.2,1.35,1.5,1.1,1.175,1.25,1.0,1.0,1.0,Treated as utility solar for capital/fixed O&M; renewable variable O&M remains unchanged.
+onshore_wind,onshore wind,1.2,1.35,1.5,1.1,1.175,1.25,1.0,1.0,1.0,"Land/space, installation and maintenance premium; wind variable O&M remains unchanged."
+offshore_wind,offshore wind,1.2,1.35,1.5,1.15,1.25,1.35,1.0,1.0,1.0,"Higher offshore works, marine construction, grid connection and maintenance cost premium."
+renewable_storage,storage-related renewable generation,1.15,1.275,1.4,1.1,1.175,1.25,1.0,1.0,1.0,Storage-related renewable technologies; PV/wind variable O&M remains unchanged.
