@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.01</income-elasticity>
+                <income-elasticity year="2030">0.01</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Eastern">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.665</income-elasticity>
+                <income-elasticity year="2030">0.657</income-elasticity>
+                <income-elasticity year="2035">0.647</income-elasticity>
+                <income-elasticity year="2040">0.634</income-elasticity>
+                <income-elasticity year="2045">0.618</income-elasticity>
+                <income-elasticity year="2050">0.598</income-elasticity>
+                <income-elasticity year="2055">0.552</income-elasticity>
+                <income-elasticity year="2060">0.498</income-elasticity>
+                <income-elasticity year="2065">0.433</income-elasticity>
+                <income-elasticity year="2070">0.379</income-elasticity>
+                <income-elasticity year="2075">0.345</income-elasticity>
+                <income-elasticity year="2080">0.323</income-elasticity>
+                <income-elasticity year="2085">0.297</income-elasticity>
+                <income-elasticity year="2090">0.271</income-elasticity>
+                <income-elasticity year="2095">0.234</income-elasticity>
+                <income-elasticity year="2100">0.218</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Northern">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.538</income-elasticity>
+                <income-elasticity year="2030">0.491</income-elasticity>
+                <income-elasticity year="2035">0.424</income-elasticity>
+                <income-elasticity year="2040">0.367</income-elasticity>
+                <income-elasticity year="2045">0.334</income-elasticity>
+                <income-elasticity year="2050">0.299</income-elasticity>
+                <income-elasticity year="2055">0.27</income-elasticity>
+                <income-elasticity year="2060">0.229</income-elasticity>
+                <income-elasticity year="2065">0.211</income-elasticity>
+                <income-elasticity year="2070">0.168</income-elasticity>
+                <income-elasticity year="2075">0.126</income-elasticity>
+                <income-elasticity year="2080">0.101</income-elasticity>
+                <income-elasticity year="2085">0.078</income-elasticity>
+                <income-elasticity year="2090">0.036</income-elasticity>
+                <income-elasticity year="2095">0.012</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Southern">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.652</income-elasticity>
+                <income-elasticity year="2030">0.645</income-elasticity>
+                <income-elasticity year="2035">0.633</income-elasticity>
+                <income-elasticity year="2040">0.618</income-elasticity>
+                <income-elasticity year="2045">0.599</income-elasticity>
+                <income-elasticity year="2050">0.554</income-elasticity>
+                <income-elasticity year="2055">0.5</income-elasticity>
+                <income-elasticity year="2060">0.436</income-elasticity>
+                <income-elasticity year="2065">0.38</income-elasticity>
+                <income-elasticity year="2070">0.344</income-elasticity>
+                <income-elasticity year="2075">0.32</income-elasticity>
+                <income-elasticity year="2080">0.295</income-elasticity>
+                <income-elasticity year="2085">0.257</income-elasticity>
+                <income-elasticity year="2090">0.227</income-elasticity>
+                <income-elasticity year="2095">0.21</income-elasticity>
+                <income-elasticity year="2100">0.165</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Western">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.648</income-elasticity>
+                <income-elasticity year="2030">0.642</income-elasticity>
+                <income-elasticity year="2035">0.631</income-elasticity>
+                <income-elasticity year="2040">0.617</income-elasticity>
+                <income-elasticity year="2045">0.599</income-elasticity>
+                <income-elasticity year="2050">0.556</income-elasticity>
+                <income-elasticity year="2055">0.506</income-elasticity>
+                <income-elasticity year="2060">0.446</income-elasticity>
+                <income-elasticity year="2065">0.387</income-elasticity>
+                <income-elasticity year="2070">0.348</income-elasticity>
+                <income-elasticity year="2075">0.329</income-elasticity>
+                <income-elasticity year="2080">0.299</income-elasticity>
+                <income-elasticity year="2085">0.279</income-elasticity>
+                <income-elasticity year="2090">0.237</income-elasticity>
+                <income-elasticity year="2095">0.218</income-elasticity>
+                <income-elasticity year="2100">0.201</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Australia_NZ">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.01</income-elasticity>
+                <income-elasticity year="2030">0.01</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Brazil">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.336</income-elasticity>
+                <income-elasticity year="2030">0.326</income-elasticity>
+                <income-elasticity year="2035">0.301</income-elasticity>
+                <income-elasticity year="2040">0.283</income-elasticity>
+                <income-elasticity year="2045">0.234</income-elasticity>
+                <income-elasticity year="2050">0.213</income-elasticity>
+                <income-elasticity year="2055">0.167</income-elasticity>
+                <income-elasticity year="2060">0.118</income-elasticity>
+                <income-elasticity year="2065">0.092</income-elasticity>
+                <income-elasticity year="2070">0.044</income-elasticity>
+                <income-elasticity year="2075">0.014</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Canada">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.01</income-elasticity>
+                <income-elasticity year="2030">0.01</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central America and Caribbean">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.396</income-elasticity>
+                <income-elasticity year="2030">0.363</income-elasticity>
+                <income-elasticity year="2035">0.338</income-elasticity>
+                <income-elasticity year="2040">0.309</income-elasticity>
+                <income-elasticity year="2045">0.29</income-elasticity>
+                <income-elasticity year="2050">0.241</income-elasticity>
+                <income-elasticity year="2055">0.219</income-elasticity>
+                <income-elasticity year="2060">0.201</income-elasticity>
+                <income-elasticity year="2065">0.15</income-elasticity>
+                <income-elasticity year="2070">0.108</income-elasticity>
+                <income-elasticity year="2075">0.084</income-elasticity>
+                <income-elasticity year="2080">0.038</income-elasticity>
+                <income-elasticity year="2085">0.012</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central Asia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.444</income-elasticity>
+                <income-elasticity year="2030">0.396</income-elasticity>
+                <income-elasticity year="2035">0.363</income-elasticity>
+                <income-elasticity year="2040">0.341</income-elasticity>
+                <income-elasticity year="2045">0.324</income-elasticity>
+                <income-elasticity year="2050">0.302</income-elasticity>
+                <income-elasticity year="2055">0.293</income-elasticity>
+                <income-elasticity year="2060">0.266</income-elasticity>
+                <income-elasticity year="2065">0.239</income-elasticity>
+                <income-elasticity year="2070">0.224</income-elasticity>
+                <income-elasticity year="2075">0.213</income-elasticity>
+                <income-elasticity year="2080">0.201</income-elasticity>
+                <income-elasticity year="2085">0.159</income-elasticity>
+                <income-elasticity year="2090">0.135</income-elasticity>
+                <income-elasticity year="2095">0.111</income-elasticity>
+                <income-elasticity year="2100">0.095</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="China">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.285</income-elasticity>
+                <income-elasticity year="2030">0.233</income-elasticity>
+                <income-elasticity year="2035">0.213</income-elasticity>
+                <income-elasticity year="2040">0.183</income-elasticity>
+                <income-elasticity year="2045">0.139</income-elasticity>
+                <income-elasticity year="2050">0.106</income-elasticity>
+                <income-elasticity year="2055">0.086</income-elasticity>
+                <income-elasticity year="2060">0.045</income-elasticity>
+                <income-elasticity year="2065">0.022</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-12">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.226</income-elasticity>
+                <income-elasticity year="2030">0.208</income-elasticity>
+                <income-elasticity year="2035">0.161</income-elasticity>
+                <income-elasticity year="2040">0.129</income-elasticity>
+                <income-elasticity year="2045">0.108</income-elasticity>
+                <income-elasticity year="2050">0.095</income-elasticity>
+                <income-elasticity year="2055">0.083</income-elasticity>
+                <income-elasticity year="2060">0.054</income-elasticity>
+                <income-elasticity year="2065">0.039</income-elasticity>
+                <income-elasticity year="2070">0.027</income-elasticity>
+                <income-elasticity year="2075">0.016</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-15">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.01</income-elasticity>
+                <income-elasticity year="2030">0.01</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Ukraine">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.634</income-elasticity>
+                <income-elasticity year="2030">0.619</income-elasticity>
+                <income-elasticity year="2035">0.596</income-elasticity>
+                <income-elasticity year="2040">0.544</income-elasticity>
+                <income-elasticity year="2045">0.487</income-elasticity>
+                <income-elasticity year="2050">0.429</income-elasticity>
+                <income-elasticity year="2055">0.385</income-elasticity>
+                <income-elasticity year="2060">0.355</income-elasticity>
+                <income-elasticity year="2065">0.339</income-elasticity>
+                <income-elasticity year="2070">0.324</income-elasticity>
+                <income-elasticity year="2075">0.303</income-elasticity>
+                <income-elasticity year="2080">0.294</income-elasticity>
+                <income-elasticity year="2085">0.278</income-elasticity>
+                <income-elasticity year="2090">0.249</income-elasticity>
+                <income-elasticity year="2095">0.233</income-elasticity>
+                <income-elasticity year="2100">0.223</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Europe_Non_EU">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.291</income-elasticity>
+                <income-elasticity year="2030">0.244</income-elasticity>
+                <income-elasticity year="2035">0.221</income-elasticity>
+                <income-elasticity year="2040">0.206</income-elasticity>
+                <income-elasticity year="2045">0.167</income-elasticity>
+                <income-elasticity year="2050">0.146</income-elasticity>
+                <income-elasticity year="2055">0.116</income-elasticity>
+                <income-elasticity year="2060">0.104</income-elasticity>
+                <income-elasticity year="2065">0.091</income-elasticity>
+                <income-elasticity year="2070">0.078</income-elasticity>
+                <income-elasticity year="2075">0.048</income-elasticity>
+                <income-elasticity year="2080">0.037</income-elasticity>
+                <income-elasticity year="2085">0.027</income-elasticity>
+                <income-elasticity year="2090">0.016</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="European Free Trade Association">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.01</income-elasticity>
+                <income-elasticity year="2030">0.01</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="India">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.624</income-elasticity>
+                <income-elasticity year="2030">0.602</income-elasticity>
+                <income-elasticity year="2035">0.554</income-elasticity>
+                <income-elasticity year="2040">0.493</income-elasticity>
+                <income-elasticity year="2045">0.424</income-elasticity>
+                <income-elasticity year="2050">0.375</income-elasticity>
+                <income-elasticity year="2055">0.344</income-elasticity>
+                <income-elasticity year="2060">0.326</income-elasticity>
+                <income-elasticity year="2065">0.299</income-elasticity>
+                <income-elasticity year="2070">0.288</income-elasticity>
+                <income-elasticity year="2075">0.249</income-elasticity>
+                <income-elasticity year="2080">0.229</income-elasticity>
+                <income-elasticity year="2085">0.219</income-elasticity>
+                <income-elasticity year="2090">0.209</income-elasticity>
+                <income-elasticity year="2095">0.194</income-elasticity>
+                <income-elasticity year="2100">0.158</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Indonesia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.518</income-elasticity>
+                <income-elasticity year="2030">0.458</income-elasticity>
+                <income-elasticity year="2035">0.395</income-elasticity>
+                <income-elasticity year="2040">0.356</income-elasticity>
+                <income-elasticity year="2045">0.336</income-elasticity>
+                <income-elasticity year="2050">0.314</income-elasticity>
+                <income-elasticity year="2055">0.296</income-elasticity>
+                <income-elasticity year="2060">0.282</income-elasticity>
+                <income-elasticity year="2065">0.248</income-elasticity>
+                <income-elasticity year="2070">0.23</income-elasticity>
+                <income-elasticity year="2075">0.221</income-elasticity>
+                <income-elasticity year="2080">0.212</income-elasticity>
+                <income-elasticity year="2085">0.204</income-elasticity>
+                <income-elasticity year="2090">0.18</income-elasticity>
+                <income-elasticity year="2095">0.157</income-elasticity>
+                <income-elasticity year="2100">0.145</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Japan">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.026</income-elasticity>
+                <income-elasticity year="2030">0.011</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Mexico">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.315</income-elasticity>
+                <income-elasticity year="2030">0.298</income-elasticity>
+                <income-elasticity year="2035">0.283</income-elasticity>
+                <income-elasticity year="2040">0.243</income-elasticity>
+                <income-elasticity year="2045">0.222</income-elasticity>
+                <income-elasticity year="2050">0.207</income-elasticity>
+                <income-elasticity year="2055">0.166</income-elasticity>
+                <income-elasticity year="2060">0.137</income-elasticity>
+                <income-elasticity year="2065">0.109</income-elasticity>
+                <income-elasticity year="2070">0.093</income-elasticity>
+                <income-elasticity year="2075">0.072</income-elasticity>
+                <income-elasticity year="2080">0.042</income-elasticity>
+                <income-elasticity year="2085">0.028</income-elasticity>
+                <income-elasticity year="2090">0.015</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Middle East">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.318</income-elasticity>
+                <income-elasticity year="2030">0.299</income-elasticity>
+                <income-elasticity year="2035">0.29</income-elasticity>
+                <income-elasticity year="2040">0.253</income-elasticity>
+                <income-elasticity year="2045">0.233</income-elasticity>
+                <income-elasticity year="2050">0.223</income-elasticity>
+                <income-elasticity year="2055">0.214</income-elasticity>
+                <income-elasticity year="2060">0.204</income-elasticity>
+                <income-elasticity year="2065">0.171</income-elasticity>
+                <income-elasticity year="2070">0.151</income-elasticity>
+                <income-elasticity year="2075">0.12</income-elasticity>
+                <income-elasticity year="2080">0.108</income-elasticity>
+                <income-elasticity year="2085">0.096</income-elasticity>
+                <income-elasticity year="2090">0.084</income-elasticity>
+                <income-elasticity year="2095">0.054</income-elasticity>
+                <income-elasticity year="2100">0.038</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Pakistan">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.648</income-elasticity>
+                <income-elasticity year="2030">0.64</income-elasticity>
+                <income-elasticity year="2035">0.628</income-elasticity>
+                <income-elasticity year="2040">0.61</income-elasticity>
+                <income-elasticity year="2045">0.572</income-elasticity>
+                <income-elasticity year="2050">0.512</income-elasticity>
+                <income-elasticity year="2055">0.441</income-elasticity>
+                <income-elasticity year="2060">0.378</income-elasticity>
+                <income-elasticity year="2065">0.341</income-elasticity>
+                <income-elasticity year="2070">0.313</income-elasticity>
+                <income-elasticity year="2075">0.292</income-elasticity>
+                <income-elasticity year="2080">0.245</income-elasticity>
+                <income-elasticity year="2085">0.223</income-elasticity>
+                <income-elasticity year="2090">0.206</income-elasticity>
+                <income-elasticity year="2095">0.159</income-elasticity>
+                <income-elasticity year="2100">0.121</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Russia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.318</income-elasticity>
+                <income-elasticity year="2030">0.301</income-elasticity>
+                <income-elasticity year="2035">0.292</income-elasticity>
+                <income-elasticity year="2040">0.261</income-elasticity>
+                <income-elasticity year="2045">0.236</income-elasticity>
+                <income-elasticity year="2050">0.223</income-elasticity>
+                <income-elasticity year="2055">0.213</income-elasticity>
+                <income-elasticity year="2060">0.2</income-elasticity>
+                <income-elasticity year="2065">0.157</income-elasticity>
+                <income-elasticity year="2070">0.126</income-elasticity>
+                <income-elasticity year="2075">0.107</income-elasticity>
+                <income-elasticity year="2080">0.092</income-elasticity>
+                <income-elasticity year="2085">0.066</income-elasticity>
+                <income-elasticity year="2090">0.038</income-elasticity>
+                <income-elasticity year="2095">0.019</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Africa">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.431</income-elasticity>
+                <income-elasticity year="2030">0.416</income-elasticity>
+                <income-elasticity year="2035">0.386</income-elasticity>
+                <income-elasticity year="2040">0.351</income-elasticity>
+                <income-elasticity year="2045">0.332</income-elasticity>
+                <income-elasticity year="2050">0.301</income-elasticity>
+                <income-elasticity year="2055">0.281</income-elasticity>
+                <income-elasticity year="2060">0.237</income-elasticity>
+                <income-elasticity year="2065">0.217</income-elasticity>
+                <income-elasticity year="2070">0.197</income-elasticity>
+                <income-elasticity year="2075">0.149</income-elasticity>
+                <income-elasticity year="2080">0.109</income-elasticity>
+                <income-elasticity year="2085">0.086</income-elasticity>
+                <income-elasticity year="2090">0.042</income-elasticity>
+                <income-elasticity year="2095">0.016</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Northern">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.325</income-elasticity>
+                <income-elasticity year="2030">0.237</income-elasticity>
+                <income-elasticity year="2035">0.178</income-elasticity>
+                <income-elasticity year="2040">0.113</income-elasticity>
+                <income-elasticity year="2045">0.095</income-elasticity>
+                <income-elasticity year="2050">0.092</income-elasticity>
+                <income-elasticity year="2055">0.092</income-elasticity>
+                <income-elasticity year="2060">0.091</income-elasticity>
+                <income-elasticity year="2065">0.09</income-elasticity>
+                <income-elasticity year="2070">0.088</income-elasticity>
+                <income-elasticity year="2075">0.085</income-elasticity>
+                <income-elasticity year="2080">0.082</income-elasticity>
+                <income-elasticity year="2085">0.076</income-elasticity>
+                <income-elasticity year="2090">0.063</income-elasticity>
+                <income-elasticity year="2095">0.049</income-elasticity>
+                <income-elasticity year="2100">0.042</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Southern">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.349</income-elasticity>
+                <income-elasticity year="2030">0.34</income-elasticity>
+                <income-elasticity year="2035">0.325</income-elasticity>
+                <income-elasticity year="2040">0.299</income-elasticity>
+                <income-elasticity year="2045">0.281</income-elasticity>
+                <income-elasticity year="2050">0.24</income-elasticity>
+                <income-elasticity year="2055">0.221</income-elasticity>
+                <income-elasticity year="2060">0.206</income-elasticity>
+                <income-elasticity year="2065">0.159</income-elasticity>
+                <income-elasticity year="2070">0.125</income-elasticity>
+                <income-elasticity year="2075">0.103</income-elasticity>
+                <income-elasticity year="2080">0.084</income-elasticity>
+                <income-elasticity year="2085">0.044</income-elasticity>
+                <income-elasticity year="2090">0.023</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Asia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.634</income-elasticity>
+                <income-elasticity year="2030">0.614</income-elasticity>
+                <income-elasticity year="2035">0.578</income-elasticity>
+                <income-elasticity year="2040">0.52</income-elasticity>
+                <income-elasticity year="2045">0.455</income-elasticity>
+                <income-elasticity year="2050">0.394</income-elasticity>
+                <income-elasticity year="2055">0.36</income-elasticity>
+                <income-elasticity year="2060">0.34</income-elasticity>
+                <income-elasticity year="2065">0.321</income-elasticity>
+                <income-elasticity year="2070">0.299</income-elasticity>
+                <income-elasticity year="2075">0.291</income-elasticity>
+                <income-elasticity year="2080">0.26</income-elasticity>
+                <income-elasticity year="2085">0.239</income-elasticity>
+                <income-elasticity year="2090">0.226</income-elasticity>
+                <income-elasticity year="2095">0.218</income-elasticity>
+                <income-elasticity year="2100">0.209</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Korea">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.042</income-elasticity>
+                <income-elasticity year="2030">0.018</income-elasticity>
+                <income-elasticity year="2035">0.01</income-elasticity>
+                <income-elasticity year="2040">0.01</income-elasticity>
+                <income-elasticity year="2045">0.01</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Southeast Asia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.473</income-elasticity>
+                <income-elasticity year="2030">0.4</income-elasticity>
+                <income-elasticity year="2035">0.355</income-elasticity>
+                <income-elasticity year="2040">0.334</income-elasticity>
+                <income-elasticity year="2045">0.308</income-elasticity>
+                <income-elasticity year="2050">0.293</income-elasticity>
+                <income-elasticity year="2055">0.267</income-elasticity>
+                <income-elasticity year="2060">0.239</income-elasticity>
+                <income-elasticity year="2065">0.224</income-elasticity>
+                <income-elasticity year="2070">0.214</income-elasticity>
+                <income-elasticity year="2075">0.202</income-elasticity>
+                <income-elasticity year="2080">0.165</income-elasticity>
+                <income-elasticity year="2085">0.148</income-elasticity>
+                <income-elasticity year="2090">0.117</income-elasticity>
+                <income-elasticity year="2095">0.104</income-elasticity>
+                <income-elasticity year="2100">0.091</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Taiwan">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.094</income-elasticity>
+                <income-elasticity year="2030">0.048</income-elasticity>
+                <income-elasticity year="2035">0.028</income-elasticity>
+                <income-elasticity year="2040">0.019</income-elasticity>
+                <income-elasticity year="2045">0.011</income-elasticity>
+                <income-elasticity year="2050">0.01</income-elasticity>
+                <income-elasticity year="2055">0.01</income-elasticity>
+                <income-elasticity year="2060">0.01</income-elasticity>
+                <income-elasticity year="2065">0.01</income-elasticity>
+                <income-elasticity year="2070">0.01</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Argentina">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.271</income-elasticity>
+                <income-elasticity year="2030">0.242</income-elasticity>
+                <income-elasticity year="2035">0.225</income-elasticity>
+                <income-elasticity year="2040">0.212</income-elasticity>
+                <income-elasticity year="2045">0.187</income-elasticity>
+                <income-elasticity year="2050">0.147</income-elasticity>
+                <income-elasticity year="2055">0.109</income-elasticity>
+                <income-elasticity year="2060">0.088</income-elasticity>
+                <income-elasticity year="2065">0.044</income-elasticity>
+                <income-elasticity year="2070">0.019</income-elasticity>
+                <income-elasticity year="2075">0.01</income-elasticity>
+                <income-elasticity year="2080">0.01</income-elasticity>
+                <income-elasticity year="2085">0.01</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Colombia">
+            <energy-final-demand name="paper">
+                <income-elasticity year="2025">0.384</income-elasticity>
+                <income-elasticity year="2030">0.357</income-elasticity>
+                <income-elasticity year="2035">0.335</income-elasticity>
+                <income-elasticity year="2040">0.301</income-elasticity>
+                <income-elasticity year="2045">0.27</income-elasticity>
+                <income-elasticity year="2050">0.228</income-elasticity>
+                <income-elasticity year="2055">0.21</income-elasticity>
+                <income-elasticity year="2060">0.167</income-elasticity>
+                <income-elasticity year="2065">0.126</income-elasticity>
+                <income-elasticity year="2070">0.102</income-elasticity>
+                <income-elasticity year="2075">0.081</income-elasticity>
+                <income-elasticity year="2080">0.04</income-elasticity>
+                <income-elasticity year="2085">0.019</income-elasticity>
+                <income-elasticity year="2090">0.01</income-elasticity>
+                <income-elasticity year="2095">0.01</income-elasticity>
+                <income-elasticity year="2100">0.01</income-elasticity>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>

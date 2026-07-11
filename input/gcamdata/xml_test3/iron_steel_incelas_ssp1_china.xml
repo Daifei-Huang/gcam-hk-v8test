@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="China">
+            <energy-final-demand name="iron and steel">
+                <income-elasticity year="2025">0.601884516845827</income-elasticity>
+                <income-elasticity year="2030">0.151531196420502</income-elasticity>
+                <income-elasticity year="2035">0.0660036286499243</income-elasticity>
+                <income-elasticity year="2040">-0.0227156810322628</income-elasticity>
+                <income-elasticity year="2045">-0.0899949194577431</income-elasticity>
+                <income-elasticity year="2050">-0.188310202269952</income-elasticity>
+                <income-elasticity year="2055">-0.313353999726057</income-elasticity>
+                <income-elasticity year="2060">-0.400631967574417</income-elasticity>
+                <income-elasticity year="2065">-0.479166961430384</income-elasticity>
+                <income-elasticity year="2070">-0.600400052919895</income-elasticity>
+                <income-elasticity year="2075">-0.739158136674928</income-elasticity>
+                <income-elasticity year="2080">-0.870260027451774</income-elasticity>
+                <income-elasticity year="2085">-1.01397475776282</income-elasticity>
+                <income-elasticity year="2090">-1.15241755904941</income-elasticity>
+                <income-elasticity year="2095">-1.27646493986762</income-elasticity>
+                <income-elasticity year="2100">-1.42118124310832</income-elasticity>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>

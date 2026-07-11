@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-3.36478030145221</income-elasticity>
+                <income-elasticity year="2030">-0.153164608250257</income-elasticity>
+                <income-elasticity year="2035">-0.265774124588034</income-elasticity>
+                <income-elasticity year="2040">-0.378205598128312</income-elasticity>
+                <income-elasticity year="2045">-0.475653743490554</income-elasticity>
+                <income-elasticity year="2050">-0.554673233384901</income-elasticity>
+                <income-elasticity year="2055">-0.614863281227723</income-elasticity>
+                <income-elasticity year="2060">-0.648954003365769</income-elasticity>
+                <income-elasticity year="2065">-0.681686390994931</income-elasticity>
+                <income-elasticity year="2070">-0.755814931761511</income-elasticity>
+                <income-elasticity year="2075">-0.84200870198939</income-elasticity>
+                <income-elasticity year="2080">-0.93131683090438</income-elasticity>
+                <income-elasticity year="2085">-1.00798167815544</income-elasticity>
+                <income-elasticity year="2090">-1.07096742676207</income-elasticity>
+                <income-elasticity year="2095">-1.12903913760822</income-elasticity>
+                <income-elasticity year="2100">-1.19911075580991</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Eastern">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">2.92166571634033</income-elasticity>
+                <income-elasticity year="2030">3.26928010359194</income-elasticity>
+                <income-elasticity year="2035">2.75145317236699</income-elasticity>
+                <income-elasticity year="2040">2.32796106154983</income-elasticity>
+                <income-elasticity year="2045">1.95554377492743</income-elasticity>
+                <income-elasticity year="2050">1.63508071931482</income-elasticity>
+                <income-elasticity year="2055">1.35276254047092</income-elasticity>
+                <income-elasticity year="2060">1.11213990741627</income-elasticity>
+                <income-elasticity year="2065">0.898279837329959</income-elasticity>
+                <income-elasticity year="2070">0.715812110326429</income-elasticity>
+                <income-elasticity year="2075">0.553421517589761</income-elasticity>
+                <income-elasticity year="2080">0.414057194868426</income-elasticity>
+                <income-elasticity year="2085">0.294428491716866</income-elasticity>
+                <income-elasticity year="2090">0.191332276311337</income-elasticity>
+                <income-elasticity year="2095">0.0992165286316619</income-elasticity>
+                <income-elasticity year="2100">0.0172114738146798</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Northern">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">2.31100887587651</income-elasticity>
+                <income-elasticity year="2030">1.60138762579672</income-elasticity>
+                <income-elasticity year="2035">1.33747308771088</income-elasticity>
+                <income-elasticity year="2040">1.12132592961871</income-elasticity>
+                <income-elasticity year="2045">0.928793584465023</income-elasticity>
+                <income-elasticity year="2050">0.753280254515378</income-elasticity>
+                <income-elasticity year="2055">0.593793180696093</income-elasticity>
+                <income-elasticity year="2060">0.453433008967589</income-elasticity>
+                <income-elasticity year="2065">0.32567245385829</income-elasticity>
+                <income-elasticity year="2070">0.210537136029074</income-elasticity>
+                <income-elasticity year="2075">0.116119598400262</income-elasticity>
+                <income-elasticity year="2080">0.0328383717699141</income-elasticity>
+                <income-elasticity year="2085">-0.0435922014736249</income-elasticity>
+                <income-elasticity year="2090">-0.111102928235458</income-elasticity>
+                <income-elasticity year="2095">-0.17869064159435</income-elasticity>
+                <income-elasticity year="2100">-0.247174406897712</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Southern">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">10</income-elasticity>
+                <income-elasticity year="2030">3.55243230548468</income-elasticity>
+                <income-elasticity year="2035">3.02457580479541</income-elasticity>
+                <income-elasticity year="2040">2.61911059967612</income-elasticity>
+                <income-elasticity year="2045">2.23874267100346</income-elasticity>
+                <income-elasticity year="2050">1.89240887673743</income-elasticity>
+                <income-elasticity year="2055">1.58002201545273</income-elasticity>
+                <income-elasticity year="2060">1.31066778906079</income-elasticity>
+                <income-elasticity year="2065">1.07310648257028</income-elasticity>
+                <income-elasticity year="2070">0.867580942419079</income-elasticity>
+                <income-elasticity year="2075">0.691229677059979</income-elasticity>
+                <income-elasticity year="2080">0.532645480531738</income-elasticity>
+                <income-elasticity year="2085">0.391009405407736</income-elasticity>
+                <income-elasticity year="2090">0.268085826693972</income-elasticity>
+                <income-elasticity year="2095">0.164430527501308</income-elasticity>
+                <income-elasticity year="2100">0.0735256462029127</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Western">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">10</income-elasticity>
+                <income-elasticity year="2030">2.27706108603324</income-elasticity>
+                <income-elasticity year="2035">1.76792893143092</income-elasticity>
+                <income-elasticity year="2040">1.56634884067499</income-elasticity>
+                <income-elasticity year="2045">1.3575013936038</income-elasticity>
+                <income-elasticity year="2050">1.15821274354597</income-elasticity>
+                <income-elasticity year="2055">0.970603219906776</income-elasticity>
+                <income-elasticity year="2060">0.80655035167627</income-elasticity>
+                <income-elasticity year="2065">0.664523066200704</income-elasticity>
+                <income-elasticity year="2070">0.54119591308543</income-elasticity>
+                <income-elasticity year="2075">0.431079790450842</income-elasticity>
+                <income-elasticity year="2080">0.329609569440797</income-elasticity>
+                <income-elasticity year="2085">0.236288253369969</income-elasticity>
+                <income-elasticity year="2090">0.15003602533874</income-elasticity>
+                <income-elasticity year="2095">0.0689722983519096</income-elasticity>
+                <income-elasticity year="2100">-0.00577667888263466</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Australia_NZ">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-2.79694796888768</income-elasticity>
+                <income-elasticity year="2030">0.0916779938319503</income-elasticity>
+                <income-elasticity year="2035">0.030314048336069</income-elasticity>
+                <income-elasticity year="2040">-0.0221601318217429</income-elasticity>
+                <income-elasticity year="2045">-0.0576409361232584</income-elasticity>
+                <income-elasticity year="2050">-0.0943824313103642</income-elasticity>
+                <income-elasticity year="2055">-0.160160333891259</income-elasticity>
+                <income-elasticity year="2060">-0.214765689415041</income-elasticity>
+                <income-elasticity year="2065">-0.278984115139725</income-elasticity>
+                <income-elasticity year="2070">-0.353196407113243</income-elasticity>
+                <income-elasticity year="2075">-0.439768469489928</income-elasticity>
+                <income-elasticity year="2080">-0.54092290726086</income-elasticity>
+                <income-elasticity year="2085">-0.656600043844998</income-elasticity>
+                <income-elasticity year="2090">-0.774744802023225</income-elasticity>
+                <income-elasticity year="2095">-0.887693700433794</income-elasticity>
+                <income-elasticity year="2100">-1.0039137695718</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Brazil">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-8.2740036721093</income-elasticity>
+                <income-elasticity year="2030">1.59885714680634</income-elasticity>
+                <income-elasticity year="2035">1.54726564854721</income-elasticity>
+                <income-elasticity year="2040">1.33565381482207</income-elasticity>
+                <income-elasticity year="2045">1.10580324225333</income-elasticity>
+                <income-elasticity year="2050">0.880194004030777</income-elasticity>
+                <income-elasticity year="2055">0.676506218034786</income-elasticity>
+                <income-elasticity year="2060">0.49274052789481</income-elasticity>
+                <income-elasticity year="2065">0.332828387201994</income-elasticity>
+                <income-elasticity year="2070">0.182722404121031</income-elasticity>
+                <income-elasticity year="2075">0.0505256457491684</income-elasticity>
+                <income-elasticity year="2080">-0.0759978365382251</income-elasticity>
+                <income-elasticity year="2085">-0.184122024846585</income-elasticity>
+                <income-elasticity year="2090">-0.279285308710247</income-elasticity>
+                <income-elasticity year="2095">-0.363017186937081</income-elasticity>
+                <income-elasticity year="2100">-0.437834566058461</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Canada">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-2.23288354791889</income-elasticity>
+                <income-elasticity year="2030">-0.0522509672167225</income-elasticity>
+                <income-elasticity year="2035">-0.0820038499141753</income-elasticity>
+                <income-elasticity year="2040">-0.115524339748631</income-elasticity>
+                <income-elasticity year="2045">-0.162807274790278</income-elasticity>
+                <income-elasticity year="2050">-0.214037743843316</income-elasticity>
+                <income-elasticity year="2055">-0.28899683295444</income-elasticity>
+                <income-elasticity year="2060">-0.345408421033001</income-elasticity>
+                <income-elasticity year="2065">-0.389854624583267</income-elasticity>
+                <income-elasticity year="2070">-0.446686183783516</income-elasticity>
+                <income-elasticity year="2075">-0.53842025001482</income-elasticity>
+                <income-elasticity year="2080">-0.654688867606441</income-elasticity>
+                <income-elasticity year="2085">-0.778982920563224</income-elasticity>
+                <income-elasticity year="2090">-0.899300131059384</income-elasticity>
+                <income-elasticity year="2095">-1.01264212858862</income-elasticity>
+                <income-elasticity year="2100">-1.13439334534777</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central America and Caribbean">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-0.73721745470992</income-elasticity>
+                <income-elasticity year="2030">1.98738099958222</income-elasticity>
+                <income-elasticity year="2035">1.6757022676939</income-elasticity>
+                <income-elasticity year="2040">1.39258587905344</income-elasticity>
+                <income-elasticity year="2045">1.14312102085044</income-elasticity>
+                <income-elasticity year="2050">0.924247804592881</income-elasticity>
+                <income-elasticity year="2055">0.732049866783083</income-elasticity>
+                <income-elasticity year="2060">0.565038580457052</income-elasticity>
+                <income-elasticity year="2065">0.423649594163727</income-elasticity>
+                <income-elasticity year="2070">0.291604394306988</income-elasticity>
+                <income-elasticity year="2075">0.173395460918336</income-elasticity>
+                <income-elasticity year="2080">0.061139900433528</income-elasticity>
+                <income-elasticity year="2085">-0.0403828010510515</income-elasticity>
+                <income-elasticity year="2090">-0.129035065666196</income-elasticity>
+                <income-elasticity year="2095">-0.206706848063914</income-elasticity>
+                <income-elasticity year="2100">-0.273687127025691</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central Asia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">0.746957647051373</income-elasticity>
+                <income-elasticity year="2030">1.5544971694966</income-elasticity>
+                <income-elasticity year="2035">1.32205207230217</income-elasticity>
+                <income-elasticity year="2040">1.14406519889622</income-elasticity>
+                <income-elasticity year="2045">0.985746865858263</income-elasticity>
+                <income-elasticity year="2050">0.822575503709561</income-elasticity>
+                <income-elasticity year="2055">0.661687221477251</income-elasticity>
+                <income-elasticity year="2060">0.5235603975476</income-elasticity>
+                <income-elasticity year="2065">0.411263615930978</income-elasticity>
+                <income-elasticity year="2070">0.30681441210549</income-elasticity>
+                <income-elasticity year="2075">0.205549792255119</income-elasticity>
+                <income-elasticity year="2080">0.115165712477723</income-elasticity>
+                <income-elasticity year="2085">0.0415647931127765</income-elasticity>
+                <income-elasticity year="2090">-0.0208262929455148</income-elasticity>
+                <income-elasticity year="2095">-0.0805129953779385</income-elasticity>
+                <income-elasticity year="2100">-0.146651297422901</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="China">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">0.601694105479569</income-elasticity>
+                <income-elasticity year="2030">0.148363087910377</income-elasticity>
+                <income-elasticity year="2035">0.0444731363076865</income-elasticity>
+                <income-elasticity year="2040">-0.0768672483784855</income-elasticity>
+                <income-elasticity year="2045">-0.167615865182434</income-elasticity>
+                <income-elasticity year="2050">-0.271168722863899</income-elasticity>
+                <income-elasticity year="2055">-0.39534212766669</income-elasticity>
+                <income-elasticity year="2060">-0.468122051744729</income-elasticity>
+                <income-elasticity year="2065">-0.530148254473045</income-elasticity>
+                <income-elasticity year="2070">-0.629677496870363</income-elasticity>
+                <income-elasticity year="2075">-0.741906073148784</income-elasticity>
+                <income-elasticity year="2080">-0.845075884490595</income-elasticity>
+                <income-elasticity year="2085">-0.929239229662857</income-elasticity>
+                <income-elasticity year="2090">-0.980402957450437</income-elasticity>
+                <income-elasticity year="2095">-1.02536022970678</income-elasticity>
+                <income-elasticity year="2100">-1.10675442759632</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-12">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-6.30514642689722</income-elasticity>
+                <income-elasticity year="2030">-0.0344577327893045</income-elasticity>
+                <income-elasticity year="2035">-0.223047635865178</income-elasticity>
+                <income-elasticity year="2040">-0.392719163237198</income-elasticity>
+                <income-elasticity year="2045">-0.621230542204598</income-elasticity>
+                <income-elasticity year="2050">-0.792234465438054</income-elasticity>
+                <income-elasticity year="2055">-0.921817985358522</income-elasticity>
+                <income-elasticity year="2060">-1.00351059860671</income-elasticity>
+                <income-elasticity year="2065">-1.07216004294902</income-elasticity>
+                <income-elasticity year="2070">-1.19999468617627</income-elasticity>
+                <income-elasticity year="2075">-1.36162642630228</income-elasticity>
+                <income-elasticity year="2080">-1.53260440474441</income-elasticity>
+                <income-elasticity year="2085">-1.6620438703416</income-elasticity>
+                <income-elasticity year="2090">-1.72557901298268</income-elasticity>
+                <income-elasticity year="2095">-1.75212238666632</income-elasticity>
+                <income-elasticity year="2100">-1.81923940449469</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-15">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-3.60902977565628</income-elasticity>
+                <income-elasticity year="2030">-0.331461840006375</income-elasticity>
+                <income-elasticity year="2035">-0.37080265491108</income-elasticity>
+                <income-elasticity year="2040">-0.37121606584589</income-elasticity>
+                <income-elasticity year="2045">-0.391210093354802</income-elasticity>
+                <income-elasticity year="2050">-0.436357040080586</income-elasticity>
+                <income-elasticity year="2055">-0.503104355682813</income-elasticity>
+                <income-elasticity year="2060">-0.556609328091528</income-elasticity>
+                <income-elasticity year="2065">-0.61171660373269</income-elasticity>
+                <income-elasticity year="2070">-0.694140251436087</income-elasticity>
+                <income-elasticity year="2075">-0.78844908769687</income-elasticity>
+                <income-elasticity year="2080">-0.899197300425666</income-elasticity>
+                <income-elasticity year="2085">-1.02048802544573</income-elasticity>
+                <income-elasticity year="2090">-1.14538334383335</income-elasticity>
+                <income-elasticity year="2095">-1.2825427860523</income-elasticity>
+                <income-elasticity year="2100">-1.46115478033039</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Ukraine">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">10</income-elasticity>
+                <income-elasticity year="2030">2.14112485197442</income-elasticity>
+                <income-elasticity year="2035">1.63884760657188</income-elasticity>
+                <income-elasticity year="2040">1.23358016689735</income-elasticity>
+                <income-elasticity year="2045">0.907123233840122</income-elasticity>
+                <income-elasticity year="2050">0.66625840155565</income-elasticity>
+                <income-elasticity year="2055">0.479091633198383</income-elasticity>
+                <income-elasticity year="2060">0.333848067896387</income-elasticity>
+                <income-elasticity year="2065">0.195135763046271</income-elasticity>
+                <income-elasticity year="2070">0.0659323363422676</income-elasticity>
+                <income-elasticity year="2075">-0.0534590150736397</income-elasticity>
+                <income-elasticity year="2080">-0.154743001822475</income-elasticity>
+                <income-elasticity year="2085">-0.230450857061653</income-elasticity>
+                <income-elasticity year="2090">-0.288507332296856</income-elasticity>
+                <income-elasticity year="2095">-0.34765982862102</income-elasticity>
+                <income-elasticity year="2100">-0.417241388303241</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Europe_Non_EU">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-0.940882248970492</income-elasticity>
+                <income-elasticity year="2030">0.255971549612535</income-elasticity>
+                <income-elasticity year="2035">0.132128327566572</income-elasticity>
+                <income-elasticity year="2040">0.0024654877805369</income-elasticity>
+                <income-elasticity year="2045">-0.116125406439442</income-elasticity>
+                <income-elasticity year="2050">-0.247800290409631</income-elasticity>
+                <income-elasticity year="2055">-0.365383173634709</income-elasticity>
+                <income-elasticity year="2060">-0.484496567368853</income-elasticity>
+                <income-elasticity year="2065">-0.622910172562448</income-elasticity>
+                <income-elasticity year="2070">-0.795556857364999</income-elasticity>
+                <income-elasticity year="2075">-0.970762832838606</income-elasticity>
+                <income-elasticity year="2080">-1.1441099311395</income-elasticity>
+                <income-elasticity year="2085">-1.27677334781891</income-elasticity>
+                <income-elasticity year="2090">-1.36167369088163</income-elasticity>
+                <income-elasticity year="2095">-1.42229710660386</income-elasticity>
+                <income-elasticity year="2100">-1.48115305360495</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="European Free Trade Association">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-0.641248006250639</income-elasticity>
+                <income-elasticity year="2030">-0.375999149140466</income-elasticity>
+                <income-elasticity year="2035">-0.436743430568578</income-elasticity>
+                <income-elasticity year="2040">-0.522034895911206</income-elasticity>
+                <income-elasticity year="2045">-0.568961106423212</income-elasticity>
+                <income-elasticity year="2050">-0.603716703154051</income-elasticity>
+                <income-elasticity year="2055">-0.679822793453781</income-elasticity>
+                <income-elasticity year="2060">-0.712933011481998</income-elasticity>
+                <income-elasticity year="2065">-0.737112730343319</income-elasticity>
+                <income-elasticity year="2070">-0.810715786395743</income-elasticity>
+                <income-elasticity year="2075">-0.910193784461628</income-elasticity>
+                <income-elasticity year="2080">-1.05639927171175</income-elasticity>
+                <income-elasticity year="2085">-1.23537506808705</income-elasticity>
+                <income-elasticity year="2090">-1.41474687014117</income-elasticity>
+                <income-elasticity year="2095">-1.59257395672</income-elasticity>
+                <income-elasticity year="2100">-1.81001942846497</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="India">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-0.930934004481473</income-elasticity>
+                <income-elasticity year="2030">1.79893375348138</income-elasticity>
+                <income-elasticity year="2035">1.39015219046428</income-elasticity>
+                <income-elasticity year="2040">1.08555103485274</income-elasticity>
+                <income-elasticity year="2045">0.837522697994058</income-elasticity>
+                <income-elasticity year="2050">0.629733375029653</income-elasticity>
+                <income-elasticity year="2055">0.462097716819918</income-elasticity>
+                <income-elasticity year="2060">0.315750656858535</income-elasticity>
+                <income-elasticity year="2065">0.178816197027285</income-elasticity>
+                <income-elasticity year="2070">0.0460899369725256</income-elasticity>
+                <income-elasticity year="2075">-0.0776499624603118</income-elasticity>
+                <income-elasticity year="2080">-0.201010584327714</income-elasticity>
+                <income-elasticity year="2085">-0.315068373948063</income-elasticity>
+                <income-elasticity year="2090">-0.41900744444729</income-elasticity>
+                <income-elasticity year="2095">-0.514733390726513</income-elasticity>
+                <income-elasticity year="2100">-0.599058048155377</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Indonesia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-1.4558696868017</income-elasticity>
+                <income-elasticity year="2030">2.09797045587653</income-elasticity>
+                <income-elasticity year="2035">1.70606596900065</income-elasticity>
+                <income-elasticity year="2040">1.39510949888446</income-elasticity>
+                <income-elasticity year="2045">1.12509645365664</income-elasticity>
+                <income-elasticity year="2050">0.885228342872196</income-elasticity>
+                <income-elasticity year="2055">0.698706379320636</income-elasticity>
+                <income-elasticity year="2060">0.52772712568258</income-elasticity>
+                <income-elasticity year="2065">0.367183039188598</income-elasticity>
+                <income-elasticity year="2070">0.2198204693315</income-elasticity>
+                <income-elasticity year="2075">0.0836602979508214</income-elasticity>
+                <income-elasticity year="2080">-0.0554083188160947</income-elasticity>
+                <income-elasticity year="2085">-0.187073072179573</income-elasticity>
+                <income-elasticity year="2090">-0.316951083744171</income-elasticity>
+                <income-elasticity year="2095">-0.445539859725209</income-elasticity>
+                <income-elasticity year="2100">-0.572780674502202</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Japan">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-5.54707656253185</income-elasticity>
+                <income-elasticity year="2030">-0.79261126989486</income-elasticity>
+                <income-elasticity year="2035">-0.769209069873586</income-elasticity>
+                <income-elasticity year="2040">-0.904826763457951</income-elasticity>
+                <income-elasticity year="2045">-0.921260667061337</income-elasticity>
+                <income-elasticity year="2050">-0.92204563889029</income-elasticity>
+                <income-elasticity year="2055">-0.985642955490426</income-elasticity>
+                <income-elasticity year="2060">-1.08713611674511</income-elasticity>
+                <income-elasticity year="2065">-1.1841302600569</income-elasticity>
+                <income-elasticity year="2070">-1.29572104752416</income-elasticity>
+                <income-elasticity year="2075">-1.39843048039327</income-elasticity>
+                <income-elasticity year="2080">-1.47054870825508</income-elasticity>
+                <income-elasticity year="2085">-1.52362692838304</income-elasticity>
+                <income-elasticity year="2090">-1.59542916045139</income-elasticity>
+                <income-elasticity year="2095">-1.71239928531566</income-elasticity>
+                <income-elasticity year="2100">-1.89622250519116</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Mexico">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-3.01511169594123</income-elasticity>
+                <income-elasticity year="2030">0.992343124843855</income-elasticity>
+                <income-elasticity year="2035">0.841675007290927</income-elasticity>
+                <income-elasticity year="2040">0.692666736364672</income-elasticity>
+                <income-elasticity year="2045">0.551725246029171</income-elasticity>
+                <income-elasticity year="2050">0.418735677440444</income-elasticity>
+                <income-elasticity year="2055">0.297298788740839</income-elasticity>
+                <income-elasticity year="2060">0.174006595959968</income-elasticity>
+                <income-elasticity year="2065">0.0648187633676844</income-elasticity>
+                <income-elasticity year="2070">-0.039506443594835</income-elasticity>
+                <income-elasticity year="2075">-0.14807854580187</income-elasticity>
+                <income-elasticity year="2080">-0.263213731759967</income-elasticity>
+                <income-elasticity year="2085">-0.378581770181576</income-elasticity>
+                <income-elasticity year="2090">-0.498602689514223</income-elasticity>
+                <income-elasticity year="2095">-0.625814223922382</income-elasticity>
+                <income-elasticity year="2100">-0.76593867121739</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Middle East">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-1.71969557478882</income-elasticity>
+                <income-elasticity year="2030">0.694383147015764</income-elasticity>
+                <income-elasticity year="2035">0.5955739971013</income-elasticity>
+                <income-elasticity year="2040">0.49345847521832</income-elasticity>
+                <income-elasticity year="2045">0.385825894242831</income-elasticity>
+                <income-elasticity year="2050">0.255322582564449</income-elasticity>
+                <income-elasticity year="2055">0.126695165740672</income-elasticity>
+                <income-elasticity year="2060">0.00726931974660647</income-elasticity>
+                <income-elasticity year="2065">-0.104397164907412</income-elasticity>
+                <income-elasticity year="2070">-0.220107827314971</income-elasticity>
+                <income-elasticity year="2075">-0.326511807049926</income-elasticity>
+                <income-elasticity year="2080">-0.415269290181209</income-elasticity>
+                <income-elasticity year="2085">-0.485468237787101</income-elasticity>
+                <income-elasticity year="2090">-0.536783953565862</income-elasticity>
+                <income-elasticity year="2095">-0.580461629403011</income-elasticity>
+                <income-elasticity year="2100">-0.627372471889533</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Pakistan">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-3.08911167481184</income-elasticity>
+                <income-elasticity year="2030">2.41301016494116</income-elasticity>
+                <income-elasticity year="2035">2.06222304759061</income-elasticity>
+                <income-elasticity year="2040">1.71985032213931</income-elasticity>
+                <income-elasticity year="2045">1.41549243433849</income-elasticity>
+                <income-elasticity year="2050">1.16263544215529</income-elasticity>
+                <income-elasticity year="2055">0.943871959208063</income-elasticity>
+                <income-elasticity year="2060">0.761822920121254</income-elasticity>
+                <income-elasticity year="2065">0.599769623761101</income-elasticity>
+                <income-elasticity year="2070">0.459672144203752</income-elasticity>
+                <income-elasticity year="2075">0.336604476781363</income-elasticity>
+                <income-elasticity year="2080">0.226709598890587</income-elasticity>
+                <income-elasticity year="2085">0.133652357217566</income-elasticity>
+                <income-elasticity year="2090">0.0543548524058393</income-elasticity>
+                <income-elasticity year="2095">-0.0179159993387737</income-elasticity>
+                <income-elasticity year="2100">-0.081803674203647</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Russia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-5.8287394722395</income-elasticity>
+                <income-elasticity year="2030">-0.090726624796747</income-elasticity>
+                <income-elasticity year="2035">-0.0109106457126022</income-elasticity>
+                <income-elasticity year="2040">-0.0748745935972139</income-elasticity>
+                <income-elasticity year="2045">-0.136392518071379</income-elasticity>
+                <income-elasticity year="2050">-0.201900568508929</income-elasticity>
+                <income-elasticity year="2055">-0.231769239780003</income-elasticity>
+                <income-elasticity year="2060">-0.235851079694245</income-elasticity>
+                <income-elasticity year="2065">-0.287229334055169</income-elasticity>
+                <income-elasticity year="2070">-0.338466060549421</income-elasticity>
+                <income-elasticity year="2075">-0.397356953111241</income-elasticity>
+                <income-elasticity year="2080">-0.449288116268805</income-elasticity>
+                <income-elasticity year="2085">-0.479912855493212</income-elasticity>
+                <income-elasticity year="2090">-0.4958531283266</income-elasticity>
+                <income-elasticity year="2095">-0.520170659165305</income-elasticity>
+                <income-elasticity year="2100">-0.571988059353082</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Africa">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-10</income-elasticity>
+                <income-elasticity year="2030">2.53841224055308</income-elasticity>
+                <income-elasticity year="2035">2.33903057483473</income-elasticity>
+                <income-elasticity year="2040">2.03718694928645</income-elasticity>
+                <income-elasticity year="2045">1.71437118560125</income-elasticity>
+                <income-elasticity year="2050">1.40109211726465</income-elasticity>
+                <income-elasticity year="2055">1.12921209152412</income-elasticity>
+                <income-elasticity year="2060">0.892566891142953</income-elasticity>
+                <income-elasticity year="2065">0.686210510424616</income-elasticity>
+                <income-elasticity year="2070">0.503026717466393</income-elasticity>
+                <income-elasticity year="2075">0.342351204229793</income-elasticity>
+                <income-elasticity year="2080">0.201036995005295</income-elasticity>
+                <income-elasticity year="2085">0.0828620182954829</income-elasticity>
+                <income-elasticity year="2090">-0.0231667752991341</income-elasticity>
+                <income-elasticity year="2095">-0.123388461728792</income-elasticity>
+                <income-elasticity year="2100">-0.216773600096994</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Northern">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">10</income-elasticity>
+                <income-elasticity year="2030">1.65384769990764</income-elasticity>
+                <income-elasticity year="2035">1.11107249451827</income-elasticity>
+                <income-elasticity year="2040">0.795764027543869</income-elasticity>
+                <income-elasticity year="2045">0.540676876709994</income-elasticity>
+                <income-elasticity year="2050">-0.223214226529122</income-elasticity>
+                <income-elasticity year="2055">3.56093072175618</income-elasticity>
+                <income-elasticity year="2060">4.39480172869526</income-elasticity>
+                <income-elasticity year="2065">6.64953740946816</income-elasticity>
+                <income-elasticity year="2070">10</income-elasticity>
+                <income-elasticity year="2075">10</income-elasticity>
+                <income-elasticity year="2080">-10</income-elasticity>
+                <income-elasticity year="2085">-10</income-elasticity>
+                <income-elasticity year="2090">-5.37163357570701</income-elasticity>
+                <income-elasticity year="2095">-2.64888801756739</income-elasticity>
+                <income-elasticity year="2100">-2.44518467918426</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Southern">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-3.3965491359674</income-elasticity>
+                <income-elasticity year="2030">1.79658444889837</income-elasticity>
+                <income-elasticity year="2035">1.57747965910423</income-elasticity>
+                <income-elasticity year="2040">1.35406923531723</income-elasticity>
+                <income-elasticity year="2045">1.14901448095253</income-elasticity>
+                <income-elasticity year="2050">0.958399665039491</income-elasticity>
+                <income-elasticity year="2055">0.780250929929012</income-elasticity>
+                <income-elasticity year="2060">0.617970665869848</income-elasticity>
+                <income-elasticity year="2065">0.476121032851409</income-elasticity>
+                <income-elasticity year="2070">0.340211126756814</income-elasticity>
+                <income-elasticity year="2075">0.210942472345981</income-elasticity>
+                <income-elasticity year="2080">0.0865592084893179</income-elasticity>
+                <income-elasticity year="2085">-0.0259713261033694</income-elasticity>
+                <income-elasticity year="2090">-0.127337399213019</income-elasticity>
+                <income-elasticity year="2095">-0.219133665872358</income-elasticity>
+                <income-elasticity year="2100">-0.300916896792661</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Asia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">3.84666545765675</income-elasticity>
+                <income-elasticity year="2030">1.74074970893709</income-elasticity>
+                <income-elasticity year="2035">1.35146252557126</income-elasticity>
+                <income-elasticity year="2040">1.06795262443278</income-elasticity>
+                <income-elasticity year="2045">0.849431630070099</income-elasticity>
+                <income-elasticity year="2050">0.669178560730555</income-elasticity>
+                <income-elasticity year="2055">0.514097733014767</income-elasticity>
+                <income-elasticity year="2060">0.374408520817896</income-elasticity>
+                <income-elasticity year="2065">0.252395791058178</income-elasticity>
+                <income-elasticity year="2070">0.12870858072319</income-elasticity>
+                <income-elasticity year="2075">0.0158552690913702</income-elasticity>
+                <income-elasticity year="2080">-0.103090401027303</income-elasticity>
+                <income-elasticity year="2085">-0.2215254019462</income-elasticity>
+                <income-elasticity year="2090">-0.323968324903615</income-elasticity>
+                <income-elasticity year="2095">-0.409652701953224</income-elasticity>
+                <income-elasticity year="2100">-0.480655095814902</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Korea">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-1.03587074318031</income-elasticity>
+                <income-elasticity year="2030">0.116848184803796</income-elasticity>
+                <income-elasticity year="2035">-0.050771540358514</income-elasticity>
+                <income-elasticity year="2040">-0.25754558749084</income-elasticity>
+                <income-elasticity year="2045">-0.453382600562998</income-elasticity>
+                <income-elasticity year="2050">-0.63182235782136</income-elasticity>
+                <income-elasticity year="2055">-0.863325586437315</income-elasticity>
+                <income-elasticity year="2060">-1.06933925513705</income-elasticity>
+                <income-elasticity year="2065">-1.16178391356165</income-elasticity>
+                <income-elasticity year="2070">-1.32202973751817</income-elasticity>
+                <income-elasticity year="2075">-1.53867318333834</income-elasticity>
+                <income-elasticity year="2080">-1.81179223189644</income-elasticity>
+                <income-elasticity year="2085">-2.10521364162263</income-elasticity>
+                <income-elasticity year="2090">-2.36438186377832</income-elasticity>
+                <income-elasticity year="2095">-2.58254101323487</income-elasticity>
+                <income-elasticity year="2100">-2.91068048553445</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Southeast Asia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">0.0822039459386353</income-elasticity>
+                <income-elasticity year="2030">0.982564899741706</income-elasticity>
+                <income-elasticity year="2035">0.761978436872183</income-elasticity>
+                <income-elasticity year="2040">0.568673318051916</income-elasticity>
+                <income-elasticity year="2045">0.405355016262105</income-elasticity>
+                <income-elasticity year="2050">0.262716779956141</income-elasticity>
+                <income-elasticity year="2055">0.136773718157806</income-elasticity>
+                <income-elasticity year="2060">0.024851497740534</income-elasticity>
+                <income-elasticity year="2065">-0.0723141633379577</income-elasticity>
+                <income-elasticity year="2070">-0.170654052701087</income-elasticity>
+                <income-elasticity year="2075">-0.270736151687047</income-elasticity>
+                <income-elasticity year="2080">-0.364285142934074</income-elasticity>
+                <income-elasticity year="2085">-0.44575812814185</income-elasticity>
+                <income-elasticity year="2090">-0.512400589193819</income-elasticity>
+                <income-elasticity year="2095">-0.565618778979947</income-elasticity>
+                <income-elasticity year="2100">-0.612978839135806</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Taiwan">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-1.06875858463648</income-elasticity>
+                <income-elasticity year="2030">-0.126186486970324</income-elasticity>
+                <income-elasticity year="2035">-0.496303741374041</income-elasticity>
+                <income-elasticity year="2040">-1.69382692966395</income-elasticity>
+                <income-elasticity year="2045">-1.8589857349999</income-elasticity>
+                <income-elasticity year="2050">-1.75197607419708</income-elasticity>
+                <income-elasticity year="2055">-1.63502371476988</income-elasticity>
+                <income-elasticity year="2060">-1.58492503440577</income-elasticity>
+                <income-elasticity year="2065">-1.57786654732016</income-elasticity>
+                <income-elasticity year="2070">-1.57039591204597</income-elasticity>
+                <income-elasticity year="2075">-1.57251166420177</income-elasticity>
+                <income-elasticity year="2080">-1.60710703558548</income-elasticity>
+                <income-elasticity year="2085">-1.66886741962868</income-elasticity>
+                <income-elasticity year="2090">-1.74736819948091</income-elasticity>
+                <income-elasticity year="2095">-1.84002025272504</income-elasticity>
+                <income-elasticity year="2100">-1.9365664641356</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Argentina">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-2.60116101035357</income-elasticity>
+                <income-elasticity year="2030">1.14456287132713</income-elasticity>
+                <income-elasticity year="2035">0.96641320669367</income-elasticity>
+                <income-elasticity year="2040">0.845716466359732</income-elasticity>
+                <income-elasticity year="2045">0.731337636499358</income-elasticity>
+                <income-elasticity year="2050">0.618079823152065</income-elasticity>
+                <income-elasticity year="2055">0.503827609197639</income-elasticity>
+                <income-elasticity year="2060">0.381541279085948</income-elasticity>
+                <income-elasticity year="2065">0.270913302720126</income-elasticity>
+                <income-elasticity year="2070">0.165263493261492</income-elasticity>
+                <income-elasticity year="2075">0.0610580322754678</income-elasticity>
+                <income-elasticity year="2080">-0.0371065135567883</income-elasticity>
+                <income-elasticity year="2085">-0.126493501583708</income-elasticity>
+                <income-elasticity year="2090">-0.207405886382964</income-elasticity>
+                <income-elasticity year="2095">-0.283751050794949</income-elasticity>
+                <income-elasticity year="2100">-0.356196052990724</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Colombia">
+            <energy-final-demand name="regional iron and steel">
+                <income-elasticity year="2025">-6.18539110728767</income-elasticity>
+                <income-elasticity year="2030">2.38274514253733</income-elasticity>
+                <income-elasticity year="2035">2.05704859849119</income-elasticity>
+                <income-elasticity year="2040">1.72023543271813</income-elasticity>
+                <income-elasticity year="2045">1.40065207666618</income-elasticity>
+                <income-elasticity year="2050">1.12047577661143</income-elasticity>
+                <income-elasticity year="2055">0.882686671798276</income-elasticity>
+                <income-elasticity year="2060">0.676940427541693</income-elasticity>
+                <income-elasticity year="2065">0.500025673814247</income-elasticity>
+                <income-elasticity year="2070">0.33849902399876</income-elasticity>
+                <income-elasticity year="2075">0.185886651382942</income-elasticity>
+                <income-elasticity year="2080">0.0315526759301076</income-elasticity>
+                <income-elasticity year="2085">-0.108004035373387</income-elasticity>
+                <income-elasticity year="2090">-0.230779597352516</income-elasticity>
+                <income-elasticity year="2095">-0.337822983037339</income-elasticity>
+                <income-elasticity year="2100">-0.429583550116718</income-elasticity>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <modeltime>
+        <start-year time-step="15">1975</start-year>
+        <final-calibration-year>2021</final-calibration-year>
+        <end-year>2100</end-year>
+        <carbon-model-start-year>1705</carbon-model-start-year>
+        <inter-year dummy-tag="1" time-step="5">2005</inter-year>
+        <inter-year dummy-tag="2" time-step="6">2015</inter-year>
+        <inter-year dummy-tag="3" time-step="4">2021</inter-year>
+        <inter-year dummy-tag="4" time-step="5">2025</inter-year>
+    </modeltime>
+</scenario>

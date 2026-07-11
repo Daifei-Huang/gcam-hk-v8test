@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="HK">
+            <gcam-consumer name="resid_urban">
+                <nodeInput name="resid_urban">
+                    <building-node-input name="resid_urban_building">
+                        <thermal-building-service-input name="resid_urban cooling modern_urban">
+                            <satiation-demand-function>
+                                <satiation-level>0.5853591</satiation-level>
+                            </satiation-demand-function>
+                        </thermal-building-service-input>
+                        <thermal-building-service-input name="resid_urban heating modern_urban">
+                            <satiation-demand-function>
+                                <satiation-level>0.0007987</satiation-level>
+                            </satiation-demand-function>
+                        </thermal-building-service-input>
+                        <building-service-input name="resid_urban appliances modern_urban">
+                            <satiation-demand-function>
+                                <satiation-level>0.1484619</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                        <building-service-input name="resid_urban hot water_cooking modern_urban">
+                            <satiation-demand-function>
+                                <satiation-level>0.247155</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                        <building-service-input name="resid_urban lighting modern_urban">
+                            <satiation-demand-function>
+                                <satiation-level>0.0087285</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                    </building-node-input>
+                </nodeInput>
+            </gcam-consumer>
+            <gcam-consumer name="comm">
+                <nodeInput name="comm">
+                    <building-node-input name="comm_building">
+                        <thermal-building-service-input name="comm cooling">
+                            <satiation-demand-function>
+                                <satiation-level>0.255404</satiation-level>
+                            </satiation-demand-function>
+                        </thermal-building-service-input>
+                        <thermal-building-service-input name="comm heating">
+                            <satiation-demand-function>
+                                <satiation-level>0.0004486</satiation-level>
+                            </satiation-demand-function>
+                        </thermal-building-service-input>
+                        <building-service-input name="comm appliances">
+                            <satiation-demand-function>
+                                <satiation-level>0.2587639</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                        <building-service-input name="comm hot water_cooking">
+                            <satiation-demand-function>
+                                <satiation-level>0.0509827</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                        <building-service-input name="comm lighting">
+                            <satiation-demand-function>
+                                <satiation-level>0.0008929</satiation-level>
+                            </satiation-demand-function>
+                        </building-service-input>
+                    </building-node-input>
+                </nodeInput>
+            </gcam-consumer>
+        </region>
+    </world>
+</scenario>

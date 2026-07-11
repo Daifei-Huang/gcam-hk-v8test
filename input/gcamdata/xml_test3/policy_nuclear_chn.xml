@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="ZJ">
+            <supplysector name="base load generation">
+                <subsector name="nuclear">
+                    <stub-technology name="nuc_base_Gen III">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">1.1</output-scalar>
+                                <output-scalar year="2025">1.2</output-scalar>
+                                <output-scalar year="2030">1.3</output-scalar>
+                                <output-scalar year="2035">2.6</output-scalar>
+                                <output-scalar year="2040">6</output-scalar>
+                                <output-scalar year="2045">6</output-scalar>
+                                <output-scalar year="2050">6</output-scalar>
+                                <output-scalar year="2055">6</output-scalar>
+                                <output-scalar year="2060">6</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="nuc_base_Gen II">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2</output-scalar>
+                                <output-scalar year="2025">3</output-scalar>
+                                <output-scalar year="2030">4</output-scalar>
+                                <output-scalar year="2035">8</output-scalar>
+                                <output-scalar year="2040">16</output-scalar>
+                                <output-scalar year="2045">16</output-scalar>
+                                <output-scalar year="2050">16</output-scalar>
+                                <output-scalar year="2055">16</output-scalar>
+                                <output-scalar year="2060">16</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="SD">
+            <supplysector name="base load generation">
+                <subsector name="nuclear">
+                    <stub-technology name="nuc_base_Gen III">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2.67</output-scalar>
+                                <output-scalar year="2025">4.33</output-scalar>
+                                <output-scalar year="2030">6</output-scalar>
+                                <output-scalar year="2035">12</output-scalar>
+                                <output-scalar year="2040">24</output-scalar>
+                                <output-scalar year="2045">24</output-scalar>
+                                <output-scalar year="2050">24</output-scalar>
+                                <output-scalar year="2055">24</output-scalar>
+                                <output-scalar year="2060">24</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="nuc_base_Gen II">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2.67</output-scalar>
+                                <output-scalar year="2025">4.33</output-scalar>
+                                <output-scalar year="2030">6</output-scalar>
+                                <output-scalar year="2035">12</output-scalar>
+                                <output-scalar year="2040">24</output-scalar>
+                                <output-scalar year="2045">24</output-scalar>
+                                <output-scalar year="2050">24</output-scalar>
+                                <output-scalar year="2055">24</output-scalar>
+                                <output-scalar year="2060">24</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="GD">
+            <supplysector name="base load generation">
+                <subsector name="nuclear">
+                    <stub-technology name="nuc_base_Gen III">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2</output-scalar>
+                                <output-scalar year="2025">3</output-scalar>
+                                <output-scalar year="2030">4</output-scalar>
+                                <output-scalar year="2035">8</output-scalar>
+                                <output-scalar year="2040">16</output-scalar>
+                                <output-scalar year="2045">16</output-scalar>
+                                <output-scalar year="2050">16</output-scalar>
+                                <output-scalar year="2055">16</output-scalar>
+                                <output-scalar year="2060">16</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="nuc_base_Gen II">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2</output-scalar>
+                                <output-scalar year="2025">3</output-scalar>
+                                <output-scalar year="2030">4</output-scalar>
+                                <output-scalar year="2035">8</output-scalar>
+                                <output-scalar year="2040">16</output-scalar>
+                                <output-scalar year="2045">16</output-scalar>
+                                <output-scalar year="2050">16</output-scalar>
+                                <output-scalar year="2055">16</output-scalar>
+                                <output-scalar year="2060">16</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="FJ">
+            <supplysector name="base load generation">
+                <subsector name="nuclear">
+                    <stub-technology name="nuc_base_Gen III">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">1.6</output-scalar>
+                                <output-scalar year="2025">2.2</output-scalar>
+                                <output-scalar year="2030">2.8</output-scalar>
+                                <output-scalar year="2035">5.6</output-scalar>
+                                <output-scalar year="2040">12</output-scalar>
+                                <output-scalar year="2045">12</output-scalar>
+                                <output-scalar year="2050">12</output-scalar>
+                                <output-scalar year="2055">12</output-scalar>
+                                <output-scalar year="2060">12</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="nuc_base_Gen II">
+                        <period year="2015">
+                            <exogenous-shutdown-decider name="exogenous.shutdown">
+                                <output-scalar year="2020">2</output-scalar>
+                                <output-scalar year="2025">3</output-scalar>
+                                <output-scalar year="2030">4</output-scalar>
+                                <output-scalar year="2035">8</output-scalar>
+                                <output-scalar year="2040">16</output-scalar>
+                                <output-scalar year="2045">16</output-scalar>
+                                <output-scalar year="2050">16</output-scalar>
+                                <output-scalar year="2055">16</output-scalar>
+                                <output-scalar year="2060">16</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

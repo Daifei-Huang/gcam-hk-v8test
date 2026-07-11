@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Africa_Eastern">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Africa_Western">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Brazil">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Canada">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Central Asia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="EU-12">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="EU-15">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Ukraine">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="India">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Indonesia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Japan">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Mexico">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Middle East">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Pakistan">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Russia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="South Africa">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="South America_Northern">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="South America_Southern">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="South Asia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="South Korea">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Taiwan">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Argentina">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+        <region name="Colombia">
+            <supplysector delete="1" name="NonFoodDemand_woodpulp"/>
+            <energy-final-demand delete="1" name="NonFoodDemand_woodpulp"/>
+        </region>
+    </world>
+</scenario>

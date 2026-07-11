@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="HK">
+            <gcam-consumer delete="1" name="resid_rural_d1"/>
+            <gcam-consumer delete="1" name="resid_rural_d2"/>
+            <gcam-consumer delete="1" name="resid_rural_d3"/>
+            <gcam-consumer delete="1" name="resid_rural_d4"/>
+            <gcam-consumer delete="1" name="resid_rural_d5"/>
+            <gcam-consumer delete="1" name="resid_rural_d6"/>
+            <gcam-consumer delete="1" name="resid_rural_d7"/>
+            <gcam-consumer delete="1" name="resid_rural_d8"/>
+            <gcam-consumer delete="1" name="resid_rural_d9"/>
+            <gcam-consumer delete="1" name="resid_rural_d10"/>
+            <supplysector delete="1" name="resid_rural heating modern_d1"/>
+            <supplysector delete="1" name="resid_rural heating modern_d2"/>
+            <supplysector delete="1" name="resid_rural heating modern_d3"/>
+            <supplysector delete="1" name="resid_rural heating modern_d4"/>
+            <supplysector delete="1" name="resid_rural heating modern_d5"/>
+            <supplysector delete="1" name="resid_rural heating modern_d6"/>
+            <supplysector delete="1" name="resid_rural heating modern_d7"/>
+            <supplysector delete="1" name="resid_rural heating modern_d8"/>
+            <supplysector delete="1" name="resid_rural heating modern_d9"/>
+            <supplysector delete="1" name="resid_rural heating modern_d10"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d1"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d2"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d3"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d4"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d5"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d6"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d7"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d8"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d9"/>
+            <supplysector delete="1" name="resid_rural cooling modern_d10"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d1"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d2"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d3"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d4"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d5"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d6"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d7"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d8"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d9"/>
+            <supplysector delete="1" name="resid_rural hot water_cooking modern_d10"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d1"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d2"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d3"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d4"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d5"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d6"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d7"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d8"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d9"/>
+            <supplysector delete="1" name="resid_rural lighting modern_d10"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d1"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d2"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d3"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d4"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d5"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d6"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d7"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d8"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d9"/>
+            <supplysector delete="1" name="resid_rural appliances modern_d10"/>
+        </region>
+    </world>
+</scenario>

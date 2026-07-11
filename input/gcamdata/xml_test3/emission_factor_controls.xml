@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="China">
+            <supplysector name="ammonia" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <linear-control name="SO2_control_retrofits">
+                                    <start-year>2021</start-year>
+                                    <end-year>2031</end-year>
+                                    <final-emissions-coefficient>0.1101</final-emissions-coefficient>
+                                </linear-control>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.0944</emiss-coef>
+                                <linear-control name="SO2_control_retrofits">
+                                    <start-year>2025</start-year>
+                                    <end-year>2100</end-year>
+                                    <disable-em-control>1</disable-em-control>
+                                </linear-control>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="other industrial energy use" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.0944</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="district heat" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.0944</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="process heat cement" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.1259</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Taiwan">
+            <supplysector name="ammonia" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <linear-control name="SO2_control_retrofits">
+                                    <start-year>2021</start-year>
+                                    <end-year>2031</end-year>
+                                    <final-emissions-coefficient>0.1101</final-emissions-coefficient>
+                                </linear-control>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.0944</emiss-coef>
+                                <linear-control name="SO2_control_retrofits">
+                                    <start-year>2025</start-year>
+                                    <end-year>2100</end-year>
+                                    <disable-em-control>1</disable-em-control>
+                                </linear-control>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="other industrial energy use" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.0944</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="process heat cement" nocreate="1">
+                <subsector name="coal" nocreate="1">
+                    <stub-technology name="coal" nocreate="1">
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.1259</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="USA">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Eastern">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Western">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Brazil">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Canada">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central Asia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-12">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-15">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Ukraine">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_1">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_1">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="India">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Indonesia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Japan">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Mexico">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Middle East">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Pakistan">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Russia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_4">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_4">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_4">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Africa">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Northern">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Southern">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Asia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Korea">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_2">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_2">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Argentina">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="trn_freight" nocreate="1">
+                <subsector name="Domestic Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Colombia">
+            <supplysector name="trn_shipping_intl" nocreate="1">
+                <subsector name="International Ship" nocreate="1">
+                    <stub-technology name="Liquids" nocreate="1">
+                        <period year="2021">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.16</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2025">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.155</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2030">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.15</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.145</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2040">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.14</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2045">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.135</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="2050">
+                            <Non-CO2 name="SO2_3">
+                                <emiss-coef>0.13</emiss-coef>
+                            </Non-CO2>
+                        </period>
+                        <period year="1975">
+                            <Non-CO2 name="SO2_3">
+                                <gdp-control delete="1" name="GDP_control"/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.221687403920562</income-elasticity>
+                <income-elasticity year="2035">0.188691967552633</income-elasticity>
+                <income-elasticity year="2040">0.151341755463069</income-elasticity>
+                <income-elasticity year="2045">0.127032047115101</income-elasticity>
+                <income-elasticity year="2050">0.104438339686581</income-elasticity>
+                <income-elasticity year="2055">0.0516459099190305</income-elasticity>
+                <income-elasticity year="2060">0.013914457452941</income-elasticity>
+                <income-elasticity year="2065">-0.0262080639539325</income-elasticity>
+                <income-elasticity year="2070">-0.0593396351404583</income-elasticity>
+                <income-elasticity year="2075">-0.0974416586637459</income-elasticity>
+                <income-elasticity year="2080">-0.147526924027145</income-elasticity>
+                <income-elasticity year="2085">-0.210420351710505</income-elasticity>
+                <income-elasticity year="2090">-0.281332072441548</income-elasticity>
+                <income-elasticity year="2095">-0.359400254152333</income-elasticity>
+                <income-elasticity year="2100">-0.462337917916945</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Eastern">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">3</income-elasticity>
+                <income-elasticity year="2035">3</income-elasticity>
+                <income-elasticity year="2040">3</income-elasticity>
+                <income-elasticity year="2045">2.74570762087499</income-elasticity>
+                <income-elasticity year="2050">2.10898808578448</income-elasticity>
+                <income-elasticity year="2055">1.62910408374882</income-elasticity>
+                <income-elasticity year="2060">1.25879435868171</income-elasticity>
+                <income-elasticity year="2065">0.970108528684087</income-elasticity>
+                <income-elasticity year="2070">0.742192153925536</income-elasticity>
+                <income-elasticity year="2075">0.55664666097568</income-elasticity>
+                <income-elasticity year="2080">0.403921844962091</income-elasticity>
+                <income-elasticity year="2085">0.275631992811497</income-elasticity>
+                <income-elasticity year="2090">0.167054608676293</income-elasticity>
+                <income-elasticity year="2095">0.0727472803304006</income-elasticity>
+                <income-elasticity year="2100">-0.0100078219604285</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Northern">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">1.68771153395881</income-elasticity>
+                <income-elasticity year="2035">1.33057724627697</income-elasticity>
+                <income-elasticity year="2040">1.01875796184463</income-elasticity>
+                <income-elasticity year="2045">0.771934984954189</income-elasticity>
+                <income-elasticity year="2050">0.580550575573235</income-elasticity>
+                <income-elasticity year="2055">0.427152995732398</income-elasticity>
+                <income-elasticity year="2060">0.299915063245274</income-elasticity>
+                <income-elasticity year="2065">0.194174047151028</income-elasticity>
+                <income-elasticity year="2070">0.101952043723893</income-elasticity>
+                <income-elasticity year="2075">0.0255252822512622</income-elasticity>
+                <income-elasticity year="2080">-0.0405912239699192</income-elasticity>
+                <income-elasticity year="2085">-0.0992952505857883</income-elasticity>
+                <income-elasticity year="2090">-0.14950858585303</income-elasticity>
+                <income-elasticity year="2095">-0.197660039237696</income-elasticity>
+                <income-elasticity year="2100">-0.248169610002403</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Southern">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.584221442890316</income-elasticity>
+                <income-elasticity year="2035">0.372967742709719</income-elasticity>
+                <income-elasticity year="2040">0.262842013101231</income-elasticity>
+                <income-elasticity year="2045">0.207524703677647</income-elasticity>
+                <income-elasticity year="2050">0.174748670638907</income-elasticity>
+                <income-elasticity year="2055">0.127830817231719</income-elasticity>
+                <income-elasticity year="2060">0.0804146514434517</income-elasticity>
+                <income-elasticity year="2065">0.0407047475932669</income-elasticity>
+                <income-elasticity year="2070">0.00355219048063129</income-elasticity>
+                <income-elasticity year="2075">-0.0314589130941826</income-elasticity>
+                <income-elasticity year="2080">-0.0692006200329108</income-elasticity>
+                <income-elasticity year="2085">-0.108818431348226</income-elasticity>
+                <income-elasticity year="2090">-0.147972548071551</income-elasticity>
+                <income-elasticity year="2095">-0.185369112350627</income-elasticity>
+                <income-elasticity year="2100">-0.223160169555469</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Africa_Western">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">3</income-elasticity>
+                <income-elasticity year="2035">3</income-elasticity>
+                <income-elasticity year="2040">2.96684671566662</income-elasticity>
+                <income-elasticity year="2045">2.3564637592236</income-elasticity>
+                <income-elasticity year="2050">1.86954492181004</income-elasticity>
+                <income-elasticity year="2055">1.47884882656594</income-elasticity>
+                <income-elasticity year="2060">1.16299080933598</income-elasticity>
+                <income-elasticity year="2065">0.915919953595844</income-elasticity>
+                <income-elasticity year="2070">0.718048167445188</income-elasticity>
+                <income-elasticity year="2075">0.556704337519078</income-elasticity>
+                <income-elasticity year="2080">0.420701428890783</income-elasticity>
+                <income-elasticity year="2085">0.303316749811143</income-elasticity>
+                <income-elasticity year="2090">0.200418981655559</income-elasticity>
+                <income-elasticity year="2095">0.108535869325256</income-elasticity>
+                <income-elasticity year="2100">0.0272269731748481</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Australia_NZ">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">-0.66101900378769</income-elasticity>
+                <income-elasticity year="2030">0.408868976095389</income-elasticity>
+                <income-elasticity year="2035">0.2902530654873</income-elasticity>
+                <income-elasticity year="2040">0.224570151737461</income-elasticity>
+                <income-elasticity year="2045">0.197474053553309</income-elasticity>
+                <income-elasticity year="2050">0.190651456028884</income-elasticity>
+                <income-elasticity year="2055">0.157721366509922</income-elasticity>
+                <income-elasticity year="2060">0.115028333433211</income-elasticity>
+                <income-elasticity year="2065">0.0579257064287175</income-elasticity>
+                <income-elasticity year="2070">0.00741552976972504</income-elasticity>
+                <income-elasticity year="2075">-0.0462000758233904</income-elasticity>
+                <income-elasticity year="2080">-0.109399628214035</income-elasticity>
+                <income-elasticity year="2085">-0.202022554047676</income-elasticity>
+                <income-elasticity year="2090">-0.321748032630683</income-elasticity>
+                <income-elasticity year="2095">-0.445003112241641</income-elasticity>
+                <income-elasticity year="2100">-0.552525077715228</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Brazil">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.600179743218315</income-elasticity>
+                <income-elasticity year="2035">0.543418220398915</income-elasticity>
+                <income-elasticity year="2040">0.434730781581832</income-elasticity>
+                <income-elasticity year="2045">0.320900001877781</income-elasticity>
+                <income-elasticity year="2050">0.204241711961498</income-elasticity>
+                <income-elasticity year="2055">0.102322895262034</income-elasticity>
+                <income-elasticity year="2060">0.011083612769497</income-elasticity>
+                <income-elasticity year="2065">-0.0679408847559014</income-elasticity>
+                <income-elasticity year="2070">-0.146601035978356</income-elasticity>
+                <income-elasticity year="2075">-0.219411810555811</income-elasticity>
+                <income-elasticity year="2080">-0.292022999678998</income-elasticity>
+                <income-elasticity year="2085">-0.361493875394752</income-elasticity>
+                <income-elasticity year="2090">-0.427836209394807</income-elasticity>
+                <income-elasticity year="2095">-0.50110079201844</income-elasticity>
+                <income-elasticity year="2100">-0.590991098153</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Canada">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">-3</income-elasticity>
+                <income-elasticity year="2030">0.297587628273666</income-elasticity>
+                <income-elasticity year="2035">0.230982620099428</income-elasticity>
+                <income-elasticity year="2040">0.187318222891541</income-elasticity>
+                <income-elasticity year="2045">0.168180485340052</income-elasticity>
+                <income-elasticity year="2050">0.163448937698232</income-elasticity>
+                <income-elasticity year="2055">0.121256019502669</income-elasticity>
+                <income-elasticity year="2060">0.0816961390754973</income-elasticity>
+                <income-elasticity year="2065">0.0330786674078695</income-elasticity>
+                <income-elasticity year="2070">-0.00614412148399963</income-elasticity>
+                <income-elasticity year="2075">-0.0532117146585063</income-elasticity>
+                <income-elasticity year="2080">-0.120155526118255</income-elasticity>
+                <income-elasticity year="2085">-0.212039287299193</income-elasticity>
+                <income-elasticity year="2090">-0.342901184848191</income-elasticity>
+                <income-elasticity year="2095">-0.481994001877457</income-elasticity>
+                <income-elasticity year="2100">-0.620733899906575</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central America and Caribbean">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.988341965907019</income-elasticity>
+                <income-elasticity year="2035">0.781725435121434</income-elasticity>
+                <income-elasticity year="2040">0.595155015503068</income-elasticity>
+                <income-elasticity year="2045">0.438204818825219</income-elasticity>
+                <income-elasticity year="2050">0.298616310534842</income-elasticity>
+                <income-elasticity year="2055">0.180635101084508</income-elasticity>
+                <income-elasticity year="2060">0.0816236706343578</income-elasticity>
+                <income-elasticity year="2065">0.00544997451235701</income-elasticity>
+                <income-elasticity year="2070">-0.0655272321569542</income-elasticity>
+                <income-elasticity year="2075">-0.129763602857306</income-elasticity>
+                <income-elasticity year="2080">-0.192999454876808</income-elasticity>
+                <income-elasticity year="2085">-0.254362429723063</income-elasticity>
+                <income-elasticity year="2090">-0.313520023255934</income-elasticity>
+                <income-elasticity year="2095">-0.371697715116028</income-elasticity>
+                <income-elasticity year="2100">-0.429763427656076</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Central Asia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">1.20485470806492</income-elasticity>
+                <income-elasticity year="2035">0.971136011354229</income-elasticity>
+                <income-elasticity year="2040">0.779210551534581</income-elasticity>
+                <income-elasticity year="2045">0.625564560888811</income-elasticity>
+                <income-elasticity year="2050">0.479115737045335</income-elasticity>
+                <income-elasticity year="2055">0.339607766542547</income-elasticity>
+                <income-elasticity year="2060">0.219833322196743</income-elasticity>
+                <income-elasticity year="2065">0.133197006469726</income-elasticity>
+                <income-elasticity year="2070">0.057618802962316</income-elasticity>
+                <income-elasticity year="2075">-0.0133841420513579</income-elasticity>
+                <income-elasticity year="2080">-0.0767349952160244</income-elasticity>
+                <income-elasticity year="2085">-0.129631761395115</income-elasticity>
+                <income-elasticity year="2090">-0.17175578918342</income-elasticity>
+                <income-elasticity year="2095">-0.205735426888727</income-elasticity>
+                <income-elasticity year="2100">-0.240413412618751</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="China">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">2.20165465320456</income-elasticity>
+                <income-elasticity year="2030">0.312542574519073</income-elasticity>
+                <income-elasticity year="2035">0.202965178516472</income-elasticity>
+                <income-elasticity year="2040">0.101511994695189</income-elasticity>
+                <income-elasticity year="2045">0.0157572644174074</income-elasticity>
+                <income-elasticity year="2050">-0.0999712678528033</income-elasticity>
+                <income-elasticity year="2055">-0.22394463022114</income-elasticity>
+                <income-elasticity year="2060">-0.307216227055468</income-elasticity>
+                <income-elasticity year="2065">-0.377225357552791</income-elasticity>
+                <income-elasticity year="2070">-0.470737456499089</income-elasticity>
+                <income-elasticity year="2075">-0.566629704724892</income-elasticity>
+                <income-elasticity year="2080">-0.651057579729168</income-elasticity>
+                <income-elasticity year="2085">-0.740743476751608</income-elasticity>
+                <income-elasticity year="2090">-0.821901791941662</income-elasticity>
+                <income-elasticity year="2095">-0.883029792830139</income-elasticity>
+                <income-elasticity year="2100">-0.943511183671471</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-12">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.085862292795406</income-elasticity>
+                <income-elasticity year="2035">0.0205375453363603</income-elasticity>
+                <income-elasticity year="2040">-0.0384322963876411</income-elasticity>
+                <income-elasticity year="2045">-0.127348145222155</income-elasticity>
+                <income-elasticity year="2050">-0.225125647290255</income-elasticity>
+                <income-elasticity year="2055">-0.304750186970108</income-elasticity>
+                <income-elasticity year="2060">-0.354245085771362</income-elasticity>
+                <income-elasticity year="2065">-0.397369595763415</income-elasticity>
+                <income-elasticity year="2070">-0.457472542300035</income-elasticity>
+                <income-elasticity year="2075">-0.524685741554849</income-elasticity>
+                <income-elasticity year="2080">-0.590570673305786</income-elasticity>
+                <income-elasticity year="2085">-0.647632852579617</income-elasticity>
+                <income-elasticity year="2090">-0.695178157789237</income-elasticity>
+                <income-elasticity year="2095">-0.738036740867276</income-elasticity>
+                <income-elasticity year="2100">-0.79073636425257</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="EU-15">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">-0.0292255334830933</income-elasticity>
+                <income-elasticity year="2035">0.0274161282718166</income-elasticity>
+                <income-elasticity year="2040">0.0537076065981399</income-elasticity>
+                <income-elasticity year="2045">0.0561652878234177</income-elasticity>
+                <income-elasticity year="2050">0.0420037212643602</income-elasticity>
+                <income-elasticity year="2055">-0.00108826428115797</income-elasticity>
+                <income-elasticity year="2060">-0.0447150966552885</income-elasticity>
+                <income-elasticity year="2065">-0.0936198559872954</income-elasticity>
+                <income-elasticity year="2070">-0.135408429220426</income-elasticity>
+                <income-elasticity year="2075">-0.17752974869725</income-elasticity>
+                <income-elasticity year="2080">-0.235399086593278</income-elasticity>
+                <income-elasticity year="2085">-0.326477159204991</income-elasticity>
+                <income-elasticity year="2090">-0.441577081462574</income-elasticity>
+                <income-elasticity year="2095">-0.56930996437156</income-elasticity>
+                <income-elasticity year="2100">-0.700627112678922</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Ukraine">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">-3</income-elasticity>
+                <income-elasticity year="2030">2.91630279045709</income-elasticity>
+                <income-elasticity year="2035">2.25141548139302</income-elasticity>
+                <income-elasticity year="2040">1.66287195621001</income-elasticity>
+                <income-elasticity year="2045">1.21264519288371</income-elasticity>
+                <income-elasticity year="2050">0.895445150063433</income-elasticity>
+                <income-elasticity year="2055">0.674358757626305</income-elasticity>
+                <income-elasticity year="2060">0.515326559798769</income-elasticity>
+                <income-elasticity year="2065">0.377385820494855</income-elasticity>
+                <income-elasticity year="2070">0.258278981985826</income-elasticity>
+                <income-elasticity year="2075">0.152261651164116</income-elasticity>
+                <income-elasticity year="2080">0.0585979840246637</income-elasticity>
+                <income-elasticity year="2085">-0.0218182106310788</income-elasticity>
+                <income-elasticity year="2090">-0.0900707574610592</income-elasticity>
+                <income-elasticity year="2095">-0.151613358576159</income-elasticity>
+                <income-elasticity year="2100">-0.214973949956916</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Europe_Non_EU">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.430742365248819</income-elasticity>
+                <income-elasticity year="2035">0.327620867219423</income-elasticity>
+                <income-elasticity year="2040">0.233790738209361</income-elasticity>
+                <income-elasticity year="2045">0.147757034331369</income-elasticity>
+                <income-elasticity year="2050">0.0460360932309302</income-elasticity>
+                <income-elasticity year="2055">-0.0450394855302765</income-elasticity>
+                <income-elasticity year="2060">-0.125762087662722</income-elasticity>
+                <income-elasticity year="2065">-0.196729159749146</income-elasticity>
+                <income-elasticity year="2070">-0.271331268600249</income-elasticity>
+                <income-elasticity year="2075">-0.343262729873706</income-elasticity>
+                <income-elasticity year="2080">-0.411919656014191</income-elasticity>
+                <income-elasticity year="2085">-0.470873379089553</income-elasticity>
+                <income-elasticity year="2090">-0.519235810698255</income-elasticity>
+                <income-elasticity year="2095">-0.562131837840788</income-elasticity>
+                <income-elasticity year="2100">-0.605208115131443</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="European Free Trade Association">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">-3</income-elasticity>
+                <income-elasticity year="2030">0.352672991765873</income-elasticity>
+                <income-elasticity year="2035">0.237001361302341</income-elasticity>
+                <income-elasticity year="2040">0.187768906706999</income-elasticity>
+                <income-elasticity year="2045">0.178920466703479</income-elasticity>
+                <income-elasticity year="2050">0.190386874117059</income-elasticity>
+                <income-elasticity year="2055">0.136970185379165</income-elasticity>
+                <income-elasticity year="2060">0.0753497002723283</income-elasticity>
+                <income-elasticity year="2065">0.00359473067244867</income-elasticity>
+                <income-elasticity year="2070">-0.0513054944942259</income-elasticity>
+                <income-elasticity year="2075">-0.103091727120625</income-elasticity>
+                <income-elasticity year="2080">-0.19673269305137</income-elasticity>
+                <income-elasticity year="2085">-0.329946394250372</income-elasticity>
+                <income-elasticity year="2090">-0.477392926845998</income-elasticity>
+                <income-elasticity year="2095">-0.606412573094534</income-elasticity>
+                <income-elasticity year="2100">-0.715423732575608</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="India">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">2.91193651991696</income-elasticity>
+                <income-elasticity year="2030">2.50857266032221</income-elasticity>
+                <income-elasticity year="2035">1.90403600538584</income-elasticity>
+                <income-elasticity year="2040">1.42731386211147</income-elasticity>
+                <income-elasticity year="2045">1.06332182381731</income-elasticity>
+                <income-elasticity year="2050">0.783522178873036</income-elasticity>
+                <income-elasticity year="2055">0.572646645502274</income-elasticity>
+                <income-elasticity year="2060">0.403667087118397</income-elasticity>
+                <income-elasticity year="2065">0.261468124527192</income-elasticity>
+                <income-elasticity year="2070">0.132431077064607</income-elasticity>
+                <income-elasticity year="2075">0.0137289320994905</income-elasticity>
+                <income-elasticity year="2080">-0.10375172336299</income-elasticity>
+                <income-elasticity year="2085">-0.216215704740969</income-elasticity>
+                <income-elasticity year="2090">-0.321155825357862</income-elasticity>
+                <income-elasticity year="2095">-0.421553786674445</income-elasticity>
+                <income-elasticity year="2100">-0.516714264863536</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Indonesia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">1.39405890834187</income-elasticity>
+                <income-elasticity year="2035">1.09956388507453</income-elasticity>
+                <income-elasticity year="2040">0.845562490112342</income-elasticity>
+                <income-elasticity year="2045">0.637229099646725</income-elasticity>
+                <income-elasticity year="2050">0.454651804640074</income-elasticity>
+                <income-elasticity year="2055">0.309153006690585</income-elasticity>
+                <income-elasticity year="2060">0.180844951016631</income-elasticity>
+                <income-elasticity year="2065">0.0650436387972819</income-elasticity>
+                <income-elasticity year="2070">-0.0402194604207233</income-elasticity>
+                <income-elasticity year="2075">-0.136867577888629</income-elasticity>
+                <income-elasticity year="2080">-0.228187373818308</income-elasticity>
+                <income-elasticity year="2085">-0.3134844877147</income-elasticity>
+                <income-elasticity year="2090">-0.399538142042133</income-elasticity>
+                <income-elasticity year="2095">-0.48977175120379</income-elasticity>
+                <income-elasticity year="2100">-0.586876014701414</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Japan">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">-0.519240061809968</income-elasticity>
+                <income-elasticity year="2035">-0.276389097237317</income-elasticity>
+                <income-elasticity year="2040">-0.221676632715204</income-elasticity>
+                <income-elasticity year="2045">-0.222973630050848</income-elasticity>
+                <income-elasticity year="2050">-0.274489932854402</income-elasticity>
+                <income-elasticity year="2055">-0.326751548933238</income-elasticity>
+                <income-elasticity year="2060">-0.376240551420753</income-elasticity>
+                <income-elasticity year="2065">-0.432576070769215</income-elasticity>
+                <income-elasticity year="2070">-0.505593077168247</income-elasticity>
+                <income-elasticity year="2075">-0.592888519912933</income-elasticity>
+                <income-elasticity year="2080">-0.680545533450245</income-elasticity>
+                <income-elasticity year="2085">-0.758086243859293</income-elasticity>
+                <income-elasticity year="2090">-0.831016466331179</income-elasticity>
+                <income-elasticity year="2095">-0.921653066349708</income-elasticity>
+                <income-elasticity year="2100">-1.07012124614119</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Mexico">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.64527821412002</income-elasticity>
+                <income-elasticity year="2035">0.512191038087011</income-elasticity>
+                <income-elasticity year="2040">0.393410099920126</income-elasticity>
+                <income-elasticity year="2045">0.289518397398376</income-elasticity>
+                <income-elasticity year="2050">0.182319404142382</income-elasticity>
+                <income-elasticity year="2055">0.0842629719422744</income-elasticity>
+                <income-elasticity year="2060">-0.0088059399678945</income-elasticity>
+                <income-elasticity year="2065">-0.0846423767194041</income-elasticity>
+                <income-elasticity year="2070">-0.155749940018419</income-elasticity>
+                <income-elasticity year="2075">-0.229588980573303</income-elasticity>
+                <income-elasticity year="2080">-0.310165933562374</income-elasticity>
+                <income-elasticity year="2085">-0.396700797653469</income-elasticity>
+                <income-elasticity year="2090">-0.494729053180732</income-elasticity>
+                <income-elasticity year="2095">-0.612962167329262</income-elasticity>
+                <income-elasticity year="2100">-0.7714785940011</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Middle East">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.997632448979384</income-elasticity>
+                <income-elasticity year="2035">0.791608059272842</income-elasticity>
+                <income-elasticity year="2040">0.634254278181383</income-elasticity>
+                <income-elasticity year="2045">0.527374864364632</income-elasticity>
+                <income-elasticity year="2050">0.425286479891639</income-elasticity>
+                <income-elasticity year="2055">0.320658672334058</income-elasticity>
+                <income-elasticity year="2060">0.217238039044507</income-elasticity>
+                <income-elasticity year="2065">0.121945501331631</income-elasticity>
+                <income-elasticity year="2070">0.0313404948031706</income-elasticity>
+                <income-elasticity year="2075">-0.0531870639672431</income-elasticity>
+                <income-elasticity year="2080">-0.131619391518486</income-elasticity>
+                <income-elasticity year="2085">-0.204023122152319</income-elasticity>
+                <income-elasticity year="2090">-0.268821951581167</income-elasticity>
+                <income-elasticity year="2095">-0.328989313927948</income-elasticity>
+                <income-elasticity year="2100">-0.397185096914092</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Pakistan">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">3</income-elasticity>
+                <income-elasticity year="2035">3</income-elasticity>
+                <income-elasticity year="2040">2.58699666457815</income-elasticity>
+                <income-elasticity year="2045">1.94429852188541</income-elasticity>
+                <income-elasticity year="2050">1.45173830846713</income-elasticity>
+                <income-elasticity year="2055">1.08584695169963</income-elasticity>
+                <income-elasticity year="2060">0.810500580439862</income-elasticity>
+                <income-elasticity year="2065">0.602961833864771</income-elasticity>
+                <income-elasticity year="2070">0.440229727751772</income-elasticity>
+                <income-elasticity year="2075">0.309272979089186</income-elasticity>
+                <income-elasticity year="2080">0.199273443542963</income-elasticity>
+                <income-elasticity year="2085">0.107481784335689</income-elasticity>
+                <income-elasticity year="2090">0.0306918540003696</income-elasticity>
+                <income-elasticity year="2095">-0.0360305947680259</income-elasticity>
+                <income-elasticity year="2100">-0.0934052078013815</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Russia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.276596369880327</income-elasticity>
+                <income-elasticity year="2035">0.360541013060875</income-elasticity>
+                <income-elasticity year="2040">0.343784540268038</income-elasticity>
+                <income-elasticity year="2045">0.31038805933684</income-elasticity>
+                <income-elasticity year="2050">0.255594887970666</income-elasticity>
+                <income-elasticity year="2055">0.19165756956674</income-elasticity>
+                <income-elasticity year="2060">0.135441371281886</income-elasticity>
+                <income-elasticity year="2065">0.0706628191124596</income-elasticity>
+                <income-elasticity year="2070">0.0105004689855123</income-elasticity>
+                <income-elasticity year="2075">-0.0479135352112276</income-elasticity>
+                <income-elasticity year="2080">-0.103272730324472</income-elasticity>
+                <income-elasticity year="2085">-0.153670361371572</income-elasticity>
+                <income-elasticity year="2090">-0.196105597735767</income-elasticity>
+                <income-elasticity year="2095">-0.234129461437038</income-elasticity>
+                <income-elasticity year="2100">-0.279958415492195</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Africa">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">1.50779170884006</income-elasticity>
+                <income-elasticity year="2035">1.09018941991687</income-elasticity>
+                <income-elasticity year="2040">0.878685851441986</income-elasticity>
+                <income-elasticity year="2045">0.693716424109559</income-elasticity>
+                <income-elasticity year="2050">0.532024072901657</income-elasticity>
+                <income-elasticity year="2055">0.380796681306323</income-elasticity>
+                <income-elasticity year="2060">0.252296888165393</income-elasticity>
+                <income-elasticity year="2065">0.144709998631226</income-elasticity>
+                <income-elasticity year="2070">0.0469061480155948</income-elasticity>
+                <income-elasticity year="2075">-0.0430976399182784</income-elasticity>
+                <income-elasticity year="2080">-0.128635606179662</income-elasticity>
+                <income-elasticity year="2085">-0.205657071722774</income-elasticity>
+                <income-elasticity year="2090">-0.275584206972949</income-elasticity>
+                <income-elasticity year="2095">-0.339680790918946</income-elasticity>
+                <income-elasticity year="2100">-0.402876680192934</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Northern">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.561571595698206</income-elasticity>
+                <income-elasticity year="2035">0.360417939192109</income-elasticity>
+                <income-elasticity year="2040">0.229293168899917</income-elasticity>
+                <income-elasticity year="2045">0.067423290278181</income-elasticity>
+                <income-elasticity year="2050">-1.63234157249326</income-elasticity>
+                <income-elasticity year="2055">-3</income-elasticity>
+                <income-elasticity year="2060">-3</income-elasticity>
+                <income-elasticity year="2065">-3</income-elasticity>
+                <income-elasticity year="2070">-2.9768824420291</income-elasticity>
+                <income-elasticity year="2075">-2.50283646478644</income-elasticity>
+                <income-elasticity year="2080">-1.42581789745222</income-elasticity>
+                <income-elasticity year="2085">-0.979235805230295</income-elasticity>
+                <income-elasticity year="2090">-0.785701540181139</income-elasticity>
+                <income-elasticity year="2095">-0.828124637466892</income-elasticity>
+                <income-elasticity year="2100">-1.00731042570171</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South America_Southern">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.860105420453048</income-elasticity>
+                <income-elasticity year="2035">0.690614911020608</income-elasticity>
+                <income-elasticity year="2040">0.542899372370192</income-elasticity>
+                <income-elasticity year="2045">0.413409167568822</income-elasticity>
+                <income-elasticity year="2050">0.287045722649029</income-elasticity>
+                <income-elasticity year="2055">0.173641740170639</income-elasticity>
+                <income-elasticity year="2060">0.0734395157431292</income-elasticity>
+                <income-elasticity year="2065">-0.0072761054355322</income-elasticity>
+                <income-elasticity year="2070">-0.0838715764635496</income-elasticity>
+                <income-elasticity year="2075">-0.157408114424401</income-elasticity>
+                <income-elasticity year="2080">-0.230114126934989</income-elasticity>
+                <income-elasticity year="2085">-0.30033243443889</income-elasticity>
+                <income-elasticity year="2090">-0.36996329390317</income-elasticity>
+                <income-elasticity year="2095">-0.440163962707308</income-elasticity>
+                <income-elasticity year="2100">-0.511205868952716</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Asia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">2.88457044209518</income-elasticity>
+                <income-elasticity year="2035">2.14980060983274</income-elasticity>
+                <income-elasticity year="2040">1.57719008605637</income-elasticity>
+                <income-elasticity year="2045">1.16849569597845</income-elasticity>
+                <income-elasticity year="2050">0.874369340739331</income-elasticity>
+                <income-elasticity year="2055">0.653416139959352</income-elasticity>
+                <income-elasticity year="2060">0.474614912132915</income-elasticity>
+                <income-elasticity year="2065">0.335268058096201</income-elasticity>
+                <income-elasticity year="2070">0.207429411135799</income-elasticity>
+                <income-elasticity year="2075">0.0944368584220722</income-elasticity>
+                <income-elasticity year="2080">-0.0171486946401278</income-elasticity>
+                <income-elasticity year="2085">-0.124145243571292</income-elasticity>
+                <income-elasticity year="2090">-0.218909551012264</income-elasticity>
+                <income-elasticity year="2095">-0.303171483231137</income-elasticity>
+                <income-elasticity year="2100">-0.381413623607838</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="South Korea">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">-0.128710557860169</income-elasticity>
+                <income-elasticity year="2035">-0.165646799790467</income-elasticity>
+                <income-elasticity year="2040">-0.203134735769967</income-elasticity>
+                <income-elasticity year="2045">-0.269361768845149</income-elasticity>
+                <income-elasticity year="2050">-0.38753862425948</income-elasticity>
+                <income-elasticity year="2055">-0.549668276692482</income-elasticity>
+                <income-elasticity year="2060">-0.702893523861062</income-elasticity>
+                <income-elasticity year="2065">-0.796668802381433</income-elasticity>
+                <income-elasticity year="2070">-0.899395681010665</income-elasticity>
+                <income-elasticity year="2075">-1.01817089763597</income-elasticity>
+                <income-elasticity year="2080">-1.15090985522154</income-elasticity>
+                <income-elasticity year="2085">-1.30135791846818</income-elasticity>
+                <income-elasticity year="2090">-1.46659237342891</income-elasticity>
+                <income-elasticity year="2095">-1.64639730117481</income-elasticity>
+                <income-elasticity year="2100">-1.85819525286205</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Southeast Asia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">1.20914842392665</income-elasticity>
+                <income-elasticity year="2035">0.935716340729457</income-elasticity>
+                <income-elasticity year="2040">0.708127591529214</income-elasticity>
+                <income-elasticity year="2045">0.532665604072348</income-elasticity>
+                <income-elasticity year="2050">0.381716716409689</income-elasticity>
+                <income-elasticity year="2055">0.251751577859605</income-elasticity>
+                <income-elasticity year="2060">0.139405478243885</income-elasticity>
+                <income-elasticity year="2065">0.0474730849346821</income-elasticity>
+                <income-elasticity year="2070">-0.0383588511271346</income-elasticity>
+                <income-elasticity year="2075">-0.120645853808683</income-elasticity>
+                <income-elasticity year="2080">-0.197809279965474</income-elasticity>
+                <income-elasticity year="2085">-0.2709645875075</income-elasticity>
+                <income-elasticity year="2090">-0.339266526265319</income-elasticity>
+                <income-elasticity year="2095">-0.402472382028046</income-elasticity>
+                <income-elasticity year="2100">-0.462954685375874</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Taiwan">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">-0.14724849921368</income-elasticity>
+                <income-elasticity year="2035">-0.322879173259357</income-elasticity>
+                <income-elasticity year="2040">-0.835873643823483</income-elasticity>
+                <income-elasticity year="2045">-1.43877922892868</income-elasticity>
+                <income-elasticity year="2050">-1.40760435620627</income-elasticity>
+                <income-elasticity year="2055">-1.36118800665275</income-elasticity>
+                <income-elasticity year="2060">-1.33904944667663</income-elasticity>
+                <income-elasticity year="2065">-1.34152999899687</income-elasticity>
+                <income-elasticity year="2070">-1.33881505432312</income-elasticity>
+                <income-elasticity year="2075">-1.32937498797673</income-elasticity>
+                <income-elasticity year="2080">-1.3317099674879</income-elasticity>
+                <income-elasticity year="2085">-1.34635512608013</income-elasticity>
+                <income-elasticity year="2090">-1.37129231504284</income-elasticity>
+                <income-elasticity year="2095">-1.39809203257783</income-elasticity>
+                <income-elasticity year="2100">-1.41701804638395</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Argentina">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.422110686222331</income-elasticity>
+                <income-elasticity year="2035">0.345016037303473</income-elasticity>
+                <income-elasticity year="2040">0.278123673721993</income-elasticity>
+                <income-elasticity year="2045">0.212496530276573</income-elasticity>
+                <income-elasticity year="2050">0.136822921002674</income-elasticity>
+                <income-elasticity year="2055">0.0656871022459311</income-elasticity>
+                <income-elasticity year="2060">-0.00453228402906136</income-elasticity>
+                <income-elasticity year="2065">-0.0643405583730524</income-elasticity>
+                <income-elasticity year="2070">-0.121996242621131</income-elasticity>
+                <income-elasticity year="2075">-0.181232823870857</income-elasticity>
+                <income-elasticity year="2080">-0.241527349810575</income-elasticity>
+                <income-elasticity year="2085">-0.300825040401372</income-elasticity>
+                <income-elasticity year="2090">-0.361619835000067</income-elasticity>
+                <income-elasticity year="2095">-0.428915294484187</income-elasticity>
+                <income-elasticity year="2100">-0.506712034384563</income-elasticity>
+            </energy-final-demand>
+        </region>
+        <region name="Colombia">
+            <energy-final-demand name="aluminum">
+                <income-elasticity year="2025">3</income-elasticity>
+                <income-elasticity year="2030">0.934283065316934</income-elasticity>
+                <income-elasticity year="2035">0.751297845270585</income-elasticity>
+                <income-elasticity year="2040">0.571705170463958</income-elasticity>
+                <income-elasticity year="2045">0.410242846032131</income-elasticity>
+                <income-elasticity year="2050">0.267444967223878</income-elasticity>
+                <income-elasticity year="2055">0.147916543024463</income-elasticity>
+                <income-elasticity year="2060">0.0442608834973788</income-elasticity>
+                <income-elasticity year="2065">-0.0420794839437094</income-elasticity>
+                <income-elasticity year="2070">-0.123903365813895</income-elasticity>
+                <income-elasticity year="2075">-0.203899359280246</income-elasticity>
+                <income-elasticity year="2080">-0.291088687569628</income-elasticity>
+                <income-elasticity year="2085">-0.380995446248609</income-elasticity>
+                <income-elasticity year="2090">-0.471866283519511</income-elasticity>
+                <income-elasticity year="2095">-0.566630534495471</income-elasticity>
+                <income-elasticity year="2100">-0.666733811056205</income-elasticity>
+            </energy-final-demand>
+        </region>
+    </world>
+</scenario>
