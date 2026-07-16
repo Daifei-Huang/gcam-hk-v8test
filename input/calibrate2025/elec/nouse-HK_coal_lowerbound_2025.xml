@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_coal_F">
+          <market>HK_elec_coal_F_market</market>
+          <policyType>subsidy</policyType>
+          <constraint year="2025">0.04</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="base load generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_base_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul before 1990" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 1991-1995" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 1996-2000" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_int_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul before 1990" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 1991-1995" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 1996-2000" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="subpeak generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_subpeak_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul before 1990" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 1991-1995" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 1996-2000" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="peak generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_peak_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul before 1990" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 1991-1995" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 1996-2000" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      </region>
+  </world>
+</scenario>

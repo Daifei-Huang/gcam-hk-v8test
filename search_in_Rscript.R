@@ -24,7 +24,7 @@ folder_path <-"./input/gcamdata/R/"
 all_files <- list.files(path = folder_path, pattern = "\\.R$", recursive = TRUE, full.names = TRUE)
 
 # Define the text pattern to search for
-search_pattern <- 'A_ExoShutdownScalar' 
+search_pattern <- 'chemical energy use'
 
 # Loop through each file and check for the search pattern
 fileline.list <- data.table()

@@ -4,6 +4,7 @@
     <region name="HK">
 
       <!-- Assumption: Hong Kong gas-fired and oil-fired power units no increment since 2035-->
+      <!-- modify the lifetime curve to shutdown all gas-fired and oil-fired power units before 2050 -->
 
       <pass-through-sector name="base load generation">
         <subsector name="gas">
@@ -505,9 +506,7 @@
           </stub-technology>
         </subsector>
       </pass-through-sector>
-
-	  <!-- 直接在subsector层面设置，从2050年开始gas and refined liquids在sector中的权重为0 -->
-      <!-- 这一设置可能是无效的，参考 https://github.com/JGCRI/gcam-core/issues/61，电厂一旦建成，除非机制迫使它们退役或关闭，否则它们将保持在相同水平继续发电 -->
+	  
       <pass-through-sector name="peak generation">
         <subsector name="gas">
           <stub-technology name="gas_peak_steam/CT">
@@ -695,15 +694,13 @@
         </subsector>
       </pass-through-sector>
 
-	   <pass-through-sector name="base load generation">
+
+      <!-- 直接在subsector层面设置，从2050年开始gas and refined liquids在sector中的权重为0 -->
+      <!-- 这一设置可能是无效的，参考 https://github.com/JGCRI/gcam-core/issues/61，电厂一旦建成，除非机制迫使它们退役或关闭，否则它们将保持在相同水平继续发电 -->
+	    <pass-through-sector name="base load generation">
           <subsector name="gas">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -713,17 +710,13 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
           <subsector name="refined liquids">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -733,19 +726,15 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
       </pass-through-sector>
       <pass-through-sector name="intermediate generation">
           <subsector name="gas">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -755,17 +744,13 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
           <subsector name="refined liquids">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -775,19 +760,15 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
       </pass-through-sector>
       <pass-through-sector name="subpeak generation">
           <subsector name="gas">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -797,17 +778,13 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
           <subsector name="refined liquids">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -817,19 +794,15 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
       </pass-through-sector>
       <pass-through-sector name="peak generation">
           <subsector name="gas">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -839,17 +812,13 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>
           <subsector name="refined liquids">
-              <period year="2050">
-                  <share-weight>0</share-weight>
-              </period>
-              <period year="2100">
-                  <share-weight>0</share-weight>
-              </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
               <period year="2050">
@@ -859,6 +828,7 @@
                   <share-weight>0</share-weight>
               </period>
               <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                  <from-value>0</from-value><to-value>0</to-value>
                   <interpolation-function name="fixed"/>
               </interpolation-rule>
           </subsector>

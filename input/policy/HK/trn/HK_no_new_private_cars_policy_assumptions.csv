@@ -1,0 +1,3 @@
+﻿scenario,policy_start_year,affected_supplysector,affected_subsectors,technologies_set_to_zero,BEV_share_weight,FCEV_treatment,interpretation
+Scenario 1 - Current Policy,2035,trn_pass_road_LDV_4W,"Car; Large Car and Truck; Mini Car","Liquids; Hybrid Liquids; NG",1 from 2035 onward,Unchanged,"Implements cessation of new registrations; does not directly prescribe fleet stock share"
+Scenario 2 - Accelerated Transition,2030,trn_pass_road_LDV_4W,"Car; Large Car and Truck; Mini Car","Liquids; Hybrid Liquids; NG",1 from 2030 onward,Unchanged,"Five-year acceleration of the new-registration phase-out; does not directly prescribe fleet stock share"

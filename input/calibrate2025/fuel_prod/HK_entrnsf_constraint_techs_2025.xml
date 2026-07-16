@@ -11,25 +11,19 @@
       <policy-portfolio-standard name="biodiesel-gen-C">
         <policyType>tax</policyType>
         <market>HK</market>
-          <min-price year="2025">0</min-price>
-        
-          <constraint year="2025">0.0023</constraint>
+        <constraint year="2025">0.0023</constraint>
       </policy-portfolio-standard>
 
       <policy-portfolio-standard name="bioliquids-gen-C">
         <policyType>tax</policyType>
         <market>HK</market>
-          <min-price year="2025">0</min-price>
-        
-          <constraint year="2025">0</constraint>
+        <constraint year="2025">0</constraint>
       </policy-portfolio-standard>
 
       <policy-portfolio-standard name="coalliquids-gen-C">
         <policyType>tax</policyType>
         <market>HK</market>
-          <min-price year="2025">0</min-price>
-        
-          <constraint year="2025">0</constraint>
+        <constraint fillout="1" year="2025">0</constraint>
       </policy-portfolio-standard>
 
       

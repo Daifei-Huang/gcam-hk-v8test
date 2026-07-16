@@ -4,6 +4,7 @@
 /input/gcamdata/*.7z
 /input/gcamdata/xml_noHK/
 /input/gcamdata/outputs/
+/input/gcamdata/.drake/
 /input/gcamdata/inst/extdata/*.7z
 /input/gcamdata/inst/extdata/aglu/
 /input/gcamdata/inst/extdata/common/

@@ -20,7 +20,7 @@
             <!-- lifetime和s-curve-shutdown-decider适合模拟一种渐进式的淘汰过程。由于目标位仅仅针对煤电（不包含其他排放）进行明确的退役，而不影响电价，因此采用这种设置方式比较合理 -->
             <!-- 因为如果调节profit-shutdown-decider，参考 https://github.com/JGCRI/gcam-core/issues/61，这种通过增加成本来迫使提前退役的策略，必然会对电力部门市场的均衡产生影响 。不仅会让煤电变得极度昂贵，还会导致整体电力价格飙升 。这会在终端使用层面引发某种“反向电气化”（reverse-electrification）效应 -->
             
-            <pass-through-sector name="base load generation">
+            <supplysector name="base load generation">
               <subsector name="coal">
                 <stub-technology name="coal_base_conv pul">
                   <period year="2021">
@@ -42,8 +42,8 @@
                 </stub-technology>
                 <!-- 2025年还没有开始应用 IGCC和CCS 的煤电技术，conv pul_CCS、IGCC、IGCC_CCS的share-weight仍是0 -->
               </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="intermediate generation">
+            </supplysector>
+            <supplysector name="intermediate generation">
               <subsector name="coal">
                 <stub-technology name="coal_int_conv pul">
                   <period year="2021">
@@ -64,8 +64,8 @@
                     </period>
                 </stub-technology>
               </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="subpeak generation">
+            </supplysector>
+            <supplysector name="subpeak generation">
               <subsector name="coal">
                 <stub-technology name="coal_subpeak_conv pul">
                   <period year="2021">
@@ -86,8 +86,8 @@
                     </period>
                 </stub-technology>
               </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="peak generation">
+            </supplysector>
+            <supplysector name="peak generation">
               <subsector name="coal">
                 <stub-technology name="coal_peak_conv pul">
                   <period year="2021">
@@ -108,12 +108,12 @@
                     </period>
                 </stub-technology>
               </subsector>
-            </pass-through-sector>
+            </supplysector>
 
 
             <!-- 直接在subsector层面设置，从2035年开始coal在sector中的权重为0 -->
             <!-- 这一设置可能是无效的，参考 https://github.com/JGCRI/gcam-core/issues/61，电厂一旦建成，除非机制迫使它们退役或关闭，否则它们将保持在相同水平继续发电 -->
-            <!--pass-through-sector name="base load generation">
+            <!--supplysector name="base load generation">
                 <subsector name="coal">
                     <period year="2035">
                         <share-weight>0</share-weight>
@@ -150,8 +150,8 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
                 </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="intermediate generation">
+            </supplysector>
+            <supplysector name="intermediate generation">
                 <subsector name="coal">
                     <period year="2035">
                         <share-weight>0</share-weight>
@@ -188,8 +188,8 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
                 </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="subpeak generation">
+            </supplysector>
+            <supplysector name="subpeak generation">
                 <subsector name="coal">
                     <period year="2035">
                         <share-weight>0</share-weight>
@@ -226,8 +226,8 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
                 </subsector>
-            </pass-through-sector>
-            <pass-through-sector name="peak generation">
+            </supplysector>
+            <supplysector name="peak generation">
                 <subsector name="coal">
                     <period year="2035">
                         <share-weight>0</share-weight>
@@ -264,7 +264,7 @@
                         <interpolation-function name="fixed"/>
                     </interpolation-rule>
                 </subsector>
-            </pass-through-sector-->
+            </supplysector-->
 
         </region>
     </world>

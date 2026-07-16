@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_coal_F">
+        <market>HK_elec_coal_F_market</market>
+        <policyType>subsidy</policyType>
+        <constraint year="2025">0.04</constraint>
+      </policy-portfolio-standard>
+
+
+      <!-- The existing coal-fired power plants' retirement schedule in L2231 has led to a rapid decline in coal-fired power generation in 2025; however, the actual coal-fired power generation in Hong Kong from 2021 to 2024 remained relatively stable. -->
+      <!-- since the olad vintage coal-fired power units are not enough to support 2025 coal generation in GCAM default settings (we don't want to change the retirement curve of the existing vintage), -->
+      <!-- so we make pseudo new coal in 2025 to fill the gap -->
+      <supplysector name="base load generation">
+          <subsector name="coal">
+              <stub-technology name="coal_base_conv pul">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_base_conv pul_CCS">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_base_IGCC">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_base_IGCC_CCS">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+          </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation">
+          <subsector name="coal">
+              <stub-technology name="coal_int_conv pul">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_int_conv pul_CCS">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_int_IGCC">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+              <stub-technology name="coal_int_IGCC_CCS">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+          </subsector>
+      </supplysector>
+
+      <supplysector name="subpeak generation">
+          <subsector name="coal">
+              <stub-technology name="coal_subpeak_conv pul">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+          </subsector>
+      </supplysector>
+
+    
+      <supplysector name="peak generation">
+          <subsector name="coal">
+              <stub-technology name="coal_peak_conv pul">
+                  <period year="2025">
+                      <share-weight>1</share-weight>
+                      <lifetime>15</lifetime>
+                      <s-curve-shutdown-decider name="s-curve">
+                          <steepness>0.3</steepness> 
+                          <half-life>9</half-life>
+                      </s-curve-shutdown-decider>
+                  </period>
+                  
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100" delete="1">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+                  <period year="2030">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <period year="2100">
+                      <share-weight>0</share-weight>
+                  </period>
+                  <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2100">
+                      <from-value>0</from-value><to-value>0</to-value>
+                      <interpolation-function name="fixed" />
+                  </interpolation-rule>
+              </stub-technology>
+          </subsector>
+      </supplysector>
+
+
+      <!-- Historical coal stock: all explicit cohort technologies are represented by their 2021 technology vintage. -->
+      <!-- New coal generation in 2025: apply the policy input to every coal technology available in the 2025 vintage. -->
+      <supplysector name="base load generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_base_conv pul before 1990" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 1991-1995" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 1996-2000" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 2001-2005" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 2006-2010" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 2011-2015" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul 2016-2021" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="coal_base_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_conv pul_CCS" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_base_IGCC_CCS" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+        </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_int_conv pul before 1990" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 1991-1995" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 1996-2000" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 2001-2005" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 2006-2010" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 2011-2015" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul 2016-2021" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="coal_int_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_conv pul_CCS" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_int_IGCC_CCS" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+        </subsector>
+      </supplysector>
+
+      <supplysector name="subpeak generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_subpeak_conv pul before 1990" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 1991-1995" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 1996-2000" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 2001-2005" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 2006-2010" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 2011-2015" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_subpeak_conv pul 2016-2021" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="coal_subpeak_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+        </subsector>
+      </supplysector>
+
+      <supplysector name="peak generation" nocreate="1">
+        <subsector name="coal" nocreate="1">
+          <stub-technology name="coal_peak_conv pul before 1990" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 1991-1995" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 1996-2000" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 2001-2005" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 2006-2010" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 2011-2015" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal_peak_conv pul 2016-2021" nocreate="1">
+            <period year="2021">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="coal_peak_conv pul" nocreate="1">
+            <period year="2025">
+              <input-subsidy name="HK_elec_coal_F"/>
+            </period>
+          </stub-technology>
+
+        </subsector>
+      </supplysector>
+
+    </region>
+  </world>
+</scenario>

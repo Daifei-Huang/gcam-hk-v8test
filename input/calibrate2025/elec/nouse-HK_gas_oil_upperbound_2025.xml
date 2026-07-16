@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_gas_C">
+          <market>HK_elec_gas_C_market</market>
+          <policyType>tax</policyType>
+          <constraint year="2025">0.0915</constraint>
+      </policy-portfolio-standard>
+
+      <policy-portfolio-standard name="HK_elec_oil_C">
+          <market>HK_elec_oil_C_market</market>
+          <policyType>tax</policyType>
+          <constraint year="2025">0.012</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="base load generation" nocreate="1">
+        <subsector name="gas" nocreate="1">
+          <stub-technology name="gas_base_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids" nocreate="1">
+          <stub-technology name="refined liquids_base_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_base_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation" nocreate="1">
+        <subsector name="gas" nocreate="1">
+          <stub-technology name="gas_int_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids" nocreate="1">
+          <stub-technology name="refined liquids_int_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_int_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="subpeak generation" nocreate="1">
+        <subsector name="gas" nocreate="1">
+          <stub-technology name="gas_subpeak_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_subpeak_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids" nocreate="1">
+          <stub-technology name="refined liquids_subpeak_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_subpeak_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="peak generation" nocreate="1">
+        <subsector name="gas" nocreate="1">
+          <stub-technology name="gas_peak_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas_peak_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_gas_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids" nocreate="1">
+          <stub-technology name="refined liquids_peak_steam/CT" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids_peak_CC" nocreate="1">
+            <period year="2025">
+              <input-tax name="HK_elec_oil_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      </region>
+  </world>
+</scenario>

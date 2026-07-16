@@ -168,12 +168,18 @@ module_gcamchina_L101.Energy_Balance <- function(command, ...) {
         province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.5854,
 
         # Industry
-        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.187,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 2,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.688,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.458,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.2,
         province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
-        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.1868,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 20,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.7,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.4575,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 2.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 2.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 2.5,
 
         # Transportation
         province == "HK" & sector == "trn_intl_shp" & fuel == "refined liquids" ~ value * 0.1,
@@ -213,12 +219,18 @@ module_gcamchina_L101.Energy_Balance <- function(command, ...) {
         province == "HK" & year %in% 2016:2021 & sector %in% c("comm") & fuel == "electricity" ~ value * 0.5854,
 
         # Industry
-        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.089,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
+        # province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.187,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 2,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.688,
+        # province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.458,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 1.2,
         province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 27,
-        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.1868,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 20,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 1.7,
-        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.4575,
+        province == "HK" & year <= 2015 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 1.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel %in% c("coal", "refined liquids") ~ value * 2.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "gas" ~ value * 2.5,
+        province == "HK" & year %in% 2016:2021 & sector %in% c("industry", "industry_feedstocks") & fuel == "electricity" ~ value * 2.5,
 
         # Transportation
         province == "HK" & sector == "trn_intl_shp" & fuel == "refined liquids" ~ value * 0.1,

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <!-- Assumption: apply the original lifetime and shutdown settings to Hong Kong biomass-fired power technologies. -->
+      <!-- Technology names follow v8 elec_segments_CHINA - HK.xml; biomass exists only in base load and intermediate generation. -->
+      <pass-through-sector name="base load generation">
+        <subsector name="biomass">
+          <stub-technology name="biomass_base_conv">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_conv_CCS">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC_CCS">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="intermediate generation">
+        <subsector name="biomass">
+          <stub-technology name="biomass_int_conv">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_conv_CCS">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC_CCS">
+            <period year="2021">
+              <lifetime>29</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.15</steepness>
+                <half-life>20</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>25</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.2</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.25</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>15</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>9</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="base load generation">
+        <subsector name="biomass">
+          <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+            <from-value>0</from-value>
+            <to-value>0</to-value>
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <period year="2050">
+            <share-weight>0</share-weight>
+          </period>
+          <period year="2100">
+            <share-weight>0</share-weight>
+          </period>
+          <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+            <from-value>0</from-value>
+            <to-value>0</to-value>
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="intermediate generation">
+        <subsector name="biomass">
+          <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100" delete="1">
+            <from-value>0</from-value>
+            <to-value>0</to-value>
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <period year="2050">
+            <share-weight>0</share-weight>
+          </period>
+          <period year="2100">
+            <share-weight>0</share-weight>
+          </period>
+          <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+            <from-value>0</from-value>
+            <to-value>0</to-value>
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+        </subsector>
+      </pass-through-sector>
+    </region>
+  </world>
+</scenario>

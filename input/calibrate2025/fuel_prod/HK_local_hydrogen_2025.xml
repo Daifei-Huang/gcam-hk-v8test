@@ -6,19 +6,19 @@
 
       <supplysector name="H2 central production">
         <subsector name="coal">
-          <share-weight fillout="1" year="2025">0</share-weight>
+          <share-weight year="2025">0</share-weight>
         </subsector>
         <subsector name="gas">
-          <share-weight fillout="1" year="2025">1</share-weight>
+          <share-weight year="2025">1</share-weight>
         </subsector>
         <subsector name="nuclear">
-          <share-weight fillout="1" year="2025">0</share-weight>
+          <share-weight year="2025">0</share-weight>
         </subsector>
         <subsector name="biomass">
-          <share-weight fillout="1" year="2025">0.1</share-weight>
+          <share-weight year="2025">0.1</share-weight>
         </subsector>
         <subsector name="electricity">
-          <share-weight fillout="1" year="2025">0.4</share-weight>
+          <share-weight year="2025">0.4</share-weight>
         </subsector>
       </supplysector>
 

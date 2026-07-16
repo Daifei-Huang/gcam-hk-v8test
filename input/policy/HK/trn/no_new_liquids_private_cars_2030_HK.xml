@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+      <!-- Hong Kong private-car policy: no new fuel-propelled private cars, including hybrids, from 2030; share-weight is an availability constraint, not a fleet-share target. -->
+      <supplysector name="trn_pass_road_LDV_4W">
+        <tranSubsector name="Car">
+          <stub-technology name="BEV">
+            <period year="2030">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>1</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </tranSubsector>
+        <tranSubsector name="Large Car and Truck">
+          <stub-technology name="BEV">
+            <period year="2030">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>1</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </tranSubsector>
+        <tranSubsector name="Mini Car">
+          <stub-technology name="BEV">
+            <period year="2030">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>1</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>1</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2030">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2035">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2040">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2045">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2050">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2055">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>0</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>0</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </tranSubsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -14,11 +14,15 @@ load_all()
 options(gcamdata.use_java = TRUE)
 # ?driver_drake
 
-driver(write_outputs = TRUE, xmldir = 'xml_test1/')
+driver(write_outputs = TRUE, xmldir = 'xml_test3/')
 
-driver_drake(xmldir = 'xml_test1/', memory_strategy = "autoclean")
+driver_drake(xmldir = 'xml_test3/', memory_strategy = "autoclean")
 
+###########################
+xml_test1 中的 MEIC Hong Kong 是以 before 1990 为主的，
+xml_test3 中的 MEIC Hong Kong 是以 1991-1995 为主的
 
+###########################
 
 # Debug: module_gcamchina_L123.Electricity ================
 

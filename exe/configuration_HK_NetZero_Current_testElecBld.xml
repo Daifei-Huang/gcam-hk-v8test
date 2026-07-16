@@ -159,7 +159,7 @@
 			
 		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 		
-       <!--Value name = "dac">../input/gcamdata/xml_test3/dac_ssp3.xml</Value>
+       	<!--Value name = "dac">../input/gcamdata/xml_test3/dac_ssp3.xml</Value>
 		<Value name = "DAC">../input/gcamdata/xml_test3/dac_china_ssp3.xml</Value-->
 
 		<!-- ========================= -->
@@ -215,8 +215,8 @@
 		<Value name = "HK_Current_bld">../input/policy/HK/bld/bld_prefer_hieff_appliances_HK.xml</Value>
 
 		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Midterm_target_2035_HK.xml</Value>
-		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Longterm_target_netz_ero_2050_HK.xml</Value>
-		<Value name = "HK_NetZero">../input/policy/HK/emission_road/NDC_proxy_carbon_cap_CN.xml</Value>
+		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Longterm_target_net_zero_2050_HK.xml</Value>
+		<Value name = "HK_NetZero">../input/policy/HK/emission_road/NetZero_Current_carbon_cap_2060_CN.xml</Value>
 
 
 	</ScenarioComponents>

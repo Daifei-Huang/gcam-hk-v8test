@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+    <!-- Hong Kong H2 planning: no large-scale local facility, no coal-based H2. First greyH2, than turn to blue&greenH2-->
+
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <share-weight fillout="1" year="2025">0</share-weight>
+        </subsector>
+        <subsector name="gas">
+          <share-weight year="2030">0.8</share-weight>
+          <share-weight year="2035">0.6</share-weight>
+          <share-weight year="2040">0.4</share-weight>
+          <share-weight year="2045">0.2</share-weight>
+          <share-weight year="2050">0.1</share-weight>
+          <share-weight year="2055">0</share-weight>
+          <share-weight year="2060" fillout="1">0</share-weight>
+        </subsector>
+        <subsector name="nuclear">
+          <share-weight fillout="1" year="2030">0</share-weight>
+        </subsector>
+        <subsector name="biomass">
+          <share-weight year="2030">0.3</share-weight>
+          <share-weight year="2035">0.6</share-weight>
+          <share-weight year="2040">0.8</share-weight>
+          <share-weight year="2045">0.9</share-weight>
+          <share-weight year="2050">1</share-weight>
+          <share-weight year="2055">1</share-weight>
+          <share-weight year="2060" fillout="1">1</share-weight>
+        </subsector>
+        <subsector name="electricity">
+          <share-weight year="2030">0.5</share-weight>
+          <share-weight year="2035">1</share-weight>
+          <share-weight year="2040">1.2</share-weight>
+          <share-weight year="2045">1.4</share-weight>
+          <share-weight year="2050">1.5</share-weight>
+          <share-weight year="2055">1.5</share-weight>
+          <share-weight year="2060" fillout="1">1.5</share-weight>
+        </subsector>
+      </supplysector>
+
+      <policy-portfolio-standard name="localH2-gen-C">
+        <policyType>tax</policyType>
+        <market>HK</market>
+          <min-price year="2030" fillout="1">0</min-price>
+        
+          <constraint year="2030">0.00015</constraint>
+          <constraint year="2035">0.0002</constraint>
+          <constraint year="2040">0.00024</constraint>
+          <constraint year="2045">0.00029</constraint>
+          <constraint year="2050">0.00035</constraint>
+          <constraint year="2055">0.00036</constraint>
+          <constraint year="2060" fillout="1">0.00036</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <stub-technology name="coal chemical">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal chemical CCS">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas ATR CCS">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass to H2">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass to H2 CCS">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="nuclear">
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2035">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2040">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2045">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2050">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2055">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+            <period year="2060">
+              <input-tax name="localH2-gen-C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+
+    </region>
+  </world>
+</scenario>

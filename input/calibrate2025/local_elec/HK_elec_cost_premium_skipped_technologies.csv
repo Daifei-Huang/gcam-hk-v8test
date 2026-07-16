@@ -1,0 +1,6 @@
+sector,subsector,technology,reason
+base load generation,hydro,hydro_base,No future period has complete input-capital/input-OM-fixed/input-OM-var cost tags.
+intermediate generation,hydro,hydro_int,No future period has complete input-capital/input-OM-fixed/input-OM-var cost tags.
+peak generation,grid_storage,battery,No future period has complete input-capital/input-OM-fixed/input-OM-var cost tags.
+peak generation,hydro,hydro_peak,No future period has complete input-capital/input-OM-fixed/input-OM-var cost tags.
+subpeak generation,hydro,hydro_subpeak,No future period has complete input-capital/input-OM-fixed/input-OM-var cost tags.

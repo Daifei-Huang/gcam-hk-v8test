@@ -4,7 +4,7 @@
 		<region name="HK">
 			<ghgpolicy name="CO2">
 				<market>HK</market>
-            	<constraint year="2025">8.94</constraint>
+            	<constraint year="2025">8.35</constraint>
 			</ghgpolicy>
 		</region>
 		

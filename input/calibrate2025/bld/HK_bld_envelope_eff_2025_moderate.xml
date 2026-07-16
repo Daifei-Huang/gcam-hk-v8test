@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario>
+  <world>
+    <region name="HK">
+      <!-- HK building-envelope scenario: moderate; lower shell-conductance means lower envelope heat transfer. -->
+      <!-- Values are explicit five-year GCAM periods from 2025 to 2100; no rural consumers; residential deciles share one trajectory. -->
+      <gcam-consumer name="comm">
+        <nodeInput name="comm">
+          <building-node-input name="comm_building">
+            <shell-conductance year="2025">0.9422</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d1">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d2">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d3">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d4">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d5">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d6">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d7">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d8">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d9">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_urban_d10">
+        <nodeInput name="resid_urban">
+          <building-node-input name="resid_urban_building">
+            <shell-conductance year="2025">0.9430</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+    </region>
+  </world>
+</scenario>

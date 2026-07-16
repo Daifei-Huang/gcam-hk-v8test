@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="HK">
+
+         <!--policy-portfolio-standard name="industry">
+            <policyType>tax</policyType>
+            <market>HK</market>
+               <min-price year="2020">-100000</min-price>
+               <min-price year="2025">0</min-price>
+               <min-price year="2030">0</min-price>
+               <min-price year="2035">0</min-price>
+               <min-price year="2040">0</min-price>
+               <min-price year="2045">0</min-price>
+               <min-price year="2050">0</min-price>
+               <min-price year="2055">0</min-price>
+               <min-price year="2060" fillout="1">0</min-price>
+            
+               <constraint year="2020">0.083</constraint>
+               <constraint year="2025" fillout="1">0.16</constraint> 
+         </policy-portfolio-standard-->
+
+         <ghgpolicy name="CO2_IND">
+            <market>HK</market>
+            <constraint year="2025">0.12</constraint>
+         </ghgpolicy>
+
+         <supplysector name="other industrial energy use">
+            <subsector name="biomass">
+               <technology name="biomass">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="biomass cogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="coal">
+               <technology name="coal">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="coal cogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="gas">
+               <technology name="gas">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="gas cogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="hydrogen cogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="refined liquids">
+               <technology name="refined liquids">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="refined liquids cogen">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="district heat">
+               <technology name="district heat">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="electricity">
+               <technology name="electricity">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="other industrial feedstocks">
+            <subsector name="refined liquids">
+               <technology name="refined liquids">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="other industry">
+            <subsector name="other industry">
+               <technology name="other industry">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="iron and steel">
+            <subsector name="BLASTFUR">
+               <technology name="BLASTFUR">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="BLASTFUR CCS">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="Biomass-based">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="EAF with DRI">
+               <technology name="EAF with DRI">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="EAF with DRI CCS">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="Hydrogen-based DRI">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+            <subsector name="EAF with scrap">
+               <technology name="EAF with scrap">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="coke">
+            <subsector name="coke">
+               <technology name="coke">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="coke CCS">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="chemical">
+            <subsector name="chemical">
+               <technology name="chemical">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="chemical energy use">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+               <technology name="coal CCS">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+            
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+               <technology name="gas CCS">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+               <technology name="liquid CCS">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="biomass">
+               <technology name="biomass">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="electricity">
+               <technology name="electricity">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="district heat">
+               <technology name="district heat">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="chemical feedstocks">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="agricultural energy use">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="biomass">
+               <technology name="biomass">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="electricity">
+               <technology name="electricity">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="district heat">
+               <technology name="district heat">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="mining energy use">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="biomass">
+               <technology name="biomass">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="electricity">
+               <technology name="electricity">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="district heat">
+               <technology name="district heat">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="construction">
+            <subsector name="construction">
+               <technology name="construction">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="construction energy use">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="biomass">
+               <technology name="biomass">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="electricity">
+               <technology name="electricity">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="district heat">
+               <technology name="district heat">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="construction feedstocks">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="liquid">
+               <technology name="liquid">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="cement">
+            <subsector name="cement">
+               <technology name="cement">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+               <technology name="cement CCS">
+                  <period year="2025">
+                     <CO2 name="CO2_IND"/>
+                  </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="process heat cement">
+            <subsector name="biomass">
+               <technology name="biomass">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="refined liquids">
+               <technology name="refined liquids">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+         <supplysector name="ammonia">
+            <subsector name="coal">
+               <technology name="coal">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+               <technology name="coal CCS">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="gas">
+               <technology name="gas">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+               <technology name="gas CCS">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="refined liquids">
+               <technology name="refined liquids">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+
+            <subsector name="hydrogen">
+               <technology name="hydrogen">
+                     <period year="2025">
+                        <CO2 name="CO2_IND"/>
+                     </period>
+               </technology>
+            </subsector>
+         </supplysector>
+
+      </region>
+   </world>
+</scenario>

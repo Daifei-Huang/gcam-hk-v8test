@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_solar_C">
+          <market>HK_elec_solar_C_market</market>
+          <policyType>tax</policyType>
+          <constraint year="2025">0.0011</constraint>
+      </policy-portfolio-standard>
+
+      <policy-portfolio-standard name="HK_elec_wind_C">
+          <market>HK_elec_wind_C_market</market>
+          <policyType>tax</policyType>
+          <constraint year="2025">0.000004</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="base load generation" nocreate="1">
+        <subsector name="solar" nocreate="1">
+          <stub-technology name="PV_base_storage" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_base_storage" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind" nocreate="1">
+          <stub-technology name="wind_base" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_storage" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_base_offshore" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation" nocreate="1">
+        <subsector name="solar" nocreate="1">
+          <stub-technology name="PV_int" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_int" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind" nocreate="1">
+          <stub-technology name="wind_int" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="subpeak generation" nocreate="1">
+        <subsector name="solar" nocreate="1">
+          <stub-technology name="PV_subpeak" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_subpeak" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind" nocreate="1">
+          <stub-technology name="wind_subpeak" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_wind_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="peak generation" nocreate="1">
+        <subsector name="solar" nocreate="1">
+          <stub-technology name="PV_peak" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="CSP_peak" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_solar_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      </region>
+  </world>
+</scenario>

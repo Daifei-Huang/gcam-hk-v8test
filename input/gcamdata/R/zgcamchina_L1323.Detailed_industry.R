@@ -53,7 +53,7 @@ module_gcamchina_L1323.detailed_industry <- function(command, ...) {
       select(-coefficient,-production) %>%
 	  #filter energy input
       filter(minicam.energy.input %in% c("delivered coal","refined liquids industrial","wholesale gas","H2 enduse",
-      "delivered biomass","elect_td_ind","district heat")) ->
+      "delivered biomass","elect_td_ind","district heat")) -> # filter out HK "chemical energy use" "chemical feedstocks" "construction energy use" "construction feedstocks"
     L1323.in_EJ_province_detailed_industry_F_Y
 
    #split feedstock and energy use

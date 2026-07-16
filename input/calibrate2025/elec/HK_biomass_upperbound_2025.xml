@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_biomass_C">
+        <market>HK_elec_biomass_C_market</market>
+        <policyType>tax</policyType>
+        <constraint year="2025">0.000978</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="base load generation" nocreate="1">
+        <subsector name="biomass" nocreate="1">
+          <stub-technology name="biomass_base_conv" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_conv_CCS" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_base_IGCC_CCS" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="intermediate generation" nocreate="1">
+        <subsector name="biomass" nocreate="1">
+          <stub-technology name="biomass_int_conv" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_conv_CCS" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass_int_IGCC_CCS" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_biomass_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+    </region>
+  </world>
+</scenario>

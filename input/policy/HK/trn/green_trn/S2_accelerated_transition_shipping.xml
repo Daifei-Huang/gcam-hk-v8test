@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario>
+  <world>
+    <region name="HK">
+      <supplysector name="trn_shipping_intl">
+        <tranSubsector name="International Ship">
+          <stub-technology name="BEV">
+            <interpolation-rule apply-to="share-weight" from-year="2021" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2025">
+              <share-weight>0.02</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>159.42872</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <share-weight>0.1</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>110.7144</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <share-weight>0.25</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>57.2308</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2040">
+              <share-weight>0.5</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>56.20888</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2045">
+              <share-weight>0.8</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>62.08524</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2050">
+              <share-weight>1.1</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>60.93549</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2055">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>1.1</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>1.1</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <interpolation-rule apply-to="share-weight" from-year="2021" to-year="2100" delete="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <period year="2025">
+              <share-weight>0.02</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>35.42864</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <share-weight>0.15</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>35.42864</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <share-weight>0.4</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>30.25056</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2040">
+              <share-weight>0.8</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>27.79784</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2045">
+              <share-weight>1.3</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>28.51326</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2050">
+              <share-weight>1.8</share-weight>
+              <minicam-non-energy-input name="non-energy">
+                <input-cost>25.75386</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2055">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2060">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2065">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2070">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2075">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2080">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2085">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2090">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2095">
+              <share-weight>1.8</share-weight>
+            </period>
+            <period year="2100">
+              <share-weight>1.8</share-weight>
+            </period>
+            <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </tranSubsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

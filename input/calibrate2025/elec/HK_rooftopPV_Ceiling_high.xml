@@ -14,7 +14,7 @@
                <constraint year="2045">0.0075</constraint>
                <constraint year="2050">0.0096</constraint>
                <constraint year="2055">0.0096</constraint>
-               <constraint year="2060">0.0096</constraint>
+               <constraint year="2060" fillout="1">0.0096</constraint>
          </policy-portfolio-standard>
 
          <pass-through-sector name="elect_td_bld">

@@ -206,18 +206,18 @@
 
 
 		<!-- ========================= -->
-		<!-- Current Policy -->
+		<!-- Continued Policy -->
 		<!-- ========================= -->
 		<Value name = "HK_Current_elec">../input/policy/HK/elec/elec_coal_shutdown_2035_HK.xml</Value>
 		<Value name = "HK_Current_elec">../input/policy/HK/elec/elec_no_new_gas_oil_2035_HK.xml</Value>
-		<Value name = "HK_Current_elec">../input/policy/HK/elec/elec_no_new_gas_oil_2035_shutdown_2050_HK.xml</Value>
+		<Value name = "HK_Continued_elec">../input/policy/HK/elec/elec_no_new_gas_oil_2035_shutdown_2050_HK.xml</Value>
 		<Value name = "HK_Current_bld">../input/policy/HK/bld/bld_tech_eff_progress_mid_HK.xml</Value>
 		<Value name = "HK_Current_bld">../input/policy/HK/bld/bld_envelope_hieff_mid_HK.xml</Value>
 		<Value name = "HK_Current_bld">../input/policy/HK/bld/bld_prefer_hieff_appliances_HK.xml</Value>
 
 		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Midterm_target_2035_HK.xml</Value>
-		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Longterm_target_netz_ero_2050_HK.xml</Value>
-		<Value name = "HK_NetZero">../input/policy/HK/emission_road/NDC_proxy_carbon_cap_CN.xml</Value>
+		<Value name = "HK_NetZero">../input/policy/HK/emission_road/Longterm_target_net_zero_2050_HK.xml</Value>
+		<Value name = "HK_NetZero">../input/policy/HK/emission_road/NetZero_Current_carbon_cap_2060_CN.xml</Value>
 
 
 	</ScenarioComponents>

@@ -5,7 +5,7 @@
       
       <ghgpolicy name="CO2_ELEC">
          <market>HK</market>
-         <constraint year="2025">6.42</constraint>
+         <constraint year="2025">6.12</constraint>
       </ghgpolicy>
 
       <pass-through-sector name="base load generation">

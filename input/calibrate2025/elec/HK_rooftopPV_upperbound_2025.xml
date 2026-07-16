@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <region name="HK">
+
+      <policy-portfolio-standard name="HK_elec_rooftopPV_C">
+          <market>HK_elec_rooftopPV_C_market</market>
+          <policyType>tax</policyType>
+          <constraint year="2025">0.00125</constraint>
+      </policy-portfolio-standard>
+
+      <supplysector name="elect_td_bld" nocreate="1">
+        <subsector name="rooftop_pv" nocreate="1">
+          <stub-technology name="rooftop_pv" nocreate="1">
+            <period year="2021">
+              <input-tax name="HK_elec_rooftopPV_C"/>
+            </period>
+            <period year="2025">
+              <input-tax name="HK_elec_rooftopPV_C"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      </region>
+  </world>
+</scenario>
